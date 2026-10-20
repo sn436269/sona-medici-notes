@@ -12,7 +12,7 @@
   const writeLocal = (key, value) => { try { localStorage.setItem(key,JSON.stringify(value)); } catch { storageOK=false; } };
   const initialSaved = readLocal('sona-medici-notes-v1',[]);
   let saved = new Set(Array.isArray(initialSaved)?initialSaved.filter(id=>byId(id)):[]);
-  let best = readLocal('sona-medici-best-v1',null);
+  let best = readLocal('sona-medici-best-v2',null);
   if (!Number.isInteger(best)||best<0||best>MEDICI.questions.length) best=null;
   let filter='all',onlySaved=false,activeNote=null,returnFocus=null,toastTimer;
   const toast = message => { $('#toast').textContent=message; $('#toast').classList.add('show'); clearTimeout(toastTimer); toastTimer=setTimeout(()=>$('#toast').classList.remove('show'),2800); };
@@ -73,7 +73,7 @@
   });
   $$('dialog').forEach(dialog=>{
     dialog.addEventListener('click',e=>{if(e.target===dialog){const b=dialog.getBoundingClientRect();if(e.clientX<b.left||e.clientX>b.right||e.clientY<b.top||e.clientY>b.bottom)dialog.close();}});
-    dialog.addEventListener('close',()=>{document.body.classList.remove('modal-open');activeNote=null;const focusTarget=returnFocus?.isConnected?returnFocus:$('#reading-search');focusTarget?.focus({preventScroll:true});});
+    dialog.addEventListener('close',()=>{document.body.classList.toggle('modal-open',$$('dialog[open]').length>0);activeNote=null;const focusTarget=returnFocus?.isConnected?returnFocus:$('#reading-search');focusTarget?.focus({preventScroll:true});});
   });
   $('#reading-search').addEventListener('input',renderReadings);
   $$('[data-filter]').forEach(b=>b.addEventListener('click',()=>{filter=b.dataset.filter;$$('[data-filter]').forEach(f=>f.setAttribute('aria-pressed',f===b));renderReadings();}));
@@ -85,37 +85,48 @@
   $$('#nav a').forEach(a=>a.addEventListener('click',closeMenu));
   document.addEventListener('keydown',e=>{if(e.key==='Escape'&&menu.getAttribute('aria-expanded')==='true'){closeMenu();menu.focus();}});
   let answers=[],questionIndex=0,answered=false;
-  function renderBest(){ $('#workshop-best').textContent=best===null?'從第一個問題開始。':`本瀏覽器最佳紀錄：${best} / ${MEDICI.questions.length} 題`; }
+  const quizVersion='medici-100-20261020';
+  function savedQuiz(){
+    const saved=readLocal('sona-medici-progress-v2',null);
+    return saved?.version===quizVersion&&Array.isArray(saved.answers)&&saved.answers.length>0&&saved.answers.length<=MEDICI.questions.length&&saved.answers.every(a=>Number.isInteger(a)&&a>=0&&a<4)?saved.answers:null;
+  }
+  function saveQuiz(){writeLocal('sona-medici-progress-v2',{version:quizVersion,answers:[...answers]});}
+  function renderBest(){ $('#workshop-best').textContent=best===null?'100 題自測，可暫停後繼續。':`本瀏覽器最佳紀錄：${best} / ${MEDICI.questions.length} 題`; }
   function quizIntro(){
-    $('#quiz-content').innerHTML='<div class="quiz-intro"><p class="eyebrow">A PRACTICE IN READING EVIDENCE</p><div class="quiz-number">VI.</div><h2 id="quiz-title" tabindex="-1">多問一步，就更靠近歷史。</h2><p>六道情境題，不限時間。選擇後會看到解析，<br>最後可回顧答題，接著閱讀對應文獻。</p><button class="button green" data-quiz-start>開始第一題 <span>→</span></button><small>收藏與最佳成績保留在這個瀏覽器。</small></div>';
+    const saved=savedQuiz(),total=MEDICI.questions.length;
+    $('#quiz-content').innerHTML=`<div class="quiz-intro"><p class="eyebrow">RESEARCH & LITERATURE / ${total} QUESTIONS</p><div class="quiz-number">${total}.</div><h2 id="quiz-title" tabindex="-1">把理解，變成自己的答案。</h2><p>${total} 題四選一，涵蓋研究計畫、案例與文獻。<br>每題附解析和來源；關閉或重新整理後可繼續。</p>${saved?`<p class="quiz-saved">上次已作答 ${saved.length} / ${total} 題。</p><button class="button green" data-quiz-resume>${saved.length===total?'查看上次結果':`繼續第 ${saved.length+1} 題`} <span>→</span></button><button class="underlink quiz-restart" data-quiz-start>重新開始 100 題 ↻</button>`:`<button class="button green" data-quiz-start>開始 100 題 <span>→</span></button>`}<small>另有下方「教授口試模擬」100 題。兩組共 200 題。</small></div>`;
   }
   $('#start-workshop').addEventListener('click',()=>{quizIntro();openDialog($('#quiz-dialog'));$('#quiz-title').focus();});
-  function quizStart(){answers=[];questionIndex=0;renderQuestion();}
+  function quizStart(){answers=[];questionIndex=0;saveQuiz();renderQuestion();}
+  function resumeQuiz(){answers=savedQuiz()||[];questionIndex=answers.length;questionIndex===MEDICI.questions.length?quizResult():renderQuestion();}
   function renderQuestion(){
     answered=false;const q=MEDICI.questions[questionIndex];
-    $('#quiz-content').innerHTML=`<div class="quiz-question"><div class="quiz-progress"><span>問題 ${questionIndex+1} / ${MEDICI.questions.length}</span><span>已答對 ${answers.filter((a,i)=>a===MEDICI.questions[i].correct).length} 題</span></div><p class="eyebrow">${q.topic}</p><h2 id="quiz-title" tabindex="-1">${q.question}</h2><div class="quiz-answers">${q.answers.map((a,i)=>`<button data-answer="${i}"><b aria-hidden="true">${'ABCD'[i]}</b><span>${a}</span></button>`).join('')}</div><div id="quiz-feedback" aria-live="polite"></div><div class="quiz-next"></div></div>`;
+    $('#quiz-content').innerHTML=`<div class="quiz-question"><div class="quiz-progress"><span>問題 ${questionIndex+1} / ${MEDICI.questions.length}</span><span>已答對 ${answers.filter((a,i)=>a===MEDICI.questions[i].correct).length} 題</span></div><p class="eyebrow">${escape(q.topic)}</p><h2 id="quiz-title" tabindex="-1">${escape(q.question)}</h2><div class="quiz-answers">${q.answers.map((a,i)=>`<button data-answer="${i}"><b aria-hidden="true">${'ABCD'[i]}</b><span>${escape(a)}</span></button>`).join('')}</div><div id="quiz-feedback" aria-live="polite"></div><div class="quiz-next"></div><p class="quiz-autosave">已自動儲存作答進度，可隨時關閉後繼續。</p></div>`;
     $('#quiz-dialog').scrollTop=0;$('#quiz-title').focus();
   }
   function answerQuestion(choice){
-    if(answered)return;answered=true;answers.push(choice);const q=MEDICI.questions[questionIndex];
+    if(answered)return;answered=true;answers[questionIndex]=choice;saveQuiz();const q=MEDICI.questions[questionIndex];
     $$('[data-answer]').forEach(b=>{const i=+b.dataset.answer;b.disabled=true;if(i===q.correct)b.classList.add('correct');if(i===choice&&i!==q.correct)b.classList.add('wrong');});
     $('.quiz-progress span:last-child').textContent=`已答對 ${answers.filter((a,i)=>a===MEDICI.questions[i].correct).length} 題`;
-    $('#quiz-feedback').className='quiz-feedback';$('#quiz-feedback').innerHTML=`<strong>${choice===q.correct?'答對了，這樣判讀更周全。':`再多看一層。合適的答案是 ${'ABCD'[q.correct]}。`}</strong><p>${q.explain}</p><small>延伸閱讀：${escape(byId(q.reading).author)} · ${escape(byId(q.reading).year)}</small>`;
+    $('#quiz-feedback').className='quiz-feedback';$('#quiz-feedback').innerHTML=`<strong>${choice===q.correct?'答對了，繼續累積理解。':`再看一次。合適的答案是 ${'ABCD'[q.correct]}。`}</strong><p>${escape(q.explain)}</p><small>整理依據：${escape(q.sourceNote)}</small>`;
     $('.quiz-next').innerHTML=`<button class="button green" data-quiz-next>${questionIndex===MEDICI.questions.length-1?'查看回顧':'繼續下一題'} <span>→</span></button>`;
     $('[data-quiz-next]').focus();
+    if(!storageOK)$('.quiz-autosave').textContent='此瀏覽器無法永久儲存，關閉頁面前請完成本輪。';
   }
   function quizResult(){
-    const score=answers.filter((a,i)=>a===MEDICI.questions[i].correct).length;best=Math.max(best??0,score);writeLocal('sona-medici-best-v1',best);renderBest();
+    const score=answers.filter((a,i)=>a===MEDICI.questions[i].correct).length;best=Math.max(best??0,score);writeLocal('sona-medici-best-v2',best);renderBest();
     const wrong=MEDICI.questions.map((q,i)=>({...q,index:i})).filter(q=>answers[q.index]!==q.correct);
-    $('#quiz-content').innerHTML=`<div class="quiz-result"><p class="eyebrow">READING IS AN ONGOING CONVERSATION</p><div class="quiz-number">${score}<span style="font-size:32px"> / ${MEDICI.questions.length}</span></div><h2 id="quiz-title" tabindex="-1">${score===6?'你保留了證據的分寸。':'每個疑問，都是下一次閱讀的起點。'}</h2><p>已完成六題史料判讀。${wrong.length?`以下 ${wrong.length} 題值得再讀一次。`:'六題全部答對！繼續探索閱讀室，看看不同文獻如何對話。'}</p><div class="result-actions"><button class="button green" data-quiz-retry>再練習一次 ↻</button><button class="button outline" data-quiz-readings>回到文獻閱讀室 ↗</button></div>${wrong.length?`<div class="quiz-review">${wrong.map(q=>`<article><h3>${q.index+1}. ${q.topic}</h3><p>你的選擇：${escape(q.answers[answers[q.index]])}<br>合適判斷：${escape(q.answers[q.correct])}</p><p>${q.explain}</p><p>建議閱讀：${escape(byId(q.reading).title)}</p></article>`).join('')}</div>`:''}<p class="result-credit">SONA / 美第奇研究手札</p></div>`;
+    $('#quiz-content').innerHTML=`<div class="quiz-result"><p class="eyebrow">READING IS AN ONGOING CONVERSATION</p><div class="quiz-number">${score}<span style="font-size:32px"> / ${MEDICI.questions.length}</span></div><h2 id="quiz-title" tabindex="-1">${score===MEDICI.questions.length?'100 題，全數答對。':'每個疑問，都是下一次閱讀的起點。'}</h2><p>已完成 ${MEDICI.questions.length} 題研究與文獻自測。${wrong.length?`以下 ${wrong.length} 題值得再讀一次。`:'繼續練習教授口試提問，試著用自己的話說明。'}</p><div class="result-actions"><button class="button green" data-quiz-retry>重新開始 100 題 ↻</button><button class="button outline" data-quiz-bank>查看 100 題解析總覽 ↗</button><button class="button outline" data-quiz-oral>前往教授口試 100 題 ↗</button></div>${wrong.length?`<div class="quiz-review">${wrong.map(q=>`<article><h3>${q.index+1}. ${escape(q.question)}</h3><p>你的選擇：${escape(q.answers[answers[q.index]])}<br>合適答案：${escape(q.answers[q.correct])}</p><p>${escape(q.explain)}</p><p class="review-source">${escape(q.sourceNote)}</p></article>`).join('')}</div>`:''}<p class="result-credit">SONA / 美第奇研究手札</p></div>`;
     $('#quiz-dialog').scrollTop=0;$('#quiz-title').focus();
     if(!storageOK)toast('成績已結算；此瀏覽器無法永久儲存紀錄。');
   }
   $('#quiz-content').addEventListener('click',e=>{
     if(e.target.closest('[data-quiz-start],[data-quiz-retry]'))quizStart();
+    if(e.target.closest('[data-quiz-resume]'))resumeQuiz();
     const answer=e.target.closest('[data-answer]');if(answer)answerQuestion(+answer.dataset.answer);
     if(e.target.closest('[data-quiz-next]')){questionIndex++;questionIndex<MEDICI.questions.length?renderQuestion():quizResult();}
-    if(e.target.closest('[data-quiz-readings]')){$('#quiz-dialog').close();$('#reading').scrollIntoView();$('#reading-search').focus({preventScroll:true});}
+    const destination=e.target.closest('[data-quiz-bank]')?'study-bank':e.target.closest('[data-quiz-oral]')?'oral-bank':null;
+    if(destination){$('#quiz-dialog').close();document.getElementById(destination).scrollIntoView();$('[data-bank-search]',document.getElementById(destination)).focus({preventScroll:true});}
   });
   renderReadings();renderBest();
 })();
