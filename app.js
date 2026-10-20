@@ -94,7 +94,7 @@
   function renderBest(){ $('#workshop-best').textContent=best===null?'100 題自測，可暫停後繼續。':`本瀏覽器最佳紀錄：${best} / ${MEDICI.questions.length} 題`; }
   function quizIntro(){
     const saved=savedQuiz(),total=MEDICI.questions.length;
-    $('#quiz-content').innerHTML=`<div class="quiz-intro"><p class="eyebrow">RESEARCH & LITERATURE / ${total} QUESTIONS</p><div class="quiz-number">${total}.</div><h2 id="quiz-title" tabindex="-1">把理解，變成自己的答案。</h2><p>${total} 題四選一，涵蓋研究計畫、案例與文獻。<br>每題附解析和來源；關閉或重新整理後可繼續。</p>${saved?`<p class="quiz-saved">上次已作答 ${saved.length} / ${total} 題。</p><button class="button green" data-quiz-resume>${saved.length===total?'查看上次結果':`繼續第 ${saved.length+1} 題`} <span>→</span></button><button class="underlink quiz-restart" data-quiz-start>重新開始 100 題 ↻</button>`:`<button class="button green" data-quiz-start>開始 100 題 <span>→</span></button>`}<small>另有下方「教授口試模擬」100 題。兩組共 200 題。</small></div>`;
+    $('#quiz-content').innerHTML=`<div class="quiz-intro"><p class="eyebrow">RESEARCH & LITERATURE / ${total} QUESTIONS</p><div class="quiz-number">${total}.</div><h2 id="quiz-title" tabindex="-1">把理解，變成自己的答案。</h2><p>${total} 題四選一，涵蓋研究計畫、案例與文獻。<br>每題附解析和來源；關閉或重新整理後可繼續。</p>${saved?`<p class="quiz-saved">上次已作答 ${saved.length} / ${total} 題。</p><button class="button green" data-quiz-resume>${saved.length===total?'查看上次結果':`繼續第 ${saved.length+1} 題`} <span>→</span></button><button class="underlink quiz-restart" data-quiz-start>重新開始 100 題 ↻</button>`:`<button class="button green" data-quiz-start>開始 100 題 <span>→</span></button>`}<small>另有下方「教授口試選擇題」100 題。兩組共 200 題四選一。</small></div>`;
   }
   $('#start-workshop').addEventListener('click',()=>{quizIntro();openDialog($('#quiz-dialog'));$('#quiz-title').focus();});
   function quizStart(){answers=[];questionIndex=0;saveQuiz();renderQuestion();}
@@ -106,6 +106,7 @@
   }
   function answerQuestion(choice){
     if(answered)return;answered=true;answers[questionIndex]=choice;saveQuiz();const q=MEDICI.questions[questionIndex];
+    document.dispatchEvent(new CustomEvent('sona-mcq-answer',{detail:{id:q.id,choice}}));
     $$('[data-answer]').forEach(b=>{const i=+b.dataset.answer;b.disabled=true;if(i===q.correct)b.classList.add('correct');if(i===choice&&i!==q.correct)b.classList.add('wrong');});
     $('.quiz-progress span:last-child').textContent=`已答對 ${answers.filter((a,i)=>a===MEDICI.questions[i].correct).length} 題`;
     $('#quiz-feedback').className='quiz-feedback';$('#quiz-feedback').innerHTML=`<strong>${choice===q.correct?'答對了，繼續累積理解。':`再看一次。合適的答案是 ${'ABCD'[q.correct]}。`}</strong><p>${escape(q.explain)}</p><small>整理依據：${escape(q.sourceNote)}</small>`;
