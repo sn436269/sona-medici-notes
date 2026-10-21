@@ -1,0 +1,23 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // A family signs in with the SAME account on iPad and computer.
+    // A different account cannot read or write this family's records.
+    match /users/{uid}/events/{eventId} {
+      allow read: if request.auth != null && request.auth.uid == uid;
+      allow create: if request.auth != null && request.auth.uid == uid
+        && request.resource.data.id == eventId
+        && request.resource.data.type in ['attempt', 'redeem', 'settings']
+        && request.resource.data.keys().hasOnly(['id', 'type', 'at', 'date', 'payload']);
+      allow update, delete: if false;
+    }
+    match /users/{uid}/private/wallet {
+      allow read: if request.auth != null && request.auth.uid == uid;
+      allow create, update: if request.auth != null && request.auth.uid == uid
+        && request.resource.data.balance is int
+        && request.resource.data.balance >= 0
+        && request.resource.data.keys().hasOnly(['balance', 'updatedAt']);
+      allow delete: if false;
+    }
+  }
+}

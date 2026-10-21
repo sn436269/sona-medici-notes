@@ -1,0 +1,18 @@
+/* Pure scoring, ledger and review logic. Shared by the app and verification. */
+(function(root){
+  'use strict';
+  const subjects={chinese:{name:'國語',en:'CHINESE',icon:'文',color:'#b46f50',version:'翰林'},math:{name:'數學',en:'MATH',icon:'算',color:'#587d70',version:'康軒'},english:{name:'英語',en:'ENGLISH',icon:'Aa',color:'#6d7f9a',version:'翰林 Here We Go 7'},science:{name:'自然',en:'SCIENCE',icon:'森',color:'#7e8b53',version:'南一'},social:{name:'社會',en:'SOCIAL STUDIES',icon:'地',color:'#9b7b9c',version:'翰林'}};
+  const dateKey=(value=new Date())=>new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Taipei',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(value));
+  const award=(correct,total)=>total>0?(correct*100>=90*total?2:correct*100>=80*total?1:0):0;
+  const score=(correct,total)=>total?Math.round(correct/total*1000)/10:0;
+  const sort=(events)=>[...events].sort((a,b)=>a.at.localeCompare(b.at)||a.id.localeCompare(b.id));
+  const attempts=events=>sort(events.filter(e=>e.type==='attempt'));
+  const ledger=events=>sort(events.filter(e=>e.type==='attempt'||e.type==='redeem')).map(e=>({id:e.id,at:e.at,date:e.date,label:e.type==='attempt'?e.payload.title:e.payload.reason,delta:e.type==='attempt'?award(e.payload.correct,e.payload.items.length):-e.payload.amount,type:e.type}));
+  const balance=events=>ledger(events).reduce((sum,row)=>sum+row.delta,0);
+  const settings=events=>{const last=sort(events.filter(e=>e.type==='settings')).at(-1); return {name:'小小探索家',targets:Object.fromEntries(Object.keys(subjects).map(k=>[k,8])),...(last?.payload||{})};};
+  const dailyCount=(events,date,subject)=>{const ids=new Set();for(const e of attempts(events))if(e.date===date)for(const i of e.payload.items)if(i.subject===subject)ids.add(i.id);return ids.size;};
+  const mistakes=events=>{const map=new Map();for(const e of sort(events)){if(e.type==='attempt')for(const q of e.payload.items){const prior=map.get(q.id);if(q.selected!==q.answer)map.set(q.id,{...q,times:(prior?.times||0)+1,lastAt:e.at,resolved:false});else if(prior)map.set(q.id,{...prior,resolved:true,lastAt:e.at});}}return [...map.values()].sort((a,b)=>b.lastAt.localeCompare(a.lastAt));};
+  const merge=(a,b)=>[...new Map([...a,...b].map(e=>[e.id,e])).values()];
+  const validEvent=e=>e&&typeof e.id==='string'&&/^[a-zA-Z0-9_-]{1,100}$/.test(e.id)&&['attempt','redeem','settings'].includes(e.type)&&typeof e.at==='string'&&Number.isFinite(Date.parse(e.at))&&e.date===dateKey(e.at)&&e.payload&& (e.type==='attempt'?Array.isArray(e.payload.items)&&e.payload.items.length>0&&e.payload.items.length<=100&&typeof e.payload.title==='string'&&e.payload.items.every(i=>i&&typeof i.id==='string'&&subjects[i.subject]&&typeof i.stem==='string'&&typeof i.explanation==='string'&&Array.isArray(i.options)&&i.options.length===4&&i.options.every(o=>typeof o==='string')&&Number.isInteger(i.selected)&&i.selected>=0&&i.selected<4&&Number.isInteger(i.answer)&&i.answer>=0&&i.answer<4)&&new Set(e.payload.items.map(i=>i.id)).size===e.payload.items.length&&e.payload.correct===e.payload.items.filter(i=>i.selected===i.answer).length:e.type==='redeem'?Number.isInteger(e.payload.amount)&&e.payload.amount>0&&typeof e.payload.reason==='string':typeof e.payload.name==='string'&&e.payload.name.length<=30&&e.payload.targets&&Object.keys(subjects).every(k=>Number.isInteger(e.payload.targets[k])&&e.payload.targets[k]>=6&&e.payload.targets[k]<=10));
+  const api={subjects,dateKey,award,score,sort,attempts,ledger,balance,settings,dailyCount,mistakes,merge,validEvent};root.StudyCore=api;if(typeof module!=='undefined')module.exports=api;
+})(typeof window!=='undefined'?window:globalThis);
