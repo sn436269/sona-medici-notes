@@ -1,0 +1,133 @@
+{
+  "version": 2,
+  "curriculumStart": "2026-10-27",
+  "updatedAt": "2026-10-27T19:22:40.250Z",
+  "days": [
+    {
+      "id": 2,
+      "topic": "餐桌日常",
+      "title": "一杯不加糖的咖啡",
+      "it": "Prendo un caffè senza zucchero.",
+      "en": "I will have a coffee without sugar.",
+      "zh": "我要一杯不加糖的咖啡。",
+      "pronunciation": "PRÈN-do un kaf-FÈ SÈN-tsa DZÙK-ke-ro",
+      "words": [
+        {
+          "it": "Prendo",
+          "en": "I will have",
+          "zh": "我要、我點",
+          "ipa": "/ˈprɛn.do/",
+          "kk": "/aɪ wɪl hæv/",
+          "pos": "動詞・現在式",
+          "note": "prendere 的第一人稱單數。點餐時 prendo 很自然，表示「我點、我要」。",
+          "hint": ""
+        },
+        {
+          "it": "un",
+          "en": "a",
+          "zh": "一個、一杯",
+          "ipa": "/un/",
+          "kk": "/ə/",
+          "pos": "陽性不定冠詞",
+          "note": "un 放在陽性單數名詞前。這裡的「一杯」是依點咖啡的情境翻譯，原字是冠詞。",
+          "hint": ""
+        },
+        {
+          "it": "caffè",
+          "en": "coffee",
+          "zh": "咖啡",
+          "ipa": "/kafˈfɛ/",
+          "kk": "/ˈkɔfɪ/",
+          "pos": "陽性名詞",
+          "note": "caffè 的重音在最後，字尾的重音符號要保留。雙寫 ff 要稍作停留。",
+          "hint": ""
+        },
+        {
+          "it": "senza",
+          "en": "without",
+          "zh": "沒有、不加",
+          "ipa": "/ˈsɛn.tsa/",
+          "kk": "/wɪˈðaʊt/",
+          "pos": "介系詞",
+          "note": "senza 放在不想加入的東西前。senza zucchero 在點餐時就是「不加糖」。",
+          "hint": ""
+        },
+        {
+          "it": "zucchero",
+          "en": "sugar",
+          "zh": "糖",
+          "ipa": "/ˈdzuk.ke.ro/",
+          "kk": "/ˈʃʊɡɚ/",
+          "pos": "陽性名詞",
+          "note": "重音在第一音節。完整結構是 Prendo ＋ un caffè ＋ senza zucchero，晚上照這三段連讀。",
+          "hint": ""
+        }
+      ],
+      "date": "2026-10-28",
+      "kk": "/aɪ wɪl hæv ə ˈkɔfɪ wɪˈðaʊt ˈʃʊɡɚ/"
+    },
+    {
+      "id": 1,
+      "topic": "餐桌日常",
+      "title": "先從一杯水開始",
+      "it": "Vorrei dell'acqua, per favore.",
+      "en": "I would like some water, please.",
+      "zh": "我想要一些水，麻煩你。",
+      "pronunciation": "vor-RÈI del-LÀK-kwa per fa-VÓ-re",
+      "words": [
+        {
+          "it": "Vorrei",
+          "en": "I would like",
+          "zh": "我想要",
+          "ipa": "/vorˈrɛi/",
+          "kk": "/aɪ wʊd laɪk/",
+          "pos": "動詞・條件式",
+          "note": "來自 volere（想要）的第一人稱單數條件式。提出請求時，用 Vorrei 讓語氣更有禮貌。",
+          "hint": "vor-RÈI（佛－雷伊）"
+        },
+        {
+          "it": "dell'",
+          "en": "some",
+          "zh": "一些",
+          "ipa": "/del/",
+          "kk": "/sʌm/",
+          "pos": "部分冠詞",
+          "note": "在這句裡表示不特定的量。acqua 是母音開頭的陰性名詞，所以 della 省音成 dell'，和名詞連寫成 dell'acqua。",
+          "hint": "del（德爾，與 acqua 連讀）"
+        },
+        {
+          "it": "acqua",
+          "en": "water",
+          "zh": "水",
+          "ipa": "/ˈak.kwa/",
+          "kk": "/ˈwɔtɚ/",
+          "pos": "陰性名詞",
+          "note": "acqua 是陰性名詞，這裡當不可數物質使用。dell’acqua 就是 some water；雙寫子音的地方稍微停留，再發出 kwa。",
+          "hint": "ÀK-kwa（阿克－瓜）"
+        },
+        {
+          "it": "per",
+          "en": "for",
+          "zh": "為了、給",
+          "ipa": "/per/",
+          "kk": "/fɔr/",
+          "pos": "介系詞",
+          "note": "per 常用來表示目的或對象。今天先把它放在 per favore 裡理解，這是提出請求時的固定禮貌用語。",
+          "hint": "per（佩爾）"
+        },
+        {
+          "it": "favore",
+          "en": "favor",
+          "zh": "幫忙、恩惠",
+          "ipa": "/faˈvo.re/",
+          "kk": "/ˈfevɚ/",
+          "pos": "陽性名詞",
+          "note": "per favore 整體表示 please（請、麻煩你），不要逐字翻成「為了恩惠」。晚上把整句連起來，練習一次自然、有禮貌的請求。",
+          "hint": "fa-VÓ-re（法－VO－雷）"
+        }
+      ],
+      "date": "2026-10-27",
+      "kk": "/aɪ wʊd laɪk sʌm ˈwɔtɚ pliz/"
+    }
+  ]
+}

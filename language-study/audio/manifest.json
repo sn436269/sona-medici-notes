@@ -1,0 +1,1038 @@
+{
+  "version": 1,
+  "provider": "Lara Translate",
+  "status": "ready",
+  "entries": {
+    "vorrei": {
+      "provider": "Lara Translate",
+      "it": "audio/it-15a8a781fe62d0bd1448.m4a",
+      "text": "Vorrei",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:29.987Z",
+      "seconds": 1.82,
+      "sha256": "975096a20c9887cbc8f4ba0615e1fbae8c2b7d2bacb4cd8695e645c5db30c132"
+    },
+    "acqua": {
+      "provider": "Lara Translate",
+      "it": "audio/it-6672127162d485712e34.m4a",
+      "text": "acqua",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:29.972Z",
+      "seconds": 1.82,
+      "sha256": "c2ed8744800dc30684eeac4b379d4112826b26ddcb36e5111e7a059be7df7fae"
+    },
+    "dell'": {
+      "provider": "Lara Translate",
+      "it": "audio/it-ccaeebc1d9ddf6390c81.m4a",
+      "text": "dell'",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:29.995Z",
+      "seconds": 1.82,
+      "sha256": "206a749e5d3cebc3d4bc087ee1c85ddd0d929d90de7ffc0489c86eca1508ff69"
+    },
+    "per": {
+      "provider": "Lara Translate",
+      "it": "audio/it-5d6f7c283ce01c7b372d.m4a",
+      "text": "per",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:32.294Z",
+      "seconds": 0.7125,
+      "sha256": "d9697f36360d273091f1a2feb098838b7d91d7b1fa72bcc7b767d9839b8cb7d1"
+    },
+    "prendo": {
+      "provider": "Lara Translate",
+      "it": "audio/it-d3b877d582a24427d925.m4a",
+      "text": "Prendo",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:32.610Z",
+      "seconds": 1.82,
+      "sha256": "1aacbdebc52926963e7e3177f932e1d54f6d1308242f380799624d1cea89b3dc"
+    },
+    "favore": {
+      "provider": "Lara Translate",
+      "it": "audio/it-7a7f9a417150aa70a0ee.m4a",
+      "text": "favore",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:32.746Z",
+      "seconds": 1.82,
+      "sha256": "7b9cebcf5da8090fe47fe3be19099572aef10d2aee2109111d8e48a8dd44c17a"
+    },
+    "un": {
+      "provider": "Lara Translate",
+      "it": "audio/it-c16de718e4b488e0f47e.m4a",
+      "text": "un",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:34.239Z",
+      "seconds": 0.675,
+      "sha256": "ee3c354e2eec9c927c527080855a601cc88928ea583f36ff393112f480fcff96"
+    },
+    "caffe": {
+      "provider": "Lara Translate",
+      "it": "audio/it-0ff3b976219947b693ef.m4a",
+      "text": "caffè",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:34.724Z",
+      "seconds": 1.82,
+      "sha256": "ea790a4265df6719f2e38c8a1d71f637acc1a718af145fb5162eeebb62dbd11f"
+    },
+    "senza": {
+      "provider": "Lara Translate",
+      "it": "audio/it-932e308299c408f7d837.m4a",
+      "text": "senza",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:34.813Z",
+      "seconds": 1.82,
+      "sha256": "2cb60414133504e80cc056edb3a28f1f21e8c2aadc8494ad8b2aacb88fc20b5d"
+    },
+    "zucchero": {
+      "provider": "Lara Translate",
+      "it": "audio/it-11fdd221283d762722a8.m4a",
+      "text": "zucchero",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:36.402Z",
+      "seconds": 1.82,
+      "sha256": "bf98c65dbca9e953b42f364273d88e7d4a7f1cdc0ba7529b6be9b7ef9f2e7380"
+    },
+    "te": {
+      "provider": "Lara Translate",
+      "it": "audio/it-4c05af3391cc4c84523e.m4a",
+      "text": "tè",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:36.500Z",
+      "seconds": 0.625,
+      "sha256": "84a8a0953e2bfd8b61bee572b28359208e33b73de3820e2507112ec2e584c0a0"
+    },
+    "con": {
+      "provider": "Lara Translate",
+      "it": "audio/it-147431bc65c9494307b2.m4a",
+      "text": "con",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:36.785Z",
+      "seconds": 0.7125,
+      "sha256": "bd1f7f909407f122b30df65d324294ea0aa4127ed8585933796a09a1a43c5034"
+    },
+    "latte": {
+      "provider": "Lara Translate",
+      "it": "audio/it-41c3a3d89c40cfa49d90.m4a",
+      "text": "latte",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:38.536Z",
+      "seconds": 1.82,
+      "sha256": "1e0b841ab26f166344840d139098e019822e950fd2e61ab0a4e805ece9f561eb"
+    },
+    "questo": {
+      "provider": "Lara Translate",
+      "it": "audio/it-5b9482ac282b23a931d2.m4a",
+      "text": "Questo",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:38.689Z",
+      "seconds": 1.82,
+      "sha256": "3f07c9c3b2c3dac732a7199db7caf71c289afa13e829ff7691e06f94dcf60525"
+    },
+    "pane": {
+      "provider": "Lara Translate",
+      "it": "audio/it-8615b351b95c1f1bacf7.m4a",
+      "text": "pane",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:38.693Z",
+      "seconds": 0.75,
+      "sha256": "9190bb77bdf652002631ebd04e7ef4cb00c56d232f05ba4e969f044403eec197"
+    },
+    "e": {
+      "provider": "Lara Translate",
+      "it": "audio/it-696da45ab956f2472049.m4a",
+      "text": "è",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:40.422Z",
+      "seconds": 0.675,
+      "sha256": "6bd113a1b0af7c22c58f08be84ee64fe654c39d70aa02321513173f78af31d77"
+    },
+    "molto": {
+      "provider": "Lara Translate",
+      "it": "audio/it-3657b41045cca7ee059e.m4a",
+      "text": "molto",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:40.875Z",
+      "seconds": 1.82,
+      "sha256": "13146a9c3067a9ee96330b6c45b8929ed0b3c532159ce50810b565936a38a36b"
+    },
+    "buono": {
+      "provider": "Lara Translate",
+      "it": "audio/it-2ad2897754b768785d8c.m4a",
+      "text": "buono",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:40.885Z",
+      "seconds": 1.82,
+      "sha256": "aa1381ea3abec4c5c543b9acaf3d62add0d4f4b0d9a55158252403b8e7cc13c2"
+    },
+    "posso": {
+      "provider": "Lara Translate",
+      "it": "audio/it-48baddec95910d9f195c.m4a",
+      "text": "Posso",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:42.564Z",
+      "seconds": 1.82,
+      "sha256": "b83947f4e00375def0659250c4af1b5d3c95c658a17876c57f0d3232e7b2b75d"
+    },
+    "il": {
+      "provider": "Lara Translate",
+      "it": "audio/it-5641a41f579869837004.m4a",
+      "text": "il",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:42.627Z",
+      "seconds": 0.6875,
+      "sha256": "eaadfb9c1fa13c12235e576fd65084521a39ef7b6070035cccadbc6a106791f2"
+    },
+    "avere": {
+      "provider": "Lara Translate",
+      "it": "audio/it-40e04c8d5d379f65dc52.m4a",
+      "text": "avere",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:42.922Z",
+      "seconds": 1.82,
+      "sha256": "aecbcf2efb30010ea4e056f7a69cf32692984a079e0501e7cb1e270be5726128"
+    },
+    "conto": {
+      "provider": "Lara Translate",
+      "it": "audio/it-a2095406783fac1f3687.m4a",
+      "text": "conto",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:44.871Z",
+      "seconds": 1.82,
+      "sha256": "f112fc5f709e4edf06fa13b0802c0ec1ba8bcb2e1b8022bd8dc04593f7fe904c"
+    },
+    "per favore": {
+      "provider": "Lara Translate",
+      "it": "audio/it-433be2b558f563ca0a0f.m4a",
+      "text": "per favore",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:44.873Z",
+      "seconds": 1.82,
+      "sha256": "6d158c0280110ad571c5a8ed176f2d61acbc044a3e050076aa1b7e888aec7995"
+    },
+    "mi": {
+      "provider": "Lara Translate",
+      "it": "audio/it-70fca1773facaf432d38.m4a",
+      "text": "Mi",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:45.064Z",
+      "seconds": 0.6625,
+      "sha256": "25c4a4dbf22a72a462f5916c81d91044122d4ccf8887a7e4738c6b94e6992345"
+    },
+    "piace": {
+      "provider": "Lara Translate",
+      "it": "audio/it-797b43fafe55eac64061.m4a",
+      "text": "piace",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:46.939Z",
+      "seconds": 1.82,
+      "sha256": "16e282a25b3b56dd01e59c7e4bae434868de3f1636242fcbc411e2773f66fc97"
+    },
+    "questa": {
+      "provider": "Lara Translate",
+      "it": "audio/it-c3684f51292a50404475.m4a",
+      "text": "questa",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:46.940Z",
+      "seconds": 1.82,
+      "sha256": "f60d5af271d32ecd569411b0c7b38e71d0fc4f472077f87bedfe2b779bc8efde"
+    },
+    "pasta": {
+      "provider": "Lara Translate",
+      "it": "audio/it-6cbac910f7e60fc9fa9a.m4a",
+      "text": "pasta",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:47.145Z",
+      "seconds": 1.82,
+      "sha256": "97adc4248d40f079befb7a81451e81244a85a1575b3ab76b2f409b72a9ce40a6"
+    },
+    "due": {
+      "provider": "Lara Translate",
+      "it": "audio/it-18925ec2c3ebde62efef.m4a",
+      "text": "due",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:49.079Z",
+      "seconds": 0.7625,
+      "sha256": "ca6cfcc25979b22077bdf49bbdf19da1ca3ed08e1211998781af79a451c6242e"
+    },
+    "italiana": {
+      "provider": "Lara Translate",
+      "it": "audio/it-206cacfe41eb08de6b38.m4a",
+      "text": "italiana",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:49.298Z",
+      "seconds": 1.82,
+      "sha256": "f4ba0a0ba0e6dd42b5962870362ee7601963e348a954494d1854149893433a5a"
+    },
+    "tavolo": {
+      "provider": "Lara Translate",
+      "it": "audio/it-10ca1b8cb2ae8d4bce99.m4a",
+      "text": "tavolo",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:49.308Z",
+      "seconds": 1.82,
+      "sha256": "a96dada87f921cb37ebc0a7771e0fc4abd162f19e597e4a77545dc66bdf7640d"
+    },
+    "oggi": {
+      "provider": "Lara Translate",
+      "it": "audio/it-e5c950ecd1c81b2440e4.m4a",
+      "text": "Oggi",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:51.236Z",
+      "seconds": 1.82,
+      "sha256": "03990f90fb9b176c9227037e9dc62bd2982d71abe03678a6adb910a818d343ab"
+    },
+    "fresco": {
+      "provider": "Lara Translate",
+      "it": "audio/it-2718ebc7f7c2fbd039d4.m4a",
+      "text": "fresco",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:51.447Z",
+      "seconds": 1.82,
+      "sha256": "4f13d77bf7623ea9fc940e1dcbc48ded757285f346c395d31410e05676e70b89"
+    },
+    "compro": {
+      "provider": "Lara Translate",
+      "it": "audio/it-c4d0d4267afa0bd70ef0.m4a",
+      "text": "compro",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:51.543Z",
+      "seconds": 1.82,
+      "sha256": "ed3d2906a999be857a60d779400b62deacfe75a6923d8ef4734588130069f8ac"
+    },
+    "quanto": {
+      "provider": "Lara Translate",
+      "it": "audio/it-ad3b4ad842490cb74f2b.m4a",
+      "text": "Quanto",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:53.390Z",
+      "seconds": 1.82,
+      "sha256": "24934e4a33fcc8dafdb669fb5b826072307cba36f46c9b3c97dd6c4dcc21274d"
+    },
+    "borsa": {
+      "provider": "Lara Translate",
+      "it": "audio/it-65975d7d8dc0e1ee2a82.m4a",
+      "text": "borsa",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:53.682Z",
+      "seconds": 1.82,
+      "sha256": "fdb40885b7bbaa4441673c3abb3341fdb502207a05b20c65904873c2767b6140"
+    },
+    "costa": {
+      "provider": "Lara Translate",
+      "it": "audio/it-bfb8f9ea9530293aa6a6.m4a",
+      "text": "costa",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:53.704Z",
+      "seconds": 1.82,
+      "sha256": "c7c6f3e34ce79f488ee98700fedc12ddfcb4b6c8a24ca575f8bd4b146124e99f"
+    },
+    "rossa": {
+      "provider": "Lara Translate",
+      "it": "audio/it-b86b2754e5756c3493fb.m4a",
+      "text": "rossa",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:55.439Z",
+      "seconds": 1.82,
+      "sha256": "7619d1289d1e7d61dc96831627b28af4d3bed4df842b228d5cde1a3d995d3b3d"
+    },
+    "la": {
+      "provider": "Lara Translate",
+      "it": "audio/it-d783b5802c8383b79190.m4a",
+      "text": "La",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:55.620Z",
+      "seconds": 0.75,
+      "sha256": "0967b641a6f6de948ce1a4d0e631217cac75dc19deeca10e9256b0ed3362d4b6"
+    },
+    "pagare": {
+      "provider": "Lara Translate",
+      "it": "audio/it-0fe0dd8ee939cbcb3d26.m4a",
+      "text": "pagare",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:55.733Z",
+      "seconds": 1.82,
+      "sha256": "0228c775ef86e394848b72f5b478fea65cbdbfc60205e8c781a3ddd6e00cb9f9"
+    },
+    "carta": {
+      "provider": "Lara Translate",
+      "it": "audio/it-e46e487d9d0b97141178.m4a",
+      "text": "carta",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:57.612Z",
+      "seconds": 1.82,
+      "sha256": "b7562a1daae6f79b95185c5b66fea512a2593514b881c13064d2deca4f22f17d"
+    },
+    "una": {
+      "provider": "Lara Translate",
+      "it": "audio/it-464de3a693782487be4b.m4a",
+      "text": "una",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:57.625Z",
+      "seconds": 0.7125,
+      "sha256": "215ba70538f5dd7e78b65c3c42b4df622b102d4cbe463200326e729d81d08ba1"
+    },
+    "cerco": {
+      "provider": "Lara Translate",
+      "it": "audio/it-cedc3dd41df9f527e018.m4a",
+      "text": "Cerco",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:57.764Z",
+      "seconds": 1.82,
+      "sha256": "a202b328ca380e1d73d92ca914525306a34f4d4cf0ec83a4ecc98202e280016d"
+    },
+    "piccola": {
+      "provider": "Lara Translate",
+      "it": "audio/it-1c0dc237bb2bf073a2a6.m4a",
+      "text": "piccola",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:59.677Z",
+      "seconds": 1.82,
+      "sha256": "b1e7dd1b779fce1568e45d8dbff6f171ad3637f0d03f3d6403fc979292d21e81"
+    },
+    "farmacia": {
+      "provider": "Lara Translate",
+      "it": "audio/it-7170010821db5e9abe00.m4a",
+      "text": "farmacia",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:59.769Z",
+      "seconds": 1.82,
+      "sha256": "3261db02effffa4226a1461ee11017abca0b86c17df375dc1e2af4eb725c5a86"
+    },
+    "qui vicino": {
+      "provider": "Lara Translate",
+      "it": "audio/it-b09f1d6a464814d2b684.m4a",
+      "text": "qui vicino",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:25:59.798Z",
+      "seconds": 1.82,
+      "sha256": "ec387fc2df424e62b33988773f91f14f70562207344f479f743baabe28861b1c"
+    },
+    "ho": {
+      "provider": "Lara Translate",
+      "it": "audio/it-47d6b0623be315c3d405.m4a",
+      "text": "Ho",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:01.514Z",
+      "seconds": 0.6875,
+      "sha256": "4454ab7732e247d4d7fa390eb081b250b9af56e028485e5b4fa1c0c6449e5a90"
+    },
+    "di": {
+      "provider": "Lara Translate",
+      "it": "audio/it-6dc8e983dc6059ee1805.m4a",
+      "text": "di",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:01.568Z",
+      "seconds": 0.675,
+      "sha256": "a708b2eb6ae93928065cfe4cc2f029140c2b2417126d064b4f6476df6b66388c"
+    },
+    "bisogno": {
+      "provider": "Lara Translate",
+      "it": "audio/it-77f1935665ae8e29fe0f.m4a",
+      "text": "bisogno",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:02.105Z",
+      "seconds": 1.82,
+      "sha256": "f338fc42ddb3e3579e3604ed45a42c5d67a471706ca7af3db9314db63c0fa101"
+    },
+    "non": {
+      "provider": "Lara Translate",
+      "it": "audio/it-97830ac6c126d0d0e8ee.m4a",
+      "text": "Non",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:03.826Z",
+      "seconds": 0.6875,
+      "sha256": "c36b79381f80ba6071cea38a4940c3739951461981aa53ba95b6ee4ab23d57f9"
+    },
+    "capisco": {
+      "provider": "Lara Translate",
+      "it": "audio/it-28e7ea4ff8da3f85e89a.m4a",
+      "text": "capisco",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:04.378Z",
+      "seconds": 1.82,
+      "sha256": "4809fe08596008afc4e91883a062998573e4a931275b210cae856831bf608ddf"
+    },
+    "parola": {
+      "provider": "Lara Translate",
+      "it": "audio/it-47e0df7e6c22ad419cb5.m4a",
+      "text": "parola",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:04.762Z",
+      "seconds": 1.82,
+      "sha256": "2c9d75f01379cf9687d618d9f1099ca0399ebc7abc4ea8dd20bd1b8cb42188fe"
+    },
+    "puoi": {
+      "provider": "Lara Translate",
+      "it": "audio/it-f32e884dd837d02cd2bd.m4a",
+      "text": "Puoi",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:05.854Z",
+      "seconds": 0.775,
+      "sha256": "c45a0ce8964a3ccf917f9979a2dc39bc13926be2e2fc53e8b7a51f12a00507b9"
+    },
+    "parlare": {
+      "provider": "Lara Translate",
+      "it": "audio/it-3fd03cfdaa3ce82f01c2.m4a",
+      "text": "parlare",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:06.468Z",
+      "seconds": 1.82,
+      "sha256": "03f24e114fd099a8fd53a822ce5da8f4df23b401fdc8381ead62f2c5db004832"
+    },
+    "un po'": {
+      "provider": "Lara Translate",
+      "it": "audio/it-ad44a1fa381e5ae2b763.m4a",
+      "text": "un po’",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:06.834Z",
+      "seconds": 1.82,
+      "sha256": "b258bd3dbb68f431947fbf53fd7466b7fe1495a5c5a1cb143cece99ec36ea9e5"
+    },
+    "piu": {
+      "provider": "Lara Translate",
+      "it": "audio/it-824312acada397bcb9ec.m4a",
+      "text": "più",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:07.769Z",
+      "seconds": 0.7,
+      "sha256": "b617b71905d04c086a63ef80f89f68615a552cc93b40699db19dcfba75e5c9cc"
+    },
+    "lentamente": {
+      "provider": "Lara Translate",
+      "it": "audio/it-8138edbdc15c2d43d658.m4a",
+      "text": "lentamente",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:08.633Z",
+      "seconds": 1.82,
+      "sha256": "d40c44e4edf1fc55056474dbdf34c111fd539e92469fcd12068dd3e1cc32234d"
+    },
+    "dove": {
+      "provider": "Lara Translate",
+      "it": "audio/it-27335ea6e82e81b396cc.m4a",
+      "text": "Dove",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:08.862Z",
+      "seconds": 1.82,
+      "sha256": "caa118369b2679e2fd891e9912e6d2aecffcc39efcbc298cf37c8c7720bf2cd2"
+    },
+    "si": {
+      "provider": "Lara Translate",
+      "it": "audio/it-f8759709bb04d9a6c424.m4a",
+      "text": "si",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:09.722Z",
+      "seconds": 0.7125,
+      "sha256": "186942ee94cc5e4773f383616c6d794bf3b8267003dda8cd6e65d359c00976a0"
+    },
+    "trova": {
+      "provider": "Lara Translate",
+      "it": "audio/it-4bdae576044ddb898556.m4a",
+      "text": "trova",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:10.706Z",
+      "seconds": 1.82,
+      "sha256": "b73295e44371cd248742a4005f505b4d67777ae14d62ac7faf5e7370a5ef0aed"
+    },
+    "bagno": {
+      "provider": "Lara Translate",
+      "it": "audio/it-a60ad99794f321730a71.m4a",
+      "text": "bagno",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:11.163Z",
+      "seconds": 1.82,
+      "sha256": "95a0994e75e8c38619b762f556b5798b765c8583728cd3408a88705091c50d3f"
+    },
+    "stazione": {
+      "provider": "Lara Translate",
+      "it": "audio/it-1e662c91bb4668a51a57.m4a",
+      "text": "stazione",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:12.751Z",
+      "seconds": 1.82,
+      "sha256": "82bcb19c2de6a04692f5bb53cd57b0167453daca690a71c8525e3416400906f3"
+    },
+    "vicina": {
+      "provider": "Lara Translate",
+      "it": "audio/it-31d4fc20913546459f5b.m4a",
+      "text": "vicina",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:13.120Z",
+      "seconds": 1.82,
+      "sha256": "5871e2cae749e227f96c0bc97ad136ff5ebc360323e0fdf176a59480e942ec57"
+    },
+    "biglietto": {
+      "provider": "Lara Translate",
+      "it": "audio/it-a2e5713f53b8ec70d26d.m4a",
+      "text": "biglietto",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:14.470Z",
+      "seconds": 1.82,
+      "sha256": "483d6a1738c573ea9b1714735ca590bec35a1639c7f55ebb5f431fc4db240861"
+    },
+    "a che": {
+      "provider": "Lara Translate",
+      "it": "audio/it-05f4003ab8569acc912a.m4a",
+      "text": "A che",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:14.997Z",
+      "seconds": 0.8,
+      "sha256": "080f14f9d521c0aede445b997ef850b077455225d8bb33b71375d7baf479bf77"
+    },
+    "firenze": {
+      "provider": "Lara Translate",
+      "it": "audio/it-0ba0ff86ff33f3f2bc87.m4a",
+      "text": "Firenze",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:15.361Z",
+      "seconds": 1.82,
+      "sha256": "2cec313e31f9ec38479538bb3b7a4547ba67a20a355e98521176d2b605ada784"
+    },
+    "ora": {
+      "provider": "Lara Translate",
+      "it": "audio/it-e15ec219c668a625116d.m4a",
+      "text": "ora",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:16.629Z",
+      "seconds": 0.7375,
+      "sha256": "86bd0537da5446d3ffc1ef484bce731d6aee6d2419f2b0992975a059995b3657"
+    },
+    "parte": {
+      "provider": "Lara Translate",
+      "it": "audio/it-d198190e381690eb43c8.m4a",
+      "text": "parte",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:17.099Z",
+      "seconds": 1.82,
+      "sha256": "71f1cb86352dd4c8599cd86b8f21130970a02f35f72d088abe3276ca75c70df6"
+    },
+    "treno": {
+      "provider": "Lara Translate",
+      "it": "audio/it-6cd286cfc9a5a37f3f2e.m4a",
+      "text": "treno",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:18.074Z",
+      "seconds": 1.82,
+      "sha256": "0f831ace723c7037626688667407ffa4ebda74c20d319889776f06abb08d59b8"
+    },
+    "autobus": {
+      "provider": "Lara Translate",
+      "it": "audio/it-c033334b04a175ed9d3e.m4a",
+      "text": "autobus",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:18.731Z",
+      "seconds": 1.82,
+      "sha256": "e22a1c332e98371565e6751861d6340f938633a260b333debc67b4caa94d3c13"
+    },
+    "va": {
+      "provider": "Lara Translate",
+      "it": "audio/it-56fb414ee4e540f71008.m4a",
+      "text": "va",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:19.152Z",
+      "seconds": 0.725,
+      "sha256": "016c3f22e297a2e75a6e5d1155f7e543bab219f49a6332283d4cccdcc4efc205"
+    },
+    "in": {
+      "provider": "Lara Translate",
+      "it": "audio/it-8151b16dc83e82c39238.m4a",
+      "text": "in",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:19.802Z",
+      "seconds": 0.6375,
+      "sha256": "bb5b4f03c9b90856295f1e3371da5f88fffc8ac3c7abdf2199b7b938ab07c585"
+    },
+    "centro": {
+      "provider": "Lara Translate",
+      "it": "audio/it-1255af4901c2abcfd5eb.m4a",
+      "text": "centro",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:20.811Z",
+      "seconds": 1.82,
+      "sha256": "9f73204ea5c43f0923dc4c6dc4cefc66a6ee3018081c47ec5a1de25a7ef38dd3"
+    },
+    "prenotazione": {
+      "provider": "Lara Translate",
+      "it": "audio/it-a673510ec6ef5ac34089.m4a",
+      "text": "prenotazione",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:21.260Z",
+      "seconds": 1.82,
+      "sha256": "ed3df7d24632d02efb9ed96bbd7dd5d36cd1af998b79a0f30eb834e449da697c"
+    },
+    "stasera": {
+      "provider": "Lara Translate",
+      "it": "audio/it-f1c62f401618e99bdde4.m4a",
+      "text": "stasera",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:21.891Z",
+      "seconds": 1.82,
+      "sha256": "71c20f84e43081f7d9df657f4ef2981ff7dcc4163d448865c6894c47b305f457"
+    },
+    "mia": {
+      "provider": "Lara Translate",
+      "it": "audio/it-c4e994c6f9ac03d2ed25.m4a",
+      "text": "mia",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:22.970Z",
+      "seconds": 1.82,
+      "sha256": "e2fb072564267b176aecd39fa01f574919a1389ffccb357397e2c2672596c74b"
+    },
+    "camera": {
+      "provider": "Lara Translate",
+      "it": "audio/it-bdfe743d13858ba9448a.m4a",
+      "text": "camera",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:23.425Z",
+      "seconds": 1.82,
+      "sha256": "c177a52f70ea98099242925409dd2982c76fa149f196f998ebd2def99b2674d6"
+    },
+    "tranquilla": {
+      "provider": "Lara Translate",
+      "it": "audio/it-967d81e6671d95301e5d.m4a",
+      "text": "tranquilla",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:24.151Z",
+      "seconds": 1.82,
+      "sha256": "5c816e6ef270456e650052ee876e8700ea85e5df5a7bcda32ac0b03bdd02847d"
+    },
+    "dura": {
+      "provider": "Lara Translate",
+      "it": "audio/it-dde3d219ccb35fcd2738.m4a",
+      "text": "dura",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:25.233Z",
+      "seconds": 1.82,
+      "sha256": "284e27a673592f299a00619dc08afb61fefe513aa5b12bc3b435f67be1de8682"
+    },
+    "visita": {
+      "provider": "Lara Translate",
+      "it": "audio/it-b4da96dfcf68a123195d.m4a",
+      "text": "visita",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:26.260Z",
+      "seconds": 1.82,
+      "sha256": "29b60e048505a6ba697b5b141f7812feee38587bfa80316d23e62d7512c621d5"
+    },
+    "guidata": {
+      "provider": "Lara Translate",
+      "it": "audio/it-251b71095033e77020f1.m4a",
+      "text": "guidata",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:27.060Z",
+      "seconds": 1.82,
+      "sha256": "86558de309c421df261bf502b57c6a3e4cc43eddd237d9948d67272516600855"
+    },
+    "visitare": {
+      "provider": "Lara Translate",
+      "it": "audio/it-010401c4e15119b815e0.m4a",
+      "text": "visitare",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:27.352Z",
+      "seconds": 1.82,
+      "sha256": "f5e33ccd80fc5d9fb32e0af4e708ca8c88ce2a0638aa69dff0f33f6f94cabe39"
+    },
+    "museo": {
+      "provider": "Lara Translate",
+      "it": "audio/it-55a6984f7e82b925e451.m4a",
+      "text": "museo",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:28.356Z",
+      "seconds": 1.82,
+      "sha256": "831f2d5089f1dbb91c496719dcbf70ce6d84f87da06ed97262c25a20ed3eb74f"
+    },
+    "domani": {
+      "provider": "Lara Translate",
+      "it": "audio/it-48fa47676144c4abac60.m4a",
+      "text": "Domani",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:29.175Z",
+      "seconds": 1.82,
+      "sha256": "c23cd96b98ea1571276235c5d749b4fab9374fdf6843c73d05393f960b564105"
+    },
+    "dipinto": {
+      "provider": "Lara Translate",
+      "it": "audio/it-36821ff446364b80a6d0.m4a",
+      "text": "dipinto",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:29.415Z",
+      "seconds": 1.82,
+      "sha256": "e9a4e53391bb9d65511443aa7a35dfbda13c935c14adaae2821f0640bf4b8e89"
+    },
+    "bello": {
+      "provider": "Lara Translate",
+      "it": "audio/it-18b8298f6c4d6793529d.m4a",
+      "text": "bello",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:30.626Z",
+      "seconds": 1.82,
+      "sha256": "10b71ccfaa119d7c7b0c4e878bfd6fbc0b0a8c5307a51e90a04c08603f9c0d12"
+    },
+    "interessa": {
+      "provider": "Lara Translate",
+      "it": "audio/it-289217154f7dfde31d1d.m4a",
+      "text": "interessa",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:31.264Z",
+      "seconds": 1.82,
+      "sha256": "37d63125cb14a3ba4caa537b322b707dadc42c5c75eccd9975c6c32c2699355b"
+    },
+    "storia": {
+      "provider": "Lara Translate",
+      "it": "audio/it-4998bea4147e595f4956.m4a",
+      "text": "storia",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:31.467Z",
+      "seconds": 1.82,
+      "sha256": "1177eccc2705bdc86cabf4f0291b790798153b16a1de1a4bfa86c6c8926602b8"
+    },
+    "voglio": {
+      "provider": "Lara Translate",
+      "it": "audio/it-65bc6cc28f770d4a9b0b.m4a",
+      "text": "voglio",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:32.813Z",
+      "seconds": 1.82,
+      "sha256": "52f09d3755a159a632f7178606b19b26c24c353fcdb56f3da0a6c84c4dcdd4d6"
+    },
+    "vedere": {
+      "provider": "Lara Translate",
+      "it": "audio/it-926cb98b773684d71c5c.m4a",
+      "text": "vedere",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:33.353Z",
+      "seconds": 1.82,
+      "sha256": "5891cfdedfc772f104440eaceb896b569363a7346ebee511af358b0c74d29515"
+    },
+    "chiesa": {
+      "provider": "Lara Translate",
+      "it": "audio/it-4efa59ff6f8f9c964fb5.m4a",
+      "text": "chiesa",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:34.205Z",
+      "seconds": 1.82,
+      "sha256": "a9b809ba4924c56a2175a2a70189362c2a6cbf848248ff889d304f663314798e"
+    },
+    "aiutarmi": {
+      "provider": "Lara Translate",
+      "it": "audio/it-0db3362e410d25c867a9.m4a",
+      "text": "aiutarmi",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:35.134Z",
+      "seconds": 1.82,
+      "sha256": "4847c547e5c7f9094e4b0873a8cddd79dfaf4be0b0b4a867c1a2d3793c6561e3"
+    },
+    "mappa": {
+      "provider": "Lara Translate",
+      "it": "audio/it-baf2b6970a1cfe34b0c7.m4a",
+      "text": "mappa",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:35.966Z",
+      "seconds": 1.82,
+      "sha256": "9a9b07fb98e03326530bbb5cb13e8d9b4d33e416de08630ebbf8c5197bf3538f"
+    },
+    "piazza": {
+      "provider": "Lara Translate",
+      "it": "audio/it-64e91aa7d1523611c266.m4a",
+      "text": "piazza",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:36.291Z",
+      "seconds": 1.82,
+      "sha256": "c07de64b1f3ba4e8f999a75a934baec90ae0c1a9c1bfd172019282b062502d30"
+    },
+    "sempre": {
+      "provider": "Lara Translate",
+      "it": "audio/it-70f879b16da93ae3b7fc.m4a",
+      "text": "sempre",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:37.186Z",
+      "seconds": 1.82,
+      "sha256": "e08a5ec0d991a39ec302cfdebd3e74bfa16b9857b33cf5ecc3648afe8426ddfa"
+    },
+    "aperta": {
+      "provider": "Lara Translate",
+      "it": "audio/it-16021dc7b9caed6fe1ce.m4a",
+      "text": "aperta",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:38.047Z",
+      "seconds": 1.82,
+      "sha256": "6fd5cbf145391baf3d743970da20b31da68db67f67ade2e1065caf5129b2264b"
+    },
+    "vado": {
+      "provider": "Lara Translate",
+      "it": "audio/it-3e8457806e2eb4793063.m4a",
+      "text": "vado",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:38.309Z",
+      "seconds": 1.82,
+      "sha256": "dd1e10962127dd00b0fc8e5bf352fed7e2e4b329e45a6eece29908a5460f2c97"
+    },
+    "a": {
+      "provider": "Lara Translate",
+      "it": "audio/it-799db43c1cd1156b61a8.m4a",
+      "text": "a",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:38.938Z",
+      "seconds": 0.6875,
+      "sha256": "e36925efc87e7a0808406a46b7f0f222bf8d968874ad1cb309b6d4ae0a34d393"
+    },
+    "in treno": {
+      "provider": "Lara Translate",
+      "it": "audio/it-6f20d4549751597015b7.m4a",
+      "text": "in treno",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:40.190Z",
+      "seconds": 1.82,
+      "sha256": "1e3574d1c1fbce823847e07088089fc08aa72732f4e09aa94055f92b2a69509b"
+    },
+    "tornare": {
+      "provider": "Lara Translate",
+      "it": "audio/it-83c4c4fb9b3efe299278.m4a",
+      "text": "tornare",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:40.361Z",
+      "seconds": 1.82,
+      "sha256": "13ad97b663a1c6b67f421c9c252d191c279600e6b04d12881ef1189b56c01add"
+    },
+    "qui": {
+      "provider": "Lara Translate",
+      "it": "audio/it-5719eae07864b6b2b39b.m4a",
+      "text": "qui",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:40.762Z",
+      "seconds": 0.6125,
+      "sha256": "9cd6e7c56f2cebb0f18e0c6a3f9c0f2e7b0d9e70c13cd7370a492a989972acd7"
+    },
+    "giorno": {
+      "provider": "Lara Translate",
+      "it": "audio/it-58b97903d15db809408a.m4a",
+      "text": "giorno",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:42.429Z",
+      "seconds": 1.82,
+      "sha256": "da197e443387b05c09ad485ef1409f2ba46239309cfc19ac07a1b2cc28be1ea4"
+    },
+    "prendo un caffe senza zucchero.": {
+      "provider": "Lara Translate",
+      "it": "audio/it-79b81b2cc3404be6c5e9.m4a",
+      "text": "Prendo un caffè senza zucchero.",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:42.731Z",
+      "seconds": 1.9375,
+      "sha256": "9d4906f7081ed0f34e5525c5dcce1dcf3b880fbf8faf8457daf5ed41f4e5018a"
+    },
+    "vorrei dell'acqua, per favore.": {
+      "provider": "Lara Translate",
+      "it": "audio/it-e7bae0c380f29ad5e1c0.m4a",
+      "text": "Vorrei dell'acqua, per favore.",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-27T19:26:43.191Z",
+      "seconds": 2.2125,
+      "sha256": "e741c2f2ccd0ea74ecbbbd38f59e21e72636c928e68cd899668cce396190d160"
+    }
+  },
+  "updatedAt": "2026-10-27T19:26:43.192Z"
+}

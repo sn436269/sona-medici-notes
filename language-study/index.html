@@ -1,48 +1,23 @@
 <!doctype html>
 <html lang="zh-Hant">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#244f49">
-  <meta name="description" content="SONA 的義大利文日常手札。每天一句，分五次慢慢學；義大利文、英文、中文對照，附發音、文法與個人單字庫。">
-  <title>慢慢說義大利文｜SONA 語言手札</title>
-  <link rel="icon" href="assets/rose.svg" type="image/svg+xml">
-  <link rel="canonical" href="https://sn436269.github.io/sona-medici-notes/language-study/">
-  <link rel="stylesheet" href="styles.css?v=20261027-2">
-  <script defer src="lessons.js?v=20261027-2"></script>
-  <script defer src="app.js?v=20261027-2"></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#795d59"><meta name="description" content="每天五個義大利文單字與一句生活句子，中英義對照、KK 音標、單字庫與拖曳遊戲。">
+<title>SONA 語言日常｜每天六行</title>
+<link rel="icon" href="assets/rose.svg" type="image/svg+xml">
+<link rel="canonical" href="https://sn436269.github.io/sona-medici-notes/language-study/">
+<link rel="stylesheet" href="compact.css?v=20261028-2">
+<script defer src="lessons.js?v=20261028-2"></script><script defer src="compact.js?v=20261028-2"></script>
 </head>
 <body>
-  <div class="frieze" aria-hidden="true"></div>
-  <a class="skip" href="#main">跳至學習內容</a>
-  <div class="nav-shade" id="nav-shade"></div>
-  <aside class="sidebar" id="sidebar">
-    <a class="brand" href="#today"><img src="assets/rose.svg" width="42" height="42" alt=""><span>SONA<small>LANGUAGE JOURNAL</small></span></a>
-    <p class="side-caption">一頁一句，走進義大利的日常。</p>
-    <div class="side-rule"></div>
-    <p class="nav-label">我的語言學習室</p>
-    <nav aria-label="主要導覽">
-      <a href="#today" data-view="today"><span data-icon="sun"></span>今日一句<span class="nav-dot"></span></a>
-      <a href="#calendar" data-view="calendar"><span data-icon="calendar"></span>30 天學習計畫</a>
-      <a href="#vocabulary" data-view="vocabulary"><span data-icon="book"></span>三語單字庫<span class="nav-count" id="word-count"></span></a>
-      <a href="#grammar" data-view="grammar"><span data-icon="feather"></span>文法手札</a>
-      <a href="#favorites" data-view="favorites"><span data-icon="heart"></span>我的收藏</a>
-      <a href="#progress" data-view="progress"><span data-icon="chart"></span>學習足跡</a>
-    </nav>
-    <div class="sidebar-note"><span>UN GIORNO, UNA FRASE.</span><p>不急著學很多，<br>先把一句話學好。</p><small>Italiano · English · 繁體中文</small></div>
-    <a class="study-link" href="../duomo-study/">回到美第奇研究手札 ↗</a>
-    <div class="side-bottom"><span class="avatar">S.</span><div>SONA 的語言時光<small>Un piccolo passo ogni giorno.</small></div><button class="icon-button" id="settings-button" aria-label="備份與學習設定"><span data-icon="settings"></span></button></div>
-  </aside>
-  <div class="page">
-    <header class="topbar"><div class="breadcrumbs"><button class="icon-button menu-button" id="menu-button" aria-label="開啟導覽" aria-expanded="false"><span data-icon="menu"></span></button><span>語言手札</span><span class="slash">/</span><strong id="page-label">今日一句</strong></div><div class="topbar-right"><span class="live-dot"></span><span id="today-date"></span><button class="icon-button" id="about-button" aria-label="使用與資料說明"><span data-icon="help"></span></button></div></header>
-    <main id="main" tabindex="-1"></main>
-    <footer><span>SONA · 慢慢說義大利文</span><span>把每一個單字，留成生活的風景。</span><button class="text-button" id="source-button">關於這份手札 ↗</button></footer>
-  </div>
-  <dialog id="word-dialog" aria-labelledby="word-dialog-title"><div class="dialog-top"><span>IL MIO VOCABOLARIO / 單字手札</span><button class="icon-button" data-close="word-dialog" aria-label="關閉單字"><span data-icon="close"></span></button></div><div class="dialog-body" id="word-detail"></div></dialog>
-  <dialog id="add-dialog" aria-labelledby="add-title"><div class="dialog-top"><span>A NEW WORD / 收下一個新單字</span><button class="icon-button" data-close="add-dialog" aria-label="關閉新增單字"><span data-icon="close"></span></button></div><form id="add-form" class="dialog-body"><h2 id="add-title">加入我的單字庫</h2><p class="muted">記下在生活裡遇見的義大利文。</p><label>義大利文<input name="it" required maxlength="100" placeholder="例如：buongiorno" autocomplete="off"></label><div class="form-grid"><label>English<input name="en" required maxlength="150" placeholder="Good morning"></label><label>繁體中文<input name="zh" required maxlength="150" placeholder="早安"></label><label>義大利文 IPA（選填）<input name="ipa" maxlength="150" placeholder="/bwɔnˈdʒor.no/"></label><label>英文 KK／美式音標（選填）<input name="kk" maxlength="150" placeholder="/ɡʊd ˈmɔrnɪŋ/"></label></div><label>詞性或用法筆記（選填）<textarea name="note" maxlength="1000" rows="3" placeholder="在哪裡遇見這個單字？"></textarea></label><button class="button primary" type="submit">儲存單字 <span data-icon="plus"></span></button></form></dialog>
-  <dialog id="settings-dialog" aria-labelledby="settings-title"><div class="dialog-top"><span>YOUR PERSONAL ARCHIVE</span><button class="icon-button" data-close="settings-dialog" aria-label="關閉設定"><span data-icon="close"></span></button></div><div class="dialog-body"><h2 id="settings-title">帶著你的學習紀錄。</h2><p>完成進度、收藏、自訂單字與筆記保存在目前瀏覽器。下載備份後，可在另一台裝置匯入。</p><label>第 1 天的開始日期<input type="date" id="start-date" required></label><p class="small muted">以台北時間計算每日課程。可以提前閱讀，也可以隨時回看；30 天後仍可繼續複習。</p><div class="button-row"><button class="button primary" id="save-start">儲存開始日期</button><button class="button outline" id="export-backup">下載備份 ↓</button><label class="button outline file-button" for="import-backup">匯入備份 ↑</label><input id="import-backup" type="file" accept=".json,application/json" hidden></div><div id="import-review" class="notice" hidden></div><p class="small muted">網站的時段提示只在開啟頁面時更新；沿用既有學習安排，不會傳送背景通知或自動同步 ChatGPT 課程。</p></div></dialog>
-  <dialog id="about-dialog" aria-labelledby="about-title"><div class="dialog-top"><span>ABOUT THIS JOURNAL</span><button class="icon-button" data-close="about-dialog" aria-label="關閉說明"><span data-icon="close"></span></button></div><div class="dialog-body"><p class="eyebrow">PIANO PIANO, OGNI GIORNO.</p><h2 id="about-title">一天一句，五次慢慢學。</h2><p>依照 SONA 的「每天一句，分五次拆解」安排製作。每天 08:00、11:00、14:00、17:00、20:00，依序認識同一句話裡的單字、語法和用法，晚上回顧整句。</p><p>第 1 天保留原對話的 <span lang="it">Vorrei dell'acqua, per favore.</span>；第 2–30 天是為網站預先編寫的延伸教材，先從生活、點餐與購物開始，再進入交通與觀光。所有課程皆提供義大利文、英文與繁體中文；沒有測驗。</p><p>音標中的 KK 採美式讀音；句組音標是英文對譯的讀法。義大利文另列 IPA。中文近似音只作輔助，實際請以義大利文語音為主。播放使用裝置的語音引擎，聲音品質與可用語言依瀏覽器而異。</p><p>資料存在這台裝置的瀏覽器，沒有帳號同步。自訂單字只留在個人紀錄，不會公開到 GitHub。</p><div class="source-links"><a href="https://chatgpt.com/share/6ae095a3-39f0-83e8-bdc1-4581c057fee3" target="_blank" rel="noopener">原始學習安排 ↗</a><a href="../duomo-study/">視覺參考：穹頂下的美第奇 ↗</a></div></div></dialog>
-  <div id="toast" role="status" aria-live="polite"></div>
-  <noscript><p class="noscript">請開啟 JavaScript，以閱讀三語課程及使用單字庫。</p></noscript>
-</body>
-</html>
+<a class="skip" href="#main">跳至內容</a>
+<header class="header"><a class="brand" href="#today"><img src="assets/rose.svg" width="28" height="28" alt=""><span>SONA <b>語言日常</b></span></a><div class="header-actions"><span id="today-date"></span><button class="plain" id="settings-button" aria-label="備份與設定">設定</button></div></header>
+<div class="navigation"><nav aria-label="主要分頁"><a href="#today" data-view="today">每天學習</a><a href="#vocabulary" data-view="vocabulary">單字庫 <span id="word-count"></span></a><a href="#game" data-view="game">單字遊戲</a></nav><a class="back-link" href="../duomo-study/">研究手札 ↗</a></div>
+<main id="main" tabindex="-1"><p class="loading">正在讀取每日學習……</p></main>
+<footer><span>SONA · Italiano / English / 中文</span><button class="plain" id="about-button">使用說明</button></footer>
+<dialog id="word-dialog" aria-labelledby="word-title"><div class="dialog-heading"><h2 id="word-title">單字</h2><button class="plain" data-close="word-dialog" aria-label="關閉單字">關閉 ×</button></div><div id="word-body" class="dialog-body"></div></dialog>
+<dialog id="add-dialog" aria-labelledby="add-title"><div class="dialog-heading"><h2 id="add-title">新增單字</h2><button class="plain" data-close="add-dialog" aria-label="關閉新增單字">關閉 ×</button></div><form class="dialog-body" id="add-form"><label>義大利文<input name="it" required maxlength="100" autocomplete="off"></label><div class="form-pair"><label>英文<input name="en" required maxlength="150"></label><label>中文<input name="zh" required maxlength="150"></label></div><div class="form-pair"><label>英文 KK（選填）<input name="kk" maxlength="150"></label><label>義大利文 IPA（選填）<input name="ipa" maxlength="150"></label></div><label>筆記（選填）<textarea name="note" rows="2" maxlength="1000"></textarea></label><button class="button dark" type="submit">儲存單字</button></form></dialog>
+<dialog id="settings-dialog" aria-labelledby="settings-title"><div class="dialog-heading"><h2 id="settings-title">備份與設定</h2><button class="plain" data-close="settings-dialog" aria-label="關閉設定">關閉 ×</button></div><div class="dialog-body"><p>收藏、自訂單字與遊戲紀錄保存在目前瀏覽器，可下載備份帶到另一台裝置。</p><div class="actions"><button class="button dark" id="export-backup">下載個人紀錄</button><label class="button" for="import-backup">匯入個人紀錄</label><input type="file" id="import-backup" accept=".json,application/json" hidden></div><div id="import-review" hidden></div><hr><h3>每日教材</h3><p>每天 08:00（台北時間）檢查並發布新一天的五個重點與一句句子，最新日期放最上方。背景更新需要 Mac 與 Codex 可執行。</p><p class="small">本地網站與教材備份：<br><code>/Users/sona/Desktop/Medici/語言/備份</code></p><h3>語音</h3><p id="voice-status">義大利文直接播放 Lara 原音，不需跳頁。英文使用裝置的美式英文語音。</p></div></dialog>
+<dialog id="about-dialog" aria-labelledby="about-title"><div class="dialog-heading"><h2 id="about-title">每天，六行就好。</h2><button class="plain" data-close="about-dialog" aria-label="關閉說明">關閉 ×</button></div><div class="dialog-body"><p>每天五個單字或詞組，加一句完整句子；同一排看中文、義大利文、英文與英文 KK。點單字可看義大利文 IPA、文法和用法。</p><p>每日學習只收錄已發布的日期，最新在上方。單字庫可搜尋三種語言；遊戲把正確的義大利文拖到中文框，也可直接點方塊。</p><p>義大利文只播放經確認的 Lara 音檔；沒有音檔時會明確提示，不以其他聲音代替。英文使用裝置語音。網站程式備份與你的瀏覽器個人紀錄分開保存。</p><p><a href="https://laratranslate.com/%E7%BF%BB%E8%AD%AF" target="_blank" rel="noopener">Lara Translate ↗</a> · <a href="https://chatgpt.com/share/6ae095a3-39f0-83e8-bdc1-4581c057fee3" target="_blank" rel="noopener">原學習安排 ↗</a></p></div></dialog>
+<audio id="italian-player" preload="none" hidden></audio><div id="toast" role="status" aria-live="polite"></div><noscript>請啟用 JavaScript 讀取每日學習。</noscript>
+</body></html>
