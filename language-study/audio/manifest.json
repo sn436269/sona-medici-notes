@@ -1032,7 +1032,17 @@
       "generatedAt": "2026-10-27T19:26:43.191Z",
       "seconds": 2.2125,
       "sha256": "e741c2f2ccd0ea74ecbbbd38f59e21e72636c928e68cd899668cce396190d160"
+    },
+    "vorrei un te con latte.": {
+      "provider": "Lara Translate",
+      "it": "audio/it-88eedf50c6d0b5b8be6c.m4a",
+      "text": "Vorrei un tè con latte.",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-29T00:03:48.047Z",
+      "seconds": 1.82,
+      "sha256": "df017d1d9c1336c34e3975f067f9aac49718b7e1004eb7152000898a8aa89fe0"
     }
   },
-  "updatedAt": "2026-10-27T19:26:43.192Z"
+  "updatedAt": "2026-10-29T00:03:48.048Z"
 }

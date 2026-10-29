@@ -1,8 +1,71 @@
 {
   "version": 2,
   "curriculumStart": "2026-10-27",
-  "updatedAt": "2026-10-27T19:22:40.250Z",
+  "updatedAt": "2026-10-29T00:03:32.401Z",
   "days": [
+    {
+      "id": 3,
+      "topic": "餐桌日常",
+      "title": "今天喝奶茶",
+      "it": "Vorrei un tè con latte.",
+      "en": "I would like a tea with milk.",
+      "zh": "我想要一杯加牛奶的茶。",
+      "pronunciation": "vor-RÈI un TÈ kon LÀT-te",
+      "words": [
+        {
+          "it": "Vorrei",
+          "en": "I would like",
+          "zh": "我想要",
+          "ipa": "/vorˈrɛi/",
+          "kk": "/aɪ wʊd laɪk/",
+          "pos": "動詞・條件式",
+          "note": "複習熟悉的禮貌開頭。這次請求的對象由水換成茶，動詞保持不變。",
+          "hint": ""
+        },
+        {
+          "it": "un",
+          "en": "a",
+          "zh": "一杯、一個",
+          "ipa": "/un/",
+          "kk": "/ə/",
+          "pos": "陽性不定冠詞",
+          "note": "tè 是陽性單數名詞，所以前面用 un。",
+          "hint": ""
+        },
+        {
+          "it": "tè",
+          "en": "tea",
+          "zh": "茶",
+          "ipa": "/tɛ/",
+          "kk": "/ti/",
+          "pos": "陽性名詞",
+          "note": "字尾有重音符號；義大利文 tè 與不帶重音的 te 是不同的字。",
+          "hint": ""
+        },
+        {
+          "it": "con",
+          "en": "with",
+          "zh": "和、加上",
+          "ipa": "/kon/",
+          "kk": "/wɪð/",
+          "pos": "介系詞",
+          "note": "con 表示伴隨或搭配。在飲料裡可以理解成「加上」。",
+          "hint": ""
+        },
+        {
+          "it": "latte",
+          "en": "milk",
+          "zh": "牛奶",
+          "ipa": "/ˈlat.te/",
+          "kk": "/mɪlk/",
+          "pos": "陽性名詞",
+          "note": "latte 是陽性名詞。雙寫 tt 稍微停留；con latte 是「加牛奶」。把今天這一句完整說一次。",
+          "hint": ""
+        }
+      ],
+      "date": "2026-10-29",
+      "kk": "/aɪ wʊd laɪk ə ti wɪð mɪlk/"
+    },
     {
       "id": 2,
       "topic": "餐桌日常",
