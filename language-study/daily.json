@@ -1,8 +1,71 @@
 {
   "version": 2,
   "curriculumStart": "2026-10-27",
-  "updatedAt": "2026-10-29T00:03:32.401Z",
+  "updatedAt": "2026-10-30T01:49:14.096Z",
   "days": [
+    {
+      "id": 4,
+      "topic": "餐桌日常",
+      "title": "稱讚好吃的麵包",
+      "it": "Questo pane è molto buono.",
+      "en": "This bread is very good.",
+      "zh": "這個麵包非常好吃。",
+      "pronunciation": "KWÈ-sto PÀ-ne È MÓL-to BWÒ-no",
+      "words": [
+        {
+          "it": "Questo",
+          "en": "this",
+          "zh": "這個",
+          "ipa": "/ˈkwes.to/",
+          "kk": "/ðɪs/",
+          "pos": "指示形容詞",
+          "note": "questo 修飾陽性單數的 pane，意思是「這個」。",
+          "hint": ""
+        },
+        {
+          "it": "pane",
+          "en": "bread",
+          "zh": "麵包",
+          "ipa": "/ˈpa.ne/",
+          "kk": "/brɛd/",
+          "pos": "陽性名詞",
+          "note": "雖然以 e 結尾，pane 是陽性名詞。記單字時也一起記性別。",
+          "hint": ""
+        },
+        {
+          "it": "è",
+          "en": "is",
+          "zh": "是",
+          "ipa": "/ɛ/",
+          "kk": "/ɪz/",
+          "pos": "動詞・現在式",
+          "note": "essere 的第三人稱單數。帶重音的 è 是「是」，不帶重音的 e 是「和」。",
+          "hint": ""
+        },
+        {
+          "it": "molto",
+          "en": "very",
+          "zh": "非常",
+          "ipa": "/ˈmol.to/",
+          "kk": "/ˈvɛrɪ/",
+          "pos": "副詞",
+          "note": "在這裡修飾 buono，表示「非常」，不用跟著名詞改變性別。",
+          "hint": ""
+        },
+        {
+          "it": "buono",
+          "en": "good",
+          "zh": "好的、好吃的",
+          "ipa": "/ˈbwɔ.no/",
+          "kk": "/ɡʊd/",
+          "pos": "形容詞・陽性單數",
+          "note": "buono 形容陽性單數 pane。今天整句是「這個麵包＋是＋非常好吃」。",
+          "hint": ""
+        }
+      ],
+      "date": "2026-10-30",
+      "kk": "/ðɪs brɛd ɪz ˈvɛrɪ ɡʊd/"
+    },
     {
       "id": 3,
       "topic": "餐桌日常",

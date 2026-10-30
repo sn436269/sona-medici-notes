@@ -1042,7 +1042,17 @@
       "generatedAt": "2026-10-29T00:03:48.047Z",
       "seconds": 1.82,
       "sha256": "df017d1d9c1336c34e3975f067f9aac49718b7e1004eb7152000898a8aa89fe0"
+    },
+    "questo pane e molto buono.": {
+      "provider": "Lara Translate",
+      "it": "audio/it-73d95c8ee4fe569b27ab.m4a",
+      "text": "Questo pane è molto buono.",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-30T01:49:28.058Z",
+      "seconds": 1.82,
+      "sha256": "c08452c4763ad7fef2d31659e8885c9ab0dd6dcad0e90176d1cfe3f4c88c2f29"
     }
   },
-  "updatedAt": "2026-10-29T00:03:48.048Z"
+  "updatedAt": "2026-10-30T01:49:28.059Z"
 }
