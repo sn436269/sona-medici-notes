@@ -1052,7 +1052,17 @@
       "generatedAt": "2026-10-30T01:49:28.058Z",
       "seconds": 1.82,
       "sha256": "c08452c4763ad7fef2d31659e8885c9ab0dd6dcad0e90176d1cfe3f4c88c2f29"
+    },
+    "posso avere il conto, per favore?": {
+      "provider": "Lara Translate",
+      "it": "audio/it-fa25a1597d2b82f4074e.m4a",
+      "text": "Posso avere il conto, per favore?",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-10-31T08:27:41.477Z",
+      "seconds": 2.35,
+      "sha256": "985006c2e223b40671722b98f83680bfc8983e86ad1c91d8e501dfc5e5901ed6"
     }
   },
-  "updatedAt": "2026-10-30T01:49:28.059Z"
+  "updatedAt": "2026-10-31T08:27:41.478Z"
 }

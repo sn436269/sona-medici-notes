@@ -1,8 +1,71 @@
 {
   "version": 2,
   "curriculumStart": "2026-10-27",
-  "updatedAt": "2026-10-30T01:49:14.096Z",
+  "updatedAt": "2026-10-31T08:27:30.344Z",
   "days": [
+    {
+      "id": 5,
+      "topic": "餐桌日常",
+      "title": "禮貌地結帳",
+      "it": "Posso avere il conto, per favore?",
+      "en": "May I have the bill, please?",
+      "zh": "可以給我帳單嗎，麻煩你？",
+      "pronunciation": "PÒS-so a-VÉ-re il KÓN-to per fa-VÓ-re",
+      "words": [
+        {
+          "it": "Posso",
+          "en": "may I",
+          "zh": "我可以嗎",
+          "ipa": "/ˈpɔs.so/",
+          "kk": "/me aɪ/",
+          "pos": "動詞・現在式",
+          "note": "potere 的第一人稱單數。句尾加問號並配合語調，就能禮貌地詢問可不可以。",
+          "hint": ""
+        },
+        {
+          "it": "avere",
+          "en": "have",
+          "zh": "有、取得",
+          "ipa": "/aˈve.re/",
+          "kk": "/hæv/",
+          "pos": "動詞・不定式",
+          "note": "Posso 後面的動詞保留不定式，所以使用 avere。這裡指「取得、拿到」。",
+          "hint": ""
+        },
+        {
+          "it": "il",
+          "en": "the",
+          "zh": "這個、該",
+          "ipa": "/il/",
+          "kk": "/ðə/",
+          "pos": "陽性定冠詞",
+          "note": "il 放在 conto 前。中文通常省略冠詞，不必每次都翻出來。",
+          "hint": ""
+        },
+        {
+          "it": "conto",
+          "en": "bill",
+          "zh": "帳單",
+          "ipa": "/ˈkon.to/",
+          "kk": "/bɪl/",
+          "pos": "陽性名詞",
+          "note": "餐廳裡 il conto 指用餐帳單。重音在第一音節。",
+          "hint": ""
+        },
+        {
+          "it": "per favore",
+          "en": "please",
+          "zh": "請、麻煩你",
+          "ipa": "/per faˈvo.re/",
+          "kk": "/pliz/",
+          "pos": "禮貌用語",
+          "note": "今天將 per favore 當成完整詞組複習。Posso avere ＋ il conto ＋ per favore，一句就能完成請求。",
+          "hint": ""
+        }
+      ],
+      "date": "2026-10-31",
+      "kk": "/me aɪ hæv ðə bɪl pliz/"
+    },
     {
       "id": 4,
       "topic": "餐桌日常",
