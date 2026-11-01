@@ -1,8 +1,71 @@
 {
   "version": 2,
   "curriculumStart": "2026-10-27",
-  "updatedAt": "2026-10-31T08:27:30.344Z",
+  "updatedAt": "2026-11-01T01:59:43.312Z",
   "days": [
+    {
+      "id": 6,
+      "topic": "餐桌日常",
+      "title": "說出自己的喜歡",
+      "it": "Mi piace questa pasta italiana.",
+      "en": "I like this Italian pasta.",
+      "zh": "我喜歡這道義大利麵。",
+      "pronunciation": "mi PIÀ-che KWÈ-sta PÀ-sta i-ta-LIÀ-na",
+      "words": [
+        {
+          "it": "Mi",
+          "en": "to me",
+          "zh": "對我、我",
+          "ipa": "/mi/",
+          "kk": "/tə mi/",
+          "pos": "間接受詞代名詞",
+          "note": "mi 在這裡是「對我」。整個 mi piace 用自然中文翻成「我喜歡」。",
+          "hint": ""
+        },
+        {
+          "it": "piace",
+          "en": "is pleasing",
+          "zh": "令人喜歡",
+          "ipa": "/ˈpja.tʃe/",
+          "kk": "/ɪz ˈplizɪŋ/",
+          "pos": "動詞・現在式",
+          "note": "piacere 的第三人稱單數，這句真正的文法主詞是 pasta。mi piace 合起來理解比較自然。",
+          "hint": ""
+        },
+        {
+          "it": "questa",
+          "en": "this",
+          "zh": "這個、這道",
+          "ipa": "/ˈkwes.ta/",
+          "kk": "/ðɪs/",
+          "pos": "指示形容詞",
+          "note": "pasta 是陰性單數，這裡要用 questa。",
+          "hint": ""
+        },
+        {
+          "it": "pasta",
+          "en": "pasta",
+          "zh": "義大利麵、麵食",
+          "ipa": "/ˈpas.ta/",
+          "kk": "/ˈpɑstə/",
+          "pos": "陰性名詞",
+          "note": "在用餐情境裡 pasta 指義大利麵食。",
+          "hint": ""
+        },
+        {
+          "it": "italiana",
+          "en": "Italian",
+          "zh": "義大利的",
+          "ipa": "/i.taˈlja.na/",
+          "kk": "/ɪˈtæljən/",
+          "pos": "形容詞・陰性單數",
+          "note": "italiana 配合陰性 pasta；國籍形容詞在義大利文通常不用大寫。整句只練這一道菜的喜歡。",
+          "hint": ""
+        }
+      ],
+      "date": "2026-11-01",
+      "kk": "/aɪ laɪk ðɪs ɪˈtæljən ˈpɑstə/"
+    },
     {
       "id": 5,
       "topic": "餐桌日常",

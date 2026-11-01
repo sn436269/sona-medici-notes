@@ -1062,7 +1062,17 @@
       "generatedAt": "2026-10-31T08:27:41.477Z",
       "seconds": 2.35,
       "sha256": "985006c2e223b40671722b98f83680bfc8983e86ad1c91d8e501dfc5e5901ed6"
+    },
+    "mi piace questa pasta italiana.": {
+      "provider": "Lara Translate",
+      "it": "audio/it-f3ccd331a81a039dc1c6.m4a",
+      "text": "Mi piace questa pasta italiana.",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-01T02:00:01.029Z",
+      "seconds": 2.075,
+      "sha256": "1f03437ec1ee0fe60d19beff7db43e01e0065b014e2dad95a73e6b78d11d527a"
     }
   },
-  "updatedAt": "2026-10-31T08:27:41.478Z"
+  "updatedAt": "2026-11-01T02:00:01.036Z"
 }
