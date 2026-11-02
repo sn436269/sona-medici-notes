@@ -1072,7 +1072,17 @@
       "generatedAt": "2026-11-01T02:00:01.029Z",
       "seconds": 2.075,
       "sha256": "1f03437ec1ee0fe60d19beff7db43e01e0065b014e2dad95a73e6b78d11d527a"
+    },
+    "vorrei un tavolo per due.": {
+      "provider": "Lara Translate",
+      "it": "audio/it-d542a69657b75cdd7d8f.m4a",
+      "text": "Vorrei un tavolo per due.",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-02T11:13:59.307Z",
+      "seconds": 1.82,
+      "sha256": "35e62abc2d2449f911f425297f59f49cf61455b0f135d902abd0122a0e7cfb48"
     }
   },
-  "updatedAt": "2026-11-01T02:00:01.036Z"
+  "updatedAt": "2026-11-02T11:13:59.307Z"
 }
