@@ -24,4 +24,6 @@ Node 路徑：`/Users/sona/.cache/codex-runtimes/codex-primary-runtime/dependenc
 
 原版個人紀錄 key `sona-language-journal-v1` 已保留；個人收藏、熟悉標記、自訂單字、歷史完成與筆記不可因版面更新被清空。
 
-英文語音偏好（2026/11/02 使用者指定）：所有英文播放必須使用英國英式口音的女生（en-GB）。優先一般或自然英國女聲，設定選單只列出英國女聲；不回退到美式或男性聲音。裝置沒有相符聲音時顯示明確提示。
+英文語音偏好（2026/11/03 使用者指定）：所有英文播放使用固定、年輕感的英國英式女性聲線。已改為 Kokoro-82M 的 bf_emma（British female）同源音檔，不再使用裝置的 Flo／Sandy／Shelley，不提供聲音選單、語音設定或試聽設定。不得回退到美式、男性或裝置聲線。
+每日更新文字與 Lara 義大利文原音後，執行 /Users/sona/.cache/sona-british-voice/venv/bin/python scripts/generate-english-audio.py，補足所有教材的英文音檔並更新 audio/english-manifest.json；檢查每個教材英文都有對應音檔，發布新增音檔和 manifest。缺少英式音檔時顯示待備妥提示，不能替換成其他聲音。私人自訂單字不會傳送到外部或自動公開；沒有音檔時明確提示。
+模型和 Python 環境只在 /Users/sona/.cache/sona-british-voice，不能上傳模型或 venv；下載來源與安裝說明在 scripts/ENGLISH-AUDIO.md。英文使用 Kokoro 的 Apache-2.0 授權模型；義大利文仍只准使用既有 Lara 原音，不能用 Kokoro 替代。
