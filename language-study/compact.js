@@ -95,29 +95,30 @@ function openWord(id,date,index){const baseWord=find(id);if(!baseWord)return;con
 function openSentence(d){currentWordId=null;$('#word-title').textContent=fmt(d.date)+' · 今日句子';$('#word-body').innerHTML=`<h3 class="dialog-word" style="font-size:24px" lang="it">${esc(d.it)}</h3><p class="dialog-subtitle">${esc(d.zh)}<br><span lang="en">${esc(d.en)}</span></p><dl class="row-details"><div><dt>英文 KK</dt><dd>${esc(d.kk)}</dd></div><div><dt>義大利文發音輔助</dt><dd>${esc(d.pronunciation||'')}</dd></div></dl><div class="actions">${audioButtons(d)}${favorite(d.id,'lesson')}</div><p class="note">${d.words.map(w=>esc(w.it)+' = '+esc(w.zh)).join('<br>')}</p>`;if(!$('#word-dialog').open)$('#word-dialog').showModal();}
 let player=$('#italian-player'),utterance=null;
 async function italian(text){const src=audioFile(text);if(!src){toast('這個詞句的 Lara 原音尚未備妥，請稍後再試。');return;}player.pause();if('speechSynthesis'in window)window.speechSynthesis.cancel();player.src=src;try{await player.play();}catch{toast('Lara 音檔未能播放，請稍後重試。');}}
-const ENGLISH_VOICE_KEY='sona-english-voice-v1';
+const ENGLISH_VOICE_KEY='sona-english-voice-gb-female-v1';
 let englishVoiceURI='';
 try{englishVoiceURI=localStorage.getItem(ENGLISH_VOICE_KEY)||'';}catch{}
 function englishVoices(){
  if(!('speechSynthesis'in window))return [];
  const novelty=/Albert|Bad News|Bahh|Bells|Boing|Bubbles|Cellos|Deranged|Good News|Hysterical|Jester|Organ|Trinoids|Whisper|Wobble|Zarvox|Superstar/i;
- const score=v=>(/Natural|Neural|Online|Premium|Enhanced/i.test(v.name)?100:0)+(/Samantha|Ava|Allison|Alex|Aria|Jenny|Guy/i.test(v.name)?50:0)+(/Google US English/i.test(v.name)?70:0)+(v.default?5:0);
- return window.speechSynthesis.getVoices().filter(v=>/^en[-_]US$/i.test(v.lang)&&!novelty.test(v.name)).sort((a,b)=>score(b)-score(a)||a.name.localeCompare(b.name));
+ const female=/Female|Serena|Kate|Stephanie|Martha|Sonia|Libby|Susan|Hazel|Maisie|Abbi|Georgina|Lily|Flo|Sandy|Shelley/i;
+ const score=v=>(/Natural|Neural|Online|Premium|Enhanced/i.test(v.name)?100:0)+(/Serena|Kate|Sonia|Libby/i.test(v.name)?50:0)+(/Google UK English Female/i.test(v.name)?70:0)+(v.default?5:0);
+ return window.speechSynthesis.getVoices().filter(v=>/^en[-_]GB$/i.test(v.lang)&&female.test(v.name)&&!novelty.test(v.name)).sort((a,b)=>score(b)-score(a)||a.name.localeCompare(b.name));
 }
 function selectedEnglishVoice(){const voices=englishVoices();return voices.find(v=>v.voiceURI===englishVoiceURI)||voices[0];}
 function refreshEnglishVoices(){
  const select=$('#english-voice'),status=$('#english-voice-status');if(!select||!status)return;
  const voices=englishVoices(),chosen=selectedEnglishVoice();
- select.innerHTML='<option value="">自動選擇一般美式人聲</option>'+voices.map(v=>`<option value="${esc(v.voiceURI)}">${esc(v.name)}</option>`).join('');
+ select.innerHTML='<option value="">自動選擇英國英式女聲</option>'+voices.map(v=>`<option value="${esc(v.voiceURI)}">${esc(v.name)}</option>`).join('');
  select.value=voices.some(v=>v.voiceURI===englishVoiceURI)?englishVoiceURI:'';
- status.textContent=chosen?`目前：${chosen.name} · 美式英文 · 正常語速`:'尚未取得一般美式英文語音；請稍候，或在裝置下載美式英文語音。';
+ status.textContent=chosen?`目前：${chosen.name} · 英國英式女聲 · 正常語速`:'尚未取得英國英式女聲；請稍候，或在裝置下載英國英式女聲。';
 }
 function english(text){
  if(!('speechSynthesis'in window)){toast('此瀏覽器不支援英文語音。');return;}
  const voice=selectedEnglishVoice();refreshEnglishVoices();
- if(!voice){toast('尚未取得一般美式英文語音。請稍後重試，或在裝置下載美式英文語音。');return;}
- if(player)player.pause();const synth=window.speechSynthesis;synth.cancel();utterance=new SpeechSynthesisUtterance(text);utterance.lang='en-US';utterance.rate=1;utterance.pitch=1;utterance.voice=voice;
- utterance.onstart=()=>{const status=$('#english-voice-status');if(status)status.textContent=`正在播放：${voice.name} · 美式英文 · 正常語速`;};
+ if(!voice){toast('尚未取得英國英式女聲。請稍後重試，或在裝置下載英國英式女聲。');return;}
+ if(player)player.pause();const synth=window.speechSynthesis;synth.cancel();utterance=new SpeechSynthesisUtterance(text);utterance.lang='en-GB';utterance.rate=1;utterance.pitch=1;utterance.voice=voice;
+ utterance.onstart=()=>{const status=$('#english-voice-status');if(status)status.textContent=`正在播放：${voice.name} · 英國英式女聲 · 正常語速`;};
  utterance.onend=refreshEnglishVoices;
  utterance.onerror=e=>{refreshEnglishVoices();if(!['interrupted','canceled'].includes(e.error))toast('英文語音未能播放，請在備份與設定切換聲音。');};synth.speak(utterance);
 }
@@ -162,6 +163,6 @@ window.addEventListener('storage',e=>{if(e.key===KEY&&e.newValue){try{state=vali
 function updateClock(){$('#today-date').textContent=fmt(today());}
 async function loadDaily(){try{const response=await fetch('daily.json',{cache:'no-store'});if(!response.ok)throw Error('無法讀取每日教材');const data=await response.json();if(data.version!==2||!Array.isArray(data.days)||!data.days.every(d=>/^\d{4}-\d{2}-\d{2}$/.test(d.date)&&Array.isArray(d.words)&&d.words.length===5&&['it','en','zh','kk'].every(k=>typeof d[k]==='string')))throw Error('教材格式錯誤');daily=data;loaded=true;if(view==='today'||view==='game')render();}catch(e){loaded=false;if(view==='today')$('#main').innerHTML='<div class="empty">每日教材暫時無法載入。<button class="plain" data-action="reload-data">重新讀取</button></div>';toast(e.message);}}
 document.addEventListener('click',e=>{if(e.target.closest('[data-action="reload-data"]'))loadDaily();});
-async function loadAudio(){try{const r=await fetch('audio/manifest.json',{cache:'no-store'});if(r.ok){const data=await r.json();if(data.version===1&&data.entries&&typeof data.entries==='object'){audioManifest=data;$('#voice-status').textContent=Object.keys(data.entries).length?'義大利文直接播放 Lara 原音，已存成網站音檔，不需跳頁。英文使用裝置的美式英文語音。':'義大利文 Lara 音檔尚未備妥，沒有用其他聲音代替。';render();}}}catch{}}
+async function loadAudio(){try{const r=await fetch('audio/manifest.json',{cache:'no-store'});if(r.ok){const data=await r.json();if(data.version===1&&data.entries&&typeof data.entries==='object'){audioManifest=data;$('#voice-status').textContent=Object.keys(data.entries).length?'義大利文直接播放 Lara 原音，已存成網站音檔，不需跳頁。英文使用裝置的英國英式女聲。':'義大利文 Lara 音檔尚未備妥，沒有用其他聲音代替。';render();}}}catch{}}
 updateClock();render();loadDaily();loadAudio();setInterval(()=>{updateClock();loadDaily();},60000);
 })();

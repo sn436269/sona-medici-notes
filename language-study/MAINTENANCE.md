@@ -23,3 +23,5 @@ GitHub：`sn436269/sona-medici-notes`，`main` 分支的 `language-study/`。只
 Node 路徑：`/Users/sona/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node`。
 
 原版個人紀錄 key `sona-language-journal-v1` 已保留；個人收藏、熟悉標記、自訂單字、歷史完成與筆記不可因版面更新被清空。
+
+英文語音偏好（2026/11/02 使用者指定）：所有英文播放必須使用英國英式口音的女生（en-GB）。優先一般或自然英國女聲，設定選單只列出英國女聲；不回退到美式或男性聲音。裝置沒有相符聲音時顯示明確提示。
