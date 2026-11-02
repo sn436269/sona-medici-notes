@@ -95,7 +95,35 @@ function openWord(id,date,index){const baseWord=find(id);if(!baseWord)return;con
 function openSentence(d){currentWordId=null;$('#word-title').textContent=fmt(d.date)+' · 今日句子';$('#word-body').innerHTML=`<h3 class="dialog-word" style="font-size:24px" lang="it">${esc(d.it)}</h3><p class="dialog-subtitle">${esc(d.zh)}<br><span lang="en">${esc(d.en)}</span></p><dl class="row-details"><div><dt>英文 KK</dt><dd>${esc(d.kk)}</dd></div><div><dt>義大利文發音輔助</dt><dd>${esc(d.pronunciation||'')}</dd></div></dl><div class="actions">${audioButtons(d)}${favorite(d.id,'lesson')}</div><p class="note">${d.words.map(w=>esc(w.it)+' = '+esc(w.zh)).join('<br>')}</p>`;if(!$('#word-dialog').open)$('#word-dialog').showModal();}
 let player=$('#italian-player'),utterance=null;
 async function italian(text){const src=audioFile(text);if(!src){toast('這個詞句的 Lara 原音尚未備妥，請稍後再試。');return;}player.pause();if('speechSynthesis'in window)window.speechSynthesis.cancel();player.src=src;try{await player.play();}catch{toast('Lara 音檔未能播放，請稍後重試。');}}
-function english(text){if(!('speechSynthesis'in window)){toast('此瀏覽器不支援英文語音。');return;}if(player)player.pause();const synth=window.speechSynthesis;synth.cancel();utterance=new SpeechSynthesisUtterance(text);utterance.lang='en-US';utterance.rate=.85;const voices=synth.getVoices(),voice=voices.find(v=>/^en[-_]US$/i.test(v.lang))||voices.find(v=>/^en/i.test(v.lang));if(voice)utterance.voice=voice;utterance.onerror=e=>{if(!['interrupted','canceled'].includes(e.error))toast('英文語音未能播放，請檢查裝置語音設定。');};synth.speak(utterance);}
+const ENGLISH_VOICE_KEY='sona-english-voice-v1';
+let englishVoiceURI='';
+try{englishVoiceURI=localStorage.getItem(ENGLISH_VOICE_KEY)||'';}catch{}
+function englishVoices(){
+ if(!('speechSynthesis'in window))return [];
+ const novelty=/Albert|Bad News|Bahh|Bells|Boing|Bubbles|Cellos|Deranged|Good News|Hysterical|Jester|Organ|Trinoids|Whisper|Wobble|Zarvox|Superstar/i;
+ const score=v=>(/Natural|Neural|Online|Premium|Enhanced/i.test(v.name)?100:0)+(/Samantha|Ava|Allison|Alex|Aria|Jenny|Guy/i.test(v.name)?50:0)+(/Google US English/i.test(v.name)?70:0)+(v.default?5:0);
+ return window.speechSynthesis.getVoices().filter(v=>/^en[-_]US$/i.test(v.lang)&&!novelty.test(v.name)).sort((a,b)=>score(b)-score(a)||a.name.localeCompare(b.name));
+}
+function selectedEnglishVoice(){const voices=englishVoices();return voices.find(v=>v.voiceURI===englishVoiceURI)||voices[0];}
+function refreshEnglishVoices(){
+ const select=$('#english-voice'),status=$('#english-voice-status');if(!select||!status)return;
+ const voices=englishVoices(),chosen=selectedEnglishVoice();
+ select.innerHTML='<option value="">自動選擇一般美式人聲</option>'+voices.map(v=>`<option value="${esc(v.voiceURI)}">${esc(v.name)}</option>`).join('');
+ select.value=voices.some(v=>v.voiceURI===englishVoiceURI)?englishVoiceURI:'';
+ status.textContent=chosen?`目前：${chosen.name} · 美式英文 · 正常語速`:'尚未取得一般美式英文語音；請稍候，或在裝置下載美式英文語音。';
+}
+function english(text){
+ if(!('speechSynthesis'in window)){toast('此瀏覽器不支援英文語音。');return;}
+ const voice=selectedEnglishVoice();refreshEnglishVoices();
+ if(!voice){toast('尚未取得一般美式英文語音。請稍後重試，或在裝置下載美式英文語音。');return;}
+ if(player)player.pause();const synth=window.speechSynthesis;synth.cancel();utterance=new SpeechSynthesisUtterance(text);utterance.lang='en-US';utterance.rate=1;utterance.pitch=1;utterance.voice=voice;
+ utterance.onstart=()=>{const status=$('#english-voice-status');if(status)status.textContent=`正在播放：${voice.name} · 美式英文 · 正常語速`;};
+ utterance.onend=refreshEnglishVoices;
+ utterance.onerror=e=>{refreshEnglishVoices();if(!['interrupted','canceled'].includes(e.error))toast('英文語音未能播放，請在備份與設定切換聲音。');};synth.speak(utterance);
+}
+if('speechSynthesis'in window)window.speechSynthesis.addEventListener('voiceschanged',refreshEnglishVoices);
+$('#english-voice')?.addEventListener('change',e=>{englishVoiceURI=e.target.value;try{localStorage.setItem(ENGLISH_VOICE_KEY,englishVoiceURI);}catch{}refreshEnglishVoices();});
+$('#english-voice-preview')?.addEventListener('click',()=>english('I would like a table for two.'));
 function download(name,content,type){const a=document.createElement('a'),url=URL.createObjectURL(new Blob([content],{type}));a.href=url;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),10000);}
 function backup(){download('SONA-語言學習備份-'+today()+'.json',JSON.stringify(state,null,2),'application/json');toast('已下載個人學習紀錄。');}
 function csv(){const cell=v=>{let s=String(v??'');if(/^[=+@\-\t\r]/.test(s))s="'"+s;return '"'+s.replace(/"/g,'""')+'"';};const rows=[['義大利文','English','中文','英文 KK','義大利文 IPA','筆記'],...filtered().map(w=>[w.it,w.en,w.zh,w.kk,w.ipa,w.note])];download('SONA-三語單字-'+today()+'.csv','\uFEFF'+rows.map(r=>r.map(cell).join(',')).join('\r\n'),'text/csv;charset=utf-8');}
@@ -124,7 +152,7 @@ document.addEventListener('click',e=>{
 document.addEventListener('input',e=>{if(e.target.id==='word-search'){search=e.target.value;limit=35;renderResults();}});
 document.addEventListener('change',e=>{if(e.target.id==='topic-filter'){topic=e.target.value;renderResults();}if(e.target.id==='date-filter'){dateFilter=e.target.value;renderToday();}if(e.target.id==='game-filter'){gameFilter=e.target.value;gameSeen=[];roundNo=0;nextGame();}});
 $('#add-form').addEventListener('submit',e=>{e.preventDefault();const w=Object.fromEntries([...new FormData(e.target)].map(([k,v])=>[k,String(v).trim()]));if(!w.it||!w.en||!w.zh){toast('請填寫三種語言。');return;}const existing=words().find(x=>norm(x.it)===norm(w.it));if(existing){$('#add-dialog').close();openWord(existing.id);toast('這個單字已在單字庫。');return;}state.custom.push({...w,id:'custom-'+(crypto.randomUUID?crypto.randomUUID():Date.now().toString(36)),custom:true,contexts:[],pos:'自訂單字'});save();$('#add-dialog').close();search='';topic='custom';filter='all';location.hash='vocabulary';render();toast('已加入個人單字庫。');});
-$('#settings-button').addEventListener('click',()=>{$('#import-review').hidden=true;$('#settings-dialog').showModal();});
+$('#settings-button').addEventListener('click',()=>{$('#import-review').hidden=true;refreshEnglishVoices();$('#settings-dialog').showModal();});
 $('#about-button').addEventListener('click',()=>$('#about-dialog').showModal());
 $('#export-backup').addEventListener('click',backup);
 $('#import-backup').addEventListener('change',async e=>{const file=e.target.files[0];e.target.value='';if(!file)return;try{if(file.size>3000000)throw Error('檔案超過 3 MB');candidate=validate(JSON.parse(await file.text()));$('#import-review').innerHTML=`<div class="notice"><p>讀取到 ${candidate.savedWords.length} 個單字收藏與 ${candidate.custom.length} 個自訂單字。匯入會取代目前個人紀錄，請先備份。</p><div class="actions"><button class="button dark" data-action="confirm-import">確認匯入</button><button class="button" data-action="cancel-import">取消</button></div></div>`;$('#import-review').hidden=false;}catch(err){candidate=null;toast('無法匯入：'+err.message);}});
