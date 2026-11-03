@@ -1,8 +1,71 @@
 {
   "version": 2,
   "curriculumStart": "2026-10-27",
-  "updatedAt": "2026-11-02T11:13:54.831Z",
+  "updatedAt": "2026-11-03T14:46:17.784Z",
   "days": [
+    {
+      "id": 8,
+      "topic": "生活購物",
+      "title": "去買新鮮麵包",
+      "it": "Oggi compro il pane fresco.",
+      "en": "Today I am buying fresh bread.",
+      "zh": "今天我要買新鮮麵包。",
+      "pronunciation": "ÒD-dji KÓM-pro il PÀ-ne FRÈ-sko",
+      "words": [
+        {
+          "it": "Oggi",
+          "en": "today",
+          "zh": "今天",
+          "ipa": "/ˈɔd.dʒi/",
+          "kk": "/təˈde/",
+          "pos": "時間副詞",
+          "note": "oggi 的重音在第一音節，ggi 發出較長的 dʒ 音。",
+          "hint": ""
+        },
+        {
+          "it": "compro",
+          "en": "I buy",
+          "zh": "我買",
+          "ipa": "/ˈkom.pro/",
+          "kk": "/aɪ baɪ/",
+          "pos": "動詞・現在式",
+          "note": "comprare 的第一人稱單數。義大利文常省略主詞 io，動詞本身就標示「我」。",
+          "hint": ""
+        },
+        {
+          "it": "il",
+          "en": "the",
+          "zh": "定冠詞",
+          "ipa": "/il/",
+          "kk": "/ðə/",
+          "pos": "陽性定冠詞",
+          "note": "pane 是陽性單數，前面使用 il。這句自然中文可以省略冠詞。",
+          "hint": ""
+        },
+        {
+          "it": "pane",
+          "en": "bread",
+          "zh": "麵包",
+          "ipa": "/ˈpa.ne/",
+          "kk": "/brɛd/",
+          "pos": "陽性名詞",
+          "note": "複習第 4 天的 pane，將它放到購物情境裡。",
+          "hint": ""
+        },
+        {
+          "it": "fresco",
+          "en": "fresh",
+          "zh": "新鮮的",
+          "ipa": "/ˈfre.sko/",
+          "kk": "/frɛʃ/",
+          "pos": "形容詞・陽性單數",
+          "note": "fresco 放在名詞後，配合陽性單數 pane。完整順序是時間＋動詞＋要買的東西。",
+          "hint": ""
+        }
+      ],
+      "date": "2026-11-03",
+      "kk": "/təˈde aɪ æm ˈbaɪɪŋ frɛʃ brɛd/"
+    },
     {
       "id": 7,
       "topic": "餐桌日常",

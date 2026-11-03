@@ -1082,7 +1082,17 @@
       "generatedAt": "2026-11-02T11:13:59.307Z",
       "seconds": 1.82,
       "sha256": "35e62abc2d2449f911f425297f59f49cf61455b0f135d902abd0122a0e7cfb48"
+    },
+    "oggi compro il pane fresco.": {
+      "provider": "Lara Translate",
+      "it": "audio/it-6376cb3782e540bfa146.m4a",
+      "text": "Oggi compro il pane fresco.",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-03T14:59:04.828Z",
+      "seconds": 2.1,
+      "sha256": "68d4e9e5638a84e257c21d7ae71e88a13da5807ec287b6e035731311a80a0a9c"
     }
   },
-  "updatedAt": "2026-11-02T11:13:59.307Z"
+  "updatedAt": "2026-11-03T14:59:04.833Z"
 }

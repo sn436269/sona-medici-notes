@@ -27,3 +27,5 @@ Node 路徑：`/Users/sona/.cache/codex-runtimes/codex-primary-runtime/dependenc
 英文語音偏好（2026/11/03 使用者指定）：所有英文播放使用固定、年輕感的英國英式女性聲線。已改為 Kokoro-82M 的 bf_emma（British female）同源音檔，不再使用裝置的 Flo／Sandy／Shelley，不提供聲音選單、語音設定或試聽設定。不得回退到美式、男性或裝置聲線。
 每日更新文字與 Lara 義大利文原音後，執行 /Users/sona/.cache/sona-british-voice/venv/bin/python scripts/generate-english-audio.py，補足所有教材的英文音檔並更新 audio/english-manifest.json；檢查每個教材英文都有對應音檔，發布新增音檔和 manifest。缺少英式音檔時顯示待備妥提示，不能替換成其他聲音。私人自訂單字不會傳送到外部或自動公開；沒有音檔時明確提示。
 模型和 Python 環境只在 /Users/sona/.cache/sona-british-voice，不能上傳模型或 venv；下載來源與安裝說明在 scripts/ENGLISH-AUDIO.md。英文使用 Kokoro 的 Apache-2.0 授權模型；義大利文仍只准使用既有 Lara 原音，不能用 Kokoro 替代。
+
+英文尾音修正（2026/11/03）：使用 single-v2 音檔，每個原文只合成一次，只裁首尾靜音，禁止從重複詞句的上下文音訊中切割。使用 kokoro-v1.0.fp16.onnx；前端必須拒絕舊 context-v1 音檔，避免句尾混入下一次朗讀的「A」聲。聲線仍是 bf_emma，沒有新增選單。

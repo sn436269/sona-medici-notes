@@ -9,7 +9,7 @@
 - 模型檔：https://github.com/thewh1teagle/kokoro-onnx/releases/tag/model-files-v1.1
 - 模型授權全文：`audio/LICENSE-KOKORO.txt`。
 
-固定本地環境 `/Users/sona/.cache/sona-british-voice/venv`，使用 PyPI，已驗證的版本固定在 `scripts/english-audio-requirements.txt`。模型 `kokoro-v1.0.int8.onnx` 及 `voices-v1.0.bin` 存在同一 cache 資料夾，產生前驗證 SHA256。模型和 venv 不公開到網站，也不納入網站備份。
+固定本地環境 `/Users/sona/.cache/sona-british-voice/venv`，使用 PyPI，已驗證的版本固定在 `scripts/english-audio-requirements.txt`。模型 `kokoro-v1.0.fp16.onnx` 及 `voices-v1.0.bin` 存在同一 cache 資料夾，產生前驗證 SHA256。模型和 venv 不公開到網站，也不納入網站備份。
 
 每日維護執行：
 
@@ -21,4 +21,4 @@
 
 義大利文仍只播放 Lara 原音，此英文腳本不得套用到義大利文。
 
-極短詞句使用同一聲線做上下文合成，再根據模型匯出的音素時間，切出單次完整的詞句。播放檔沒有重複朗讀，也不改變音高或速度。這避免模型在極短輸入上的不穩定；每個輸出都必須通過有限值、長度、音量和雜湊檢查。
+英文採用 single-v2：每個原文只合成一次，不追加其他詞句，不從重複朗讀中截取片段。只依音量去除最外側靜音並保留子音與自然衰減，以免混入下一段的起音。使用高精度模型處理短單字；每個輸出都必須通過有限值、長度、音量和雜湊檢查。

@@ -97,14 +97,14 @@ let player=$('#italian-player'),englishManifest={entries:{}},englishAudioPromise
 async function italian(text){const src=audioFile(text);if(!src){toast('這個詞句的 Lara 原音尚未備妥，請稍後再試。');return;}player.pause();player.src=src;try{await player.play();}catch{toast('Lara 音檔未能播放，請稍後重試。');}}
 async function loadEnglishAudio(){
  if(englishAudioPromise)return englishAudioPromise;
- englishAudioPromise=(async()=>{try{const r=await fetch('audio/english-manifest.json',{cache:'no-store'});if(!r.ok)throw Error('English audio unavailable');const data=await r.json();if(data.version!==1||data.voice!=='bf_emma'||data.language!=='en-GB'||!data.entries)throw Error('Unexpected English voice');englishManifest=data;}catch{englishAudioPromise=null;}})();
+ englishAudioPromise=(async()=>{try{const r=await fetch('audio/english-manifest.json',{cache:'no-store'});if(!r.ok)throw Error('English audio unavailable');const data=await r.json();if(data.version!==1||data.voice!=='bf_emma'||data.language!=='en-GB'||data.profile!=='single-v2'||!data.entries)throw Error('Unexpected English voice');englishManifest=data;}catch{englishAudioPromise=null;}})();
  return englishAudioPromise;
 }
 async function english(text){
  if(!Object.keys(englishManifest.entries).length)await loadEnglishAudio();
  if(!englishManifest.entries[norm(text)]){englishAudioPromise=null;await loadEnglishAudio();}
  const record=englishManifest.entries[norm(text)];
- if(!record||record.voice!=='bf_emma'||record.language!=='en-GB'||!/^audio\/en-gb-emma-[a-f0-9]{20}\.m4a$/.test(record.file)){toast('這個詞句的英式女聲音檔尚未備妥，請稍後再試。');return;}
+ if(!record||record.voice!=='bf_emma'||record.language!=='en-GB'||record.profile!=='single-v2'||!/^audio\/en-gb-emma-[a-f0-9]{20}\.m4a$/.test(record.file)){toast('這個詞句的英式女聲音檔尚未備妥，請稍後再試。');return;}
  player.pause();player.src=record.file;
  try{await player.play();}catch{toast('英文音檔暫時無法播放，請稍後重試。');}
 }
