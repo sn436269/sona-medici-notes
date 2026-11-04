@@ -1,8 +1,71 @@
 {
   "version": 2,
   "curriculumStart": "2026-10-27",
-  "updatedAt": "2026-11-03T14:46:17.784Z",
+  "updatedAt": "2026-11-04T00:10:29.069Z",
   "days": [
+    {
+      "id": 9,
+      "topic": "生活購物",
+      "title": "問問這個包的價格",
+      "it": "Quanto costa questa borsa rossa?",
+      "en": "How much does this red bag cost?",
+      "zh": "這個紅色包包多少錢？",
+      "pronunciation": "KWÀN-to KÒ-sta KWÈ-sta BÓR-sa RÓS-sa",
+      "words": [
+        {
+          "it": "Quanto",
+          "en": "how much",
+          "zh": "多少",
+          "ipa": "/ˈkwan.to/",
+          "kk": "/haʊ mʌtʃ/",
+          "pos": "疑問副詞",
+          "note": "quanto 在這裡詢問價格，和 costa 一起記成「多少錢」。",
+          "hint": ""
+        },
+        {
+          "it": "costa",
+          "en": "costs",
+          "zh": "售價是",
+          "ipa": "/ˈkɔs.ta/",
+          "kk": "/kɔsts/",
+          "pos": "動詞・現在式",
+          "note": "costare 的第三人稱單數，配合單數的 borsa。",
+          "hint": ""
+        },
+        {
+          "it": "questa",
+          "en": "this",
+          "zh": "這個",
+          "ipa": "/ˈkwes.ta/",
+          "kk": "/ðɪs/",
+          "pos": "指示形容詞",
+          "note": "borsa 是陰性單數，所以用 questa。",
+          "hint": ""
+        },
+        {
+          "it": "borsa",
+          "en": "bag",
+          "zh": "包包、袋子",
+          "ipa": "/ˈbor.sa/",
+          "kk": "/bæɡ/",
+          "pos": "陰性名詞",
+          "note": "borsa 可指手提包或袋子；依實際情境理解。",
+          "hint": ""
+        },
+        {
+          "it": "rossa",
+          "en": "red",
+          "zh": "紅色的",
+          "ipa": "/ˈros.sa/",
+          "kk": "/rɛd/",
+          "pos": "形容詞・陰性單數",
+          "note": "rossa 配合陰性 borsa。整句的中心是 Quanto costa，後面接你正在指的這個包。",
+          "hint": ""
+        }
+      ],
+      "date": "2026-11-04",
+      "kk": "/haʊ mʌtʃ dʌz ðɪs rɛd bæɡ kɔst/"
+    },
     {
       "id": 8,
       "topic": "生活購物",

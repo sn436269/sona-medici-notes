@@ -1092,7 +1092,17 @@
       "generatedAt": "2026-11-03T14:59:04.828Z",
       "seconds": 2.1,
       "sha256": "68d4e9e5638a84e257c21d7ae71e88a13da5807ec287b6e035731311a80a0a9c"
+    },
+    "quanto costa questa borsa rossa?": {
+      "provider": "Lara Translate",
+      "it": "audio/it-2064e955e0cb7244dc47.m4a",
+      "text": "Quanto costa questa borsa rossa?",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-04T00:10:32.859Z",
+      "seconds": 2.1625,
+      "sha256": "e936e0b7612ad12b13dddc46de6c0ee45b24cabc96384a83f6626e141942346d"
     }
   },
-  "updatedAt": "2026-11-03T14:59:04.833Z"
+  "updatedAt": "2026-11-04T00:10:32.860Z"
 }
