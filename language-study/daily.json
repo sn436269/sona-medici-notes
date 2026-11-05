@@ -1,8 +1,71 @@
 {
   "version": 2,
   "curriculumStart": "2026-10-27",
-  "updatedAt": "2026-11-04T00:10:29.069Z",
+  "updatedAt": "2026-11-05T00:14:15.090Z",
   "days": [
+    {
+      "id": 10,
+      "topic": "生活購物",
+      "title": "可以刷卡嗎",
+      "it": "Posso pagare con la carta?",
+      "en": "Can I pay by card?",
+      "zh": "我可以用卡付款嗎？",
+      "pronunciation": "PÒS-so pa-GÀ-re kon la KÀR-ta",
+      "words": [
+        {
+          "it": "Posso",
+          "en": "can I",
+          "zh": "我可以嗎",
+          "ipa": "/ˈpɔs.so/",
+          "kk": "/kæn aɪ/",
+          "pos": "動詞・現在式",
+          "note": "複習 potere 的第一人稱單數，用來詢問是否被允許。",
+          "hint": ""
+        },
+        {
+          "it": "pagare",
+          "en": "pay",
+          "zh": "付款",
+          "ipa": "/paˈɡa.re/",
+          "kk": "/pe/",
+          "pos": "動詞・不定式",
+          "note": "Posso 後面接不定式 pagare。重音在 ga。",
+          "hint": ""
+        },
+        {
+          "it": "con",
+          "en": "with",
+          "zh": "用、以",
+          "ipa": "/kon/",
+          "kk": "/wɪð/",
+          "pos": "介系詞",
+          "note": "con 在這裡表示付款使用的工具或方式。",
+          "hint": ""
+        },
+        {
+          "it": "la",
+          "en": "the",
+          "zh": "陰性定冠詞",
+          "ipa": "/la/",
+          "kk": "/ðə/",
+          "pos": "陰性定冠詞",
+          "note": "carta 是陰性單數，所以前面用 la。",
+          "hint": ""
+        },
+        {
+          "it": "carta",
+          "en": "card",
+          "zh": "卡片、支付卡",
+          "ipa": "/ˈkar.ta/",
+          "kk": "/kɑrd/",
+          "pos": "陰性名詞",
+          "note": "carta 也可指紙；在付款情境中 con la carta 是「用卡付款」。今天記住整句問法。",
+          "hint": ""
+        }
+      ],
+      "date": "2026-11-05",
+      "kk": "/kæn aɪ pe baɪ kɑrd/"
+    },
     {
       "id": 9,
       "topic": "生活購物",

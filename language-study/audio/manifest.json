@@ -1102,7 +1102,17 @@
       "generatedAt": "2026-11-04T00:10:32.859Z",
       "seconds": 2.1625,
       "sha256": "e936e0b7612ad12b13dddc46de6c0ee45b24cabc96384a83f6626e141942346d"
+    },
+    "posso pagare con la carta?": {
+      "provider": "Lara Translate",
+      "it": "audio/it-f1c38ef1c73005e8089a.m4a",
+      "text": "Posso pagare con la carta?",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-05T00:14:21.710Z",
+      "seconds": 1.82,
+      "sha256": "29cddd8ff7cc2a017b49b8e361d83f9431d402f598f74b8bc83953d00180233e"
     }
   },
-  "updatedAt": "2026-11-04T00:10:32.860Z"
+  "updatedAt": "2026-11-05T00:14:21.711Z"
 }
