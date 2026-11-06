@@ -1112,7 +1112,17 @@
       "generatedAt": "2026-11-05T00:14:21.710Z",
       "seconds": 1.82,
       "sha256": "29cddd8ff7cc2a017b49b8e361d83f9431d402f598f74b8bc83953d00180233e"
+    },
+    "cerco una piccola farmacia qui vicino.": {
+      "provider": "Lara Translate",
+      "it": "audio/it-bee32851978f7afa141b.m4a",
+      "text": "Cerco una piccola farmacia qui vicino.",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-06T00:29:15.442Z",
+      "seconds": 2.3625,
+      "sha256": "4362030e33672da670bb3dba6a25ebc5772a598b160c41f3d711394c78b8f73b"
     }
   },
-  "updatedAt": "2026-11-05T00:14:21.711Z"
+  "updatedAt": "2026-11-06T00:29:15.443Z"
 }

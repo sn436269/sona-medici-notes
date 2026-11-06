@@ -1,8 +1,71 @@
 {
   "version": 2,
   "curriculumStart": "2026-10-27",
-  "updatedAt": "2026-11-05T00:14:15.090Z",
+  "updatedAt": "2026-11-06T00:29:10.667Z",
   "days": [
+    {
+      "id": 11,
+      "topic": "生活購物",
+      "title": "找附近的藥局",
+      "it": "Cerco una piccola farmacia qui vicino.",
+      "en": "I am looking for a small pharmacy nearby.",
+      "zh": "我在找這附近的一間小藥局。",
+      "pronunciation": "CHÈR-ko Ù-na PÌK-ko-la far-ma-CHÌ-a kwi vi-CHÌ-no",
+      "words": [
+        {
+          "it": "Cerco",
+          "en": "I am looking for",
+          "zh": "我在找",
+          "ipa": "/ˈtʃer.ko/",
+          "kk": "/aɪ æm ˈlʊkɪŋ fɔr/",
+          "pos": "動詞・現在式",
+          "note": "cercare 的第一人稱單數。後面直接接要找的東西。",
+          "hint": ""
+        },
+        {
+          "it": "una",
+          "en": "a",
+          "zh": "一間、一個",
+          "ipa": "/ˈu.na/",
+          "kk": "/ə/",
+          "pos": "陰性不定冠詞",
+          "note": "farmacia 是陰性名詞，所以用 una。",
+          "hint": ""
+        },
+        {
+          "it": "piccola",
+          "en": "small",
+          "zh": "小的",
+          "ipa": "/ˈpik.ko.la/",
+          "kk": "/smɔl/",
+          "pos": "形容詞・陰性單數",
+          "note": "piccola 修飾 farmacia，性別和數都要配合。雙寫 cc 發較長的 k。",
+          "hint": ""
+        },
+        {
+          "it": "farmacia",
+          "en": "pharmacy",
+          "zh": "藥局",
+          "ipa": "/far.maˈtʃi.a/",
+          "kk": "/ˈfɑrməsɪ/",
+          "pos": "陰性名詞",
+          "note": "cia 在這裡發 tʃi-a，重音在 ci，最後的 i-a 分開發音。",
+          "hint": ""
+        },
+        {
+          "it": "qui vicino",
+          "en": "nearby",
+          "zh": "這附近",
+          "ipa": "/kwi viˈtʃi.no/",
+          "kk": "/ˈnɪrˈbaɪ/",
+          "pos": "地點詞組",
+          "note": "qui 是「這裡」，vicino 是「附近」。整個詞組補充你想尋找的位置。",
+          "hint": ""
+        }
+      ],
+      "date": "2026-11-06",
+      "kk": "/aɪ æm ˈlʊkɪŋ fɔr ə smɔl ˈfɑrməsɪ ˈnɪrˈbaɪ/"
+    },
     {
       "id": 10,
       "topic": "生活購物",
