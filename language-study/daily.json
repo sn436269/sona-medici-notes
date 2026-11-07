@@ -1,8 +1,71 @@
 {
   "version": 2,
   "curriculumStart": "2026-10-27",
-  "updatedAt": "2026-11-06T00:29:10.667Z",
+  "updatedAt": "2026-11-07T01:46:43.187Z",
   "days": [
+    {
+      "id": 12,
+      "topic": "生活購物",
+      "title": "說出你需要的東西",
+      "it": "Ho bisogno di una borsa.",
+      "en": "I need a bag.",
+      "zh": "我需要一個袋子。",
+      "pronunciation": "Ò bi-ZÓ-nyo di Ù-na BÓR-sa",
+      "words": [
+        {
+          "it": "Ho",
+          "en": "I have",
+          "zh": "我有",
+          "ipa": "/ɔ/",
+          "kk": "/aɪ hæv/",
+          "pos": "動詞・現在式",
+          "note": "avere 的第一人稱單數。開頭的 h 不發音；ho 與 o（或者）的拼寫不同。",
+          "hint": ""
+        },
+        {
+          "it": "bisogno",
+          "en": "need",
+          "zh": "需要、需求",
+          "ipa": "/biˈzoɲ.ɲo/",
+          "kk": "/nid/",
+          "pos": "陽性名詞",
+          "note": "gn 發出連續的 ɲ 音，像較長的「尼」滑音，不讀成分開的 g 和 n。",
+          "hint": ""
+        },
+        {
+          "it": "di",
+          "en": "of",
+          "zh": "的、關於",
+          "ipa": "/di/",
+          "kk": "/əv/",
+          "pos": "介系詞",
+          "note": "avere bisogno di 是固定結構，整體表示「需要」。不要照字面逐字翻成中文。",
+          "hint": ""
+        },
+        {
+          "it": "una",
+          "en": "a",
+          "zh": "一個",
+          "ipa": "/ˈu.na/",
+          "kk": "/ə/",
+          "pos": "陰性不定冠詞",
+          "note": "borsa 是陰性名詞，這裡使用 una。",
+          "hint": ""
+        },
+        {
+          "it": "borsa",
+          "en": "bag",
+          "zh": "袋子、包包",
+          "ipa": "/ˈbor.sa/",
+          "kk": "/bæɡ/",
+          "pos": "陰性名詞",
+          "note": "複習前面學過的 borsa。把 Ho bisogno di 當成一個語意單位，後接 una borsa。",
+          "hint": ""
+        }
+      ],
+      "date": "2026-11-07",
+      "kk": "/aɪ nid ə bæɡ/"
+    },
     {
       "id": 11,
       "topic": "生活購物",

@@ -1122,7 +1122,17 @@
       "generatedAt": "2026-11-06T00:29:15.442Z",
       "seconds": 2.3625,
       "sha256": "4362030e33672da670bb3dba6a25ebc5772a598b160c41f3d711394c78b8f73b"
+    },
+    "ho bisogno di una borsa.": {
+      "provider": "Lara Translate",
+      "it": "audio/it-6bd8b1a5eefd60f624bf.m4a",
+      "text": "Ho bisogno di una borsa.",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-07T01:46:49.614Z",
+      "seconds": 1.82,
+      "sha256": "c0899522fc4fc5041e254905d8cdd2fecdf8fbe51f4c2ae128d1d71a0b6bf2ba"
     }
   },
-  "updatedAt": "2026-11-06T00:29:15.443Z"
+  "updatedAt": "2026-11-07T01:46:49.615Z"
 }
