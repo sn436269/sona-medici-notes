@@ -1132,7 +1132,47 @@
       "generatedAt": "2026-11-07T01:46:49.614Z",
       "seconds": 1.82,
       "sha256": "c0899522fc4fc5041e254905d8cdd2fecdf8fbe51f4c2ae128d1d71a0b6bf2ba"
+    },
+    "puoi parlare un po' piu lentamente?": {
+      "provider": "Lara Translate",
+      "it": "audio/it-ab291baefbd8250b8e6e.m4a",
+      "text": "Puoi parlare un po’ più lentamente?",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-10T21:57:54.208Z",
+      "seconds": 2.05,
+      "sha256": "53c850a4ebe1bc27f3eb6264f77a86edbf1764cea63f59343b2006a9368ffeff"
+    },
+    "dove si trova il bagno?": {
+      "provider": "Lara Translate",
+      "it": "audio/it-7e8d8e5cc0109a119ff4.m4a",
+      "text": "Dove si trova il bagno?",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-10T21:57:54.210Z",
+      "seconds": 1.82,
+      "sha256": "4868f48797bf6e2bd91c193a068ef7084c88830216b04e8c3e4ae5096cdbde6d"
+    },
+    "la stazione e molto vicina.": {
+      "provider": "Lara Translate",
+      "it": "audio/it-99cbd863a6c78c6b0b34.m4a",
+      "text": "La stazione è molto vicina.",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-10T21:57:54.210Z",
+      "seconds": 2.0125,
+      "sha256": "941021fab5ec45c747cf4ce0565f3d40ee13d906206b7cf17cd59c4fe64dc8a9"
+    },
+    "non capisco questa parola italiana.": {
+      "provider": "Lara Translate",
+      "it": "audio/it-d2dd7fc3f6e31a201688.m4a",
+      "text": "Non capisco questa parola italiana.",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-10T21:57:56.953Z",
+      "seconds": 2.35,
+      "sha256": "a13f54f7dcde3d59010ab8a94a9846ae8461de28f8c4df7a948fc0f2c0a701e8"
     }
   },
-  "updatedAt": "2026-11-07T01:46:49.615Z"
+  "updatedAt": "2026-11-10T21:57:56.953Z"
 }

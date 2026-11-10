@@ -1,8 +1,260 @@
 {
   "version": 2,
   "curriculumStart": "2026-10-27",
-  "updatedAt": "2026-11-07T01:46:43.187Z",
+  "updatedAt": "2026-11-10T21:57:47.794Z",
   "days": [
+    {
+      "id": 16,
+      "topic": "城市交通",
+      "title": "車站就在附近",
+      "it": "La stazione è molto vicina.",
+      "en": "The station is very near.",
+      "zh": "車站就在很近的地方。",
+      "pronunciation": "la stat-TSIÓ-ne È MÓL-to vi-CHÌ-na",
+      "words": [
+        {
+          "it": "La",
+          "en": "the",
+          "zh": "陰性定冠詞",
+          "ipa": "/la/",
+          "kk": "/ðə/",
+          "pos": "陰性定冠詞",
+          "note": "stazione 是陰性單數，前面使用 la。",
+          "hint": ""
+        },
+        {
+          "it": "stazione",
+          "en": "station",
+          "zh": "車站",
+          "ipa": "/statˈtsjo.ne/",
+          "kk": "/ˈsteʃən/",
+          "pos": "陰性名詞",
+          "note": "zione 的部分連起來發 tsjo-ne，重音在 zio。",
+          "hint": ""
+        },
+        {
+          "it": "è",
+          "en": "is",
+          "zh": "是、在",
+          "ipa": "/ɛ/",
+          "kk": "/ɪz/",
+          "pos": "動詞・現在式",
+          "note": "è 連接主詞和形容詞，這裡是「車站是很近的」。",
+          "hint": ""
+        },
+        {
+          "it": "molto",
+          "en": "very",
+          "zh": "很、非常",
+          "ipa": "/ˈmol.to/",
+          "kk": "/ˈvɛrɪ/",
+          "pos": "副詞",
+          "note": "molto 在這裡是副詞，修飾 vicina，維持原形。",
+          "hint": ""
+        },
+        {
+          "it": "vicina",
+          "en": "near",
+          "zh": "近的",
+          "ipa": "/viˈtʃi.na/",
+          "kk": "/nɪr/",
+          "pos": "形容詞・陰性單數",
+          "note": "vicina 配合陰性單數 stazione。跟著聲音把整句連起來。",
+          "hint": ""
+        }
+      ],
+      "date": "2026-11-11",
+      "kk": "/ðə ˈsteʃən ɪz ˈvɛrɪ nɪr/"
+    },
+    {
+      "id": 15,
+      "topic": "城市交通",
+      "title": "找到洗手間",
+      "it": "Dove si trova il bagno?",
+      "en": "Where is the bathroom?",
+      "zh": "洗手間在哪裡？",
+      "pronunciation": "DÓ-ve si TRÒ-va il BÀ-nyo",
+      "words": [
+        {
+          "it": "Dove",
+          "en": "where",
+          "zh": "哪裡",
+          "ipa": "/ˈdo.ve/",
+          "kk": "/wɛr/",
+          "pos": "疑問副詞",
+          "note": "dove 放在句首，詢問位置。",
+          "hint": ""
+        },
+        {
+          "it": "si",
+          "en": "itself",
+          "zh": "自身（代名詞）",
+          "ipa": "/si/",
+          "kk": "/ɪtˈsɛlf/",
+          "pos": "代名詞",
+          "note": "si 是 trovarsi 這個代名動詞的一部分，這裡不用單獨翻譯成中文。",
+          "hint": ""
+        },
+        {
+          "it": "trova",
+          "en": "is located",
+          "zh": "位於",
+          "ipa": "/ˈtrɔ.va/",
+          "kk": "/ɪz ˈloketɪd/",
+          "pos": "動詞・現在式",
+          "note": "si trova 合起來表示「位於、在」。主詞是後面的 il bagno。",
+          "hint": ""
+        },
+        {
+          "it": "il",
+          "en": "the",
+          "zh": "陽性定冠詞",
+          "ipa": "/il/",
+          "kk": "/ðə/",
+          "pos": "陽性定冠詞",
+          "note": "bagno 是陽性單數，所以用 il。",
+          "hint": ""
+        },
+        {
+          "it": "bagno",
+          "en": "bathroom",
+          "zh": "洗手間、浴室",
+          "ipa": "/ˈbaɲ.ɲo/",
+          "kk": "/ˈbæθˌrum/",
+          "pos": "陽性名詞",
+          "note": "gn 發 ɲ 音，不分開讀 g 和 n。今天整句詢問的是洗手間的位置。",
+          "hint": ""
+        }
+      ],
+      "date": "2026-11-10",
+      "kk": "/wɛr ɪz ðə ˈbæθˌrum/"
+    },
+    {
+      "id": 14,
+      "topic": "溝通日常",
+      "title": "請對方慢慢說",
+      "it": "Puoi parlare un po’ più lentamente?",
+      "en": "Can you speak a little more slowly?",
+      "zh": "你可以說得再慢一點嗎？",
+      "pronunciation": "pwòi par-LÀ-re un PÒ pyù len-ta-MÉN-te",
+      "words": [
+        {
+          "it": "Puoi",
+          "en": "can you",
+          "zh": "你可以嗎",
+          "ipa": "/pwɔi/",
+          "kk": "/kæn ju/",
+          "pos": "動詞・現在式",
+          "note": "potere 的第二人稱單數，用在熟悉的人或非正式情境；對陌生人的正式稱呼會用 Può。",
+          "hint": ""
+        },
+        {
+          "it": "parlare",
+          "en": "speak",
+          "zh": "說話",
+          "ipa": "/parˈla.re/",
+          "kk": "/spik/",
+          "pos": "動詞・不定式",
+          "note": "Puoi 後接不定式 parlare。這句是請對方調整說話速度。",
+          "hint": ""
+        },
+        {
+          "it": "un po’",
+          "en": "a little",
+          "zh": "一點點",
+          "ipa": "/un pɔ/",
+          "kk": "/ə ˈlɪtəl/",
+          "pos": "數量詞組",
+          "note": "po’ 是 poco 的截短形式，末尾寫撇號。它和 un 一起表示「一點」。",
+          "hint": ""
+        },
+        {
+          "it": "più",
+          "en": "more",
+          "zh": "更、比較",
+          "ipa": "/pju/",
+          "kk": "/mɔr/",
+          "pos": "比較副詞",
+          "note": "più 的重音符號要保留。放在 lentamente 前，表示「更慢地」。",
+          "hint": ""
+        },
+        {
+          "it": "lentamente",
+          "en": "slowly",
+          "zh": "慢慢地",
+          "ipa": "/len.taˈmen.te/",
+          "kk": "/ˈslolɪ/",
+          "pos": "副詞",
+          "note": "以 mente 結尾的副詞用來修飾動作。整句中 un po’ più lentamente 就是「再慢一點」。",
+          "hint": ""
+        }
+      ],
+      "date": "2026-11-09",
+      "kk": "/kæn ju spik ə ˈlɪtəl mɔr ˈslolɪ/"
+    },
+    {
+      "id": 13,
+      "topic": "溝通日常",
+      "title": "不懂的時候也能說",
+      "it": "Non capisco questa parola italiana.",
+      "en": "I do not understand this Italian word.",
+      "zh": "我不懂這個義大利文單字。",
+      "pronunciation": "non ka-PÌ-sko KWÈ-sta pa-RÒ-la i-ta-LIÀ-na",
+      "words": [
+        {
+          "it": "Non",
+          "en": "not",
+          "zh": "不",
+          "ipa": "/non/",
+          "kk": "/nɑt/",
+          "pos": "否定副詞",
+          "note": "non 放在動詞前，就能把這句變成否定。",
+          "hint": ""
+        },
+        {
+          "it": "capisco",
+          "en": "I understand",
+          "zh": "我理解",
+          "ipa": "/kaˈpis.ko/",
+          "kk": "/aɪ ˌʌndɚˈstænd/",
+          "pos": "動詞・現在式",
+          "note": "capire 的第一人稱單數是 capisco，有 isc 這一段，不是直接改成 capio。",
+          "hint": ""
+        },
+        {
+          "it": "questa",
+          "en": "this",
+          "zh": "這個",
+          "ipa": "/ˈkwes.ta/",
+          "kk": "/ðɪs/",
+          "pos": "指示形容詞",
+          "note": "parola 是陰性單數，所以使用 questa。",
+          "hint": ""
+        },
+        {
+          "it": "parola",
+          "en": "word",
+          "zh": "單字、字詞",
+          "ipa": "/paˈrɔ.la/",
+          "kk": "/wɝd/",
+          "pos": "陰性名詞",
+          "note": "重音在 ro。今天可以指著你不理解的字使用這一句。",
+          "hint": ""
+        },
+        {
+          "it": "italiana",
+          "en": "Italian",
+          "zh": "義大利的",
+          "ipa": "/i.taˈlja.na/",
+          "kk": "/ɪˈtæljən/",
+          "pos": "形容詞・陰性單數",
+          "note": "italiana 修飾 parola，兩個都是陰性單數。先讀 Non capisco，再接你不懂的這個字。",
+          "hint": ""
+        }
+      ],
+      "date": "2026-11-08",
+      "kk": "/aɪ du nɑt ˌʌndɚˈstænd ðɪs ɪˈtæljən wɝd/"
+    },
     {
       "id": 12,
       "topic": "生活購物",
