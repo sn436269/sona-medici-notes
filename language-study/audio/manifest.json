@@ -1192,7 +1192,17 @@
       "generatedAt": "2026-11-13T10:35:11.751Z",
       "seconds": 2.1125,
       "sha256": "02673a5aabc34084739eb7a15ee0bd09954443b87205f0a919c27fdf6aae6ee8"
+    },
+    "questo autobus va in centro?": {
+      "provider": "Lara Translate",
+      "it": "audio/it-ec381cda4ddf863370b7.m4a",
+      "text": "Questo autobus va in centro?",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-13T23:57:08.996Z",
+      "seconds": 1.875,
+      "sha256": "508a3f997659dcf2056fad49f52de1ca9d2d6ead092e44130343c4ae30572028"
     }
   },
-  "updatedAt": "2026-11-13T10:35:11.751Z"
+  "updatedAt": "2026-11-13T23:57:09.011Z"
 }

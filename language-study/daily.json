@@ -1,8 +1,71 @@
 {
   "version": 2,
   "curriculumStart": "2026-10-27",
-  "updatedAt": "2026-11-13T10:35:04.730Z",
+  "updatedAt": "2026-11-13T23:56:59.360Z",
   "days": [
+    {
+      "id": 19,
+      "topic": "城市交通",
+      "title": "這班公車去市中心嗎",
+      "it": "Questo autobus va in centro?",
+      "en": "Does this bus go to the city center?",
+      "zh": "這班公車去市中心嗎？",
+      "pronunciation": "KWÈ-sto ÀU-to-bus va in CHÈN-tro",
+      "words": [
+        {
+          "it": "Questo",
+          "en": "this",
+          "zh": "這個、這班",
+          "ipa": "/ˈkwes.to/",
+          "kk": "/ðɪs/",
+          "pos": "指示形容詞",
+          "note": "autobus 是陽性單數，所以使用 questo。",
+          "hint": ""
+        },
+        {
+          "it": "autobus",
+          "en": "bus",
+          "zh": "公車、巴士",
+          "ipa": "/ˈau.to.bus/",
+          "kk": "/bʌs/",
+          "pos": "陽性名詞",
+          "note": "autobus 的單複數拼寫相同，要從冠詞和上下文判斷數量。",
+          "hint": ""
+        },
+        {
+          "it": "va",
+          "en": "goes",
+          "zh": "去",
+          "ipa": "/va/",
+          "kk": "/ɡoz/",
+          "pos": "動詞・現在式",
+          "note": "andare 的第三人稱單數是不規則的 va，主詞是這班公車。",
+          "hint": ""
+        },
+        {
+          "it": "in",
+          "en": "to",
+          "zh": "到、往",
+          "ipa": "/in/",
+          "kk": "/tu/",
+          "pos": "介系詞",
+          "note": "in centro 是慣用搭配，表示「去市中心、在市中心」，依動詞理解。",
+          "hint": ""
+        },
+        {
+          "it": "centro",
+          "en": "center",
+          "zh": "中心、市中心",
+          "ipa": "/ˈtʃɛn.tro/",
+          "kk": "/ˈsɛntɚ/",
+          "pos": "陽性名詞",
+          "note": "ce 發 tʃe 音。今天用問句語調詢問這班車的方向。",
+          "hint": ""
+        }
+      ],
+      "date": "2026-11-14",
+      "kk": "/dʌz ðɪs bʌs ɡo tə ðə ˈsɪtɪ ˈsɛntɚ/"
+    },
     {
       "id": 18,
       "topic": "城市交通",
