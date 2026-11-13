@@ -1,8 +1,134 @@
 {
   "version": 2,
   "curriculumStart": "2026-10-27",
-  "updatedAt": "2026-11-10T21:57:47.794Z",
+  "updatedAt": "2026-11-13T10:35:04.730Z",
   "days": [
+    {
+      "id": 18,
+      "topic": "城市交通",
+      "title": "問火車幾點出發",
+      "it": "A che ora parte il treno?",
+      "en": "At what time does the train leave?",
+      "zh": "火車幾點出發？",
+      "pronunciation": "a ke Ó-ra PÀR-te il TRÈ-no",
+      "words": [
+        {
+          "it": "A che",
+          "en": "at what",
+          "zh": "在什麼",
+          "ipa": "/a ke/",
+          "kk": "/æt wʌt/",
+          "pos": "疑問詞組的一部分",
+          "note": "A che 和 ora 合起來才是完整的「在幾點」。che 裡的 ch 在 e 前發 k。",
+          "hint": ""
+        },
+        {
+          "it": "ora",
+          "en": "time",
+          "zh": "時間、點鐘",
+          "ipa": "/ˈo.ra/",
+          "kk": "/taɪm/",
+          "pos": "陰性名詞",
+          "note": "A che ora 是詢問時間的固定問法，先一起記住。",
+          "hint": ""
+        },
+        {
+          "it": "parte",
+          "en": "leaves",
+          "zh": "出發",
+          "ipa": "/ˈpar.te/",
+          "kk": "/livz/",
+          "pos": "動詞・現在式",
+          "note": "partire 的第三人稱單數，配合 il treno。",
+          "hint": ""
+        },
+        {
+          "it": "il",
+          "en": "the",
+          "zh": "陽性定冠詞",
+          "ipa": "/il/",
+          "kk": "/ðə/",
+          "pos": "陽性定冠詞",
+          "note": "treno 是陽性單數，所以使用 il。",
+          "hint": ""
+        },
+        {
+          "it": "treno",
+          "en": "train",
+          "zh": "火車",
+          "ipa": "/ˈtrɛ.no/",
+          "kk": "/tren/",
+          "pos": "陽性名詞",
+          "note": "問句裡主詞 il treno 放在 parte 後。整體仍是「火車在幾點出發」。",
+          "hint": ""
+        }
+      ],
+      "date": "2026-11-13",
+      "kk": "/æt wʌt taɪm dʌz ðə tren liv/"
+    },
+    {
+      "id": 17,
+      "topic": "城市交通",
+      "title": "一張前往佛羅倫斯的票",
+      "it": "Vorrei un biglietto per Firenze.",
+      "en": "I would like a ticket to Florence.",
+      "zh": "我想要一張去佛羅倫斯的票。",
+      "pronunciation": "vor-RÈI un bi-LYÉT-to per fi-RÈN-tse",
+      "words": [
+        {
+          "it": "Vorrei",
+          "en": "I would like",
+          "zh": "我想要",
+          "ipa": "/vorˈrɛi/",
+          "kk": "/aɪ wʊd laɪk/",
+          "pos": "動詞・條件式",
+          "note": "把第 1 天熟悉的句首帶到買票情境裡。",
+          "hint": ""
+        },
+        {
+          "it": "un",
+          "en": "a",
+          "zh": "一張、一個",
+          "ipa": "/un/",
+          "kk": "/ə/",
+          "pos": "陽性不定冠詞",
+          "note": "biglietto 是陽性單數，所以使用 un。",
+          "hint": ""
+        },
+        {
+          "it": "biglietto",
+          "en": "ticket",
+          "zh": "票",
+          "ipa": "/biʎˈʎet.to/",
+          "kk": "/ˈtɪkɪt/",
+          "pos": "陽性名詞",
+          "note": "gli 發 ʎ 的顎側音，不分開讀成 g-l-i；雙寫 tt 稍微停留。",
+          "hint": ""
+        },
+        {
+          "it": "per",
+          "en": "to",
+          "zh": "往、前往",
+          "ipa": "/per/",
+          "kk": "/tu/",
+          "pos": "介系詞",
+          "note": "per 在票券情境裡帶出目的地，英文自然譯為 to。",
+          "hint": ""
+        },
+        {
+          "it": "Firenze",
+          "en": "Florence",
+          "zh": "佛羅倫斯",
+          "ipa": "/fiˈrɛn.tse/",
+          "kk": "/ˈflɔrəns/",
+          "pos": "城市專有名詞",
+          "note": "城市名字首字母大寫。整句先說請求，再說票和目的地。",
+          "hint": ""
+        }
+      ],
+      "date": "2026-11-12",
+      "kk": "/aɪ wʊd laɪk ə ˈtɪkɪt tə ˈflɔrəns/"
+    },
     {
       "id": 16,
       "topic": "城市交通",

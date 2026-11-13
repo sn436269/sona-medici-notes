@@ -1172,7 +1172,27 @@
       "generatedAt": "2026-11-10T21:57:56.953Z",
       "seconds": 2.35,
       "sha256": "a13f54f7dcde3d59010ab8a94a9846ae8461de28f8c4df7a948fc0f2c0a701e8"
+    },
+    "a che ora parte il treno?": {
+      "provider": "Lara Translate",
+      "it": "audio/it-38dd5719d28b6fa7dbb7.m4a",
+      "text": "A che ora parte il treno?",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-13T10:35:11.750Z",
+      "seconds": 1.82,
+      "sha256": "0ad32b44fcb3d99936f37096185d045d9187a69a4b22fdbdeb19fc4b3be5e027"
+    },
+    "vorrei un biglietto per firenze.": {
+      "provider": "Lara Translate",
+      "it": "audio/it-30fb6cd26813593e90d2.m4a",
+      "text": "Vorrei un biglietto per Firenze.",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-13T10:35:11.751Z",
+      "seconds": 2.1125,
+      "sha256": "02673a5aabc34084739eb7a15ee0bd09954443b87205f0a919c27fdf6aae6ee8"
     }
   },
-  "updatedAt": "2026-11-10T21:57:56.953Z"
+  "updatedAt": "2026-11-13T10:35:11.751Z"
 }
