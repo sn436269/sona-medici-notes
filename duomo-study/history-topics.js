@@ -121,10 +121,17 @@ function renderTopicComparison(topic) {
   </details>`;
 }
 
+function renderTopicCover({src, alt, caption}) {
+  return `<figure class="history-topic-panel history-topic-cover">
+    <a href="${esc(src)}" target="_blank" rel="noopener"><img src="${esc(src)}" width="1536" height="1024" alt="${esc(alt)}" decoding="async"></a>
+    <figcaption>${esc(caption)} <a href="${esc(src)}" target="_blank" rel="noopener">放大手繪圖</a></figcaption>
+  </figure>`;
+}
+
 function renderTopicArt(topic) {
   if (!topic.art?.length) return '';
   return `<details class="history-topic-panel history-topic-art" open><summary>專題插圖（點圖放大）</summary>
-    <div>${topic.art.map(({src, alt, caption}) => `<figure><a href="${esc(src)}" target="_blank" rel="noopener"><img src="${esc(src)}" alt="${esc(alt)}" loading="lazy" decoding="async"></a><figcaption>${esc(caption)}</figcaption></figure>`).join('')}</div>
+    <div>${topic.art.map(({src, alt, caption, vector}) => `<figure><a href="${esc(src)}" target="_blank" rel="noopener"><img src="${esc(src)}" alt="${esc(alt)}" loading="lazy" decoding="async"></a><figcaption>${esc(caption)}${vector ? ` <a href="${esc(vector)}" target="_blank" rel="noopener">開啟向量圖（SVG）</a>` : ''}</figcaption></figure>`).join('')}</div>
   </details>`;
 }
 
@@ -146,6 +153,7 @@ function renderHistoryTopic(id) {
       ).join('')}</div></section>` + renderTopicArt(topic) + renderTopicSources(topic);
   }
   return top + `<article class="history-topic-page" aria-label="${esc(topic.title)}">
+    ${topic.cover ? renderTopicCover(topic.cover) : ''}
     ${renderTopicGraph(id, topic)}
     ${renderTopicArt(topic)}
     ${topic.storyExtra ? `<section class="history-topic-panel"><h2>${esc(topic.storyExtra.title)}</h2>

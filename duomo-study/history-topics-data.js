@@ -1333,9 +1333,15 @@ window.HISTORY_TOPICS = {
       {
         "src": "assets/history-topics/religion-diagram.png",
         "alt": "原稿宗教演變圖，左側是猶太教、早期基督宗教及其教會分支，右側完整呈現塔納赫、舊約與新約",
-        "caption": "原對話的完整圖《從猶太教到基督宗教》，右側保留《塔納赫》與新舊約及卷數對照。"
+        "caption": "原對話的完整圖《從猶太教到基督宗教》，右側保留《塔納赫》與新舊約及卷數對照。",
+        "vector": "assets/history-topics/religion-diagram.svg"
       }
-    ]
+    ],
+    "cover": {
+      "src": "assets/history-topics/religion-handdrawn.webp",
+      "alt": "從猶太教到基督宗教的發展圖。手繪地圖、年代軸、教會分支與救贖觀念。",
+      "caption": "你提供的手繪圖。圖中信徒數是概估，摩西年代屬傳統敘事，可搭配下方年表與經典對照閱讀。"
+    }
   },
   "dao": {
     "eyebrow": "中國思想史 · 《道德經》第五十六章",

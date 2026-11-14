@@ -137,3 +137,16 @@
   border-radius: 5px;
 }
 .history-topic-selection:has(section:nth-child(2)) { position: static; }
+
+.history-topic-cover {
+  margin: 0 0 1rem;
+}
+.history-topic-cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.history-topic-cover figcaption {
+  margin-top: .65rem;
+}
