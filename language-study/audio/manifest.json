@@ -1202,7 +1202,47 @@
       "generatedAt": "2026-11-13T23:57:08.996Z",
       "seconds": 1.875,
       "sha256": "508a3f997659dcf2056fad49f52de1ca9d2d6ead092e44130343c4ae30572028"
+    },
+    "vorrei visitare questo museo domani.": {
+      "provider": "Lara Translate",
+      "it": "audio/it-90435cf331e71c265ecc.m4a",
+      "text": "Vorrei visitare questo museo domani.",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-18T00:22:33.056Z",
+      "seconds": 2.4375,
+      "sha256": "8ca4430469397d389396e44b8c89447cbf2b2847cbab4c12771422e1ae6227bb"
+    },
+    "la mia camera e tranquilla.": {
+      "provider": "Lara Translate",
+      "it": "audio/it-3e9eeabf84c809305f4a.m4a",
+      "text": "La mia camera è tranquilla.",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-18T00:22:33.057Z",
+      "seconds": 1.82,
+      "sha256": "177be0c22b42bc9c525d296577d8b59fa4d15d701371a2f8bd82d139a55e0870"
+    },
+    "quanto dura la visita guidata?": {
+      "provider": "Lara Translate",
+      "it": "audio/it-d70b2b742c293ba6ba35.m4a",
+      "text": "Quanto dura la visita guidata?",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-18T00:22:33.138Z",
+      "seconds": 1.925,
+      "sha256": "4b2c977eb3132c33c425f1e1d1c6de394543bc1a5f827971d3be73cb22b6ee81"
+    },
+    "ho una prenotazione per stasera.": {
+      "provider": "Lara Translate",
+      "it": "audio/it-539b229d4404e8ba7476.m4a",
+      "text": "Ho una prenotazione per stasera.",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-18T00:22:35.477Z",
+      "seconds": 2.1875,
+      "sha256": "df614f35622f4a97cb98aac78d9c765aeaf2ad5b7ae98532e010f4a60389238a"
     }
   },
-  "updatedAt": "2026-11-13T23:57:09.011Z"
+  "updatedAt": "2026-11-18T00:22:35.477Z"
 }

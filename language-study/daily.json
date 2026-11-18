@@ -1,8 +1,260 @@
 {
   "version": 2,
   "curriculumStart": "2026-10-27",
-  "updatedAt": "2026-11-13T23:56:59.360Z",
+  "updatedAt": "2026-11-18T00:22:29.527Z",
   "days": [
+    {
+      "id": 23,
+      "topic": "藝術觀光",
+      "title": "把明天留給博物館",
+      "it": "Vorrei visitare questo museo domani.",
+      "en": "I would like to visit this museum tomorrow.",
+      "zh": "我想明天參觀這間博物館。",
+      "pronunciation": "vor-RÈI vi-zi-TÀ-re KWÈ-sto mu-ZÈ-o do-MÀ-ni",
+      "words": [
+        {
+          "it": "Vorrei",
+          "en": "I would like",
+          "zh": "我想要",
+          "ipa": "/vorˈrɛi/",
+          "kk": "/aɪ wʊd laɪk/",
+          "pos": "動詞・條件式",
+          "note": "Vorrei 後面除了名詞，也可以接動詞不定式，表達想做的事。",
+          "hint": ""
+        },
+        {
+          "it": "visitare",
+          "en": "visit",
+          "zh": "參觀、拜訪",
+          "ipa": "/vi.ziˈta.re/",
+          "kk": "/ˈvɪzɪt/",
+          "pos": "動詞・不定式",
+          "note": "visitare 保留不定式，接在 Vorrei 後面。",
+          "hint": ""
+        },
+        {
+          "it": "questo",
+          "en": "this",
+          "zh": "這個、這間",
+          "ipa": "/ˈkwes.to/",
+          "kk": "/ðɪs/",
+          "pos": "指示形容詞",
+          "note": "museo 是陽性單數，所以使用 questo。",
+          "hint": ""
+        },
+        {
+          "it": "museo",
+          "en": "museum",
+          "zh": "博物館",
+          "ipa": "/muˈzɛ.o/",
+          "kk": "/mjuˈzɪəm/",
+          "pos": "陽性名詞",
+          "note": "museo 的重音在 se，字尾 e-o 分開發音。",
+          "hint": ""
+        },
+        {
+          "it": "domani",
+          "en": "tomorrow",
+          "zh": "明天",
+          "ipa": "/doˈma.ni/",
+          "kk": "/təˈmɑro/",
+          "pos": "時間副詞",
+          "note": "domani 放在句末，補充想參觀的時間。今晚把請求、行動、地點與時間連起來。",
+          "hint": ""
+        }
+      ],
+      "date": "2026-11-18",
+      "kk": "/aɪ wʊd laɪk tə ˈvɪzɪt ðɪs mjuˈzɪəm təˈmɑro/"
+    },
+    {
+      "id": 22,
+      "topic": "藝術觀光",
+      "title": "導覽要多久",
+      "it": "Quanto dura la visita guidata?",
+      "en": "How long does the guided tour last?",
+      "zh": "導覽行程持續多久？",
+      "pronunciation": "KWÀN-to DÙ-ra la VÌ-zi-ta gwi-DÀ-ta",
+      "words": [
+        {
+          "it": "Quanto",
+          "en": "how long",
+          "zh": "多久",
+          "ipa": "/ˈkwan.to/",
+          "kk": "/haʊ lɔŋ/",
+          "pos": "疑問副詞",
+          "note": "quanto 搭配 dura 詢問持續時間；這次不是問價格。",
+          "hint": ""
+        },
+        {
+          "it": "dura",
+          "en": "lasts",
+          "zh": "持續",
+          "ipa": "/ˈdu.ra/",
+          "kk": "/læsts/",
+          "pos": "動詞・現在式",
+          "note": "durare 的第三人稱單數，主詞是 la visita guidata。",
+          "hint": ""
+        },
+        {
+          "it": "la",
+          "en": "the",
+          "zh": "陰性定冠詞",
+          "ipa": "/la/",
+          "kk": "/ðə/",
+          "pos": "陰性定冠詞",
+          "note": "visita 是陰性單數，使用 la。",
+          "hint": ""
+        },
+        {
+          "it": "visita",
+          "en": "visit",
+          "zh": "參觀、拜訪",
+          "ipa": "/ˈvi.zi.ta/",
+          "kk": "/ˈvɪzɪt/",
+          "pos": "陰性名詞",
+          "note": "visita 在這裡表示參觀活動，重音在第一音節。",
+          "hint": ""
+        },
+        {
+          "it": "guidata",
+          "en": "guided",
+          "zh": "有導覽的",
+          "ipa": "/ɡwiˈda.ta/",
+          "kk": "/ˈɡaɪdɪd/",
+          "pos": "形容詞・陰性單數",
+          "note": "guidata 配合 visita。la visita guidata 作為完整名詞組，英文就是 the guided tour。",
+          "hint": ""
+        }
+      ],
+      "date": "2026-11-17",
+      "kk": "/haʊ lɔŋ dʌz ðə ˈɡaɪdɪd tʊr læst/"
+    },
+    {
+      "id": 21,
+      "topic": "住宿旅途",
+      "title": "安靜的房間",
+      "it": "La mia camera è tranquilla.",
+      "en": "My room is quiet.",
+      "zh": "我的房間很安靜。",
+      "pronunciation": "la MÌ-a KÀ-me-ra È tran-KWÌL-la",
+      "words": [
+        {
+          "it": "La",
+          "en": "the",
+          "zh": "陰性定冠詞",
+          "ipa": "/la/",
+          "kk": "/ðə/",
+          "pos": "陰性定冠詞",
+          "note": "義大利文一般名詞前的所有格常搭配定冠詞，所以這裡是 la mia camera。",
+          "hint": ""
+        },
+        {
+          "it": "mia",
+          "en": "my",
+          "zh": "我的",
+          "ipa": "/ˈmi.a/",
+          "kk": "/maɪ/",
+          "pos": "所有格形容詞",
+          "note": "mia 配合被擁有的東西 camera 的陰性單數，不是依說話者性別決定。",
+          "hint": ""
+        },
+        {
+          "it": "camera",
+          "en": "room",
+          "zh": "房間",
+          "ipa": "/ˈka.me.ra/",
+          "kk": "/rum/",
+          "pos": "陰性名詞",
+          "note": "義大利文 camera 在這裡是房間，不是英文 camera（相機）。",
+          "hint": ""
+        },
+        {
+          "it": "è",
+          "en": "is",
+          "zh": "是",
+          "ipa": "/ɛ/",
+          "kk": "/ɪz/",
+          "pos": "動詞・現在式",
+          "note": "è 連接主詞 la mia camera 與形容詞 tranquilla。",
+          "hint": ""
+        },
+        {
+          "it": "tranquilla",
+          "en": "quiet",
+          "zh": "安靜的",
+          "ipa": "/traŋˈkwil.la/",
+          "kk": "/ˈkwaɪət/",
+          "pos": "形容詞・陰性單數",
+          "note": "tranquilla 配合 camera。重音在 quil，雙寫 ll 要稍作停留。",
+          "hint": ""
+        }
+      ],
+      "date": "2026-11-16",
+      "kk": "/maɪ rum ɪz ˈkwaɪət/"
+    },
+    {
+      "id": 20,
+      "topic": "住宿旅途",
+      "title": "告訴對方你有預約",
+      "it": "Ho una prenotazione per stasera.",
+      "en": "I have a reservation for this evening.",
+      "zh": "我有今晚的預約。",
+      "pronunciation": "Ò Ù-na pre-no-tat-TSIÓ-ne per sta-SÉ-ra",
+      "words": [
+        {
+          "it": "Ho",
+          "en": "I have",
+          "zh": "我有",
+          "ipa": "/ɔ/",
+          "kk": "/aɪ hæv/",
+          "pos": "動詞・現在式",
+          "note": "複習 ho；h 不發音，這裡直接表示「我有」。",
+          "hint": ""
+        },
+        {
+          "it": "una",
+          "en": "a",
+          "zh": "一個",
+          "ipa": "/ˈu.na/",
+          "kk": "/ə/",
+          "pos": "陰性不定冠詞",
+          "note": "prenotazione 是陰性單數，所以使用 una。",
+          "hint": ""
+        },
+        {
+          "it": "prenotazione",
+          "en": "reservation",
+          "zh": "預約、訂位",
+          "ipa": "/pre.no.tatˈtsjo.ne/",
+          "kk": "/ˌrɛzɚˈveʃən/",
+          "pos": "陰性名詞",
+          "note": "長單字可以慢慢分段 pre-no-ta-zio-ne，重音落在 zio。",
+          "hint": ""
+        },
+        {
+          "it": "per",
+          "en": "for",
+          "zh": "為、供",
+          "ipa": "/per/",
+          "kk": "/fɔr/",
+          "pos": "介系詞",
+          "note": "per 在這裡引出預約所對應的時間。",
+          "hint": ""
+        },
+        {
+          "it": "stasera",
+          "en": "this evening",
+          "zh": "今晚",
+          "ipa": "/staˈse.ra/",
+          "kk": "/ðɪs ˈivnɪŋ/",
+          "pos": "時間副詞",
+          "note": "stasera 是一個字，意指今天晚上。整句可用在餐廳或其他預約情境。",
+          "hint": ""
+        }
+      ],
+      "date": "2026-11-15",
+      "kk": "/aɪ hæv ə ˌrɛzɚˈveʃən fɔr ðɪs ˈivnɪŋ/"
+    },
     {
       "id": 19,
       "topic": "城市交通",
