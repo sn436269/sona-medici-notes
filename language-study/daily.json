@@ -1,8 +1,71 @@
 {
   "version": 2,
   "curriculumStart": "2026-10-27",
-  "updatedAt": "2026-11-18T00:22:29.527Z",
+  "updatedAt": "2026-11-18T23:59:27.888Z",
   "days": [
+    {
+      "id": 24,
+      "topic": "藝術觀光",
+      "title": "在畫作前停一停",
+      "it": "Questo dipinto è molto bello.",
+      "en": "This painting is very beautiful.",
+      "zh": "這幅畫非常美。",
+      "pronunciation": "KWÈ-sto di-PÌN-to È MÓL-to BÈL-lo",
+      "words": [
+        {
+          "it": "Questo",
+          "en": "this",
+          "zh": "這個、這幅",
+          "ipa": "/ˈkwes.to/",
+          "kk": "/ðɪs/",
+          "pos": "指示形容詞",
+          "note": "dipinto 是陽性單數，所以使用 questo。",
+          "hint": ""
+        },
+        {
+          "it": "dipinto",
+          "en": "painting",
+          "zh": "畫作、繪畫作品",
+          "ipa": "/diˈpin.to/",
+          "kk": "/ˈpentɪŋ/",
+          "pos": "陽性名詞",
+          "note": "dipinto 在這裡當名詞，指一幅畫作。",
+          "hint": ""
+        },
+        {
+          "it": "è",
+          "en": "is",
+          "zh": "是",
+          "ipa": "/ɛ/",
+          "kk": "/ɪz/",
+          "pos": "動詞・現在式",
+          "note": "用 è 連接畫作和你對它的感受。",
+          "hint": ""
+        },
+        {
+          "it": "molto",
+          "en": "very",
+          "zh": "非常",
+          "ipa": "/ˈmol.to/",
+          "kk": "/ˈvɛrɪ/",
+          "pos": "副詞",
+          "note": "molto 修飾形容詞 bello。回想第 4 天的 molto buono，句型是一樣的。",
+          "hint": ""
+        },
+        {
+          "it": "bello",
+          "en": "beautiful",
+          "zh": "美的、漂亮的",
+          "ipa": "/ˈbɛl.lo/",
+          "kk": "/ˈbjutəfəl/",
+          "pos": "形容詞・陽性單數",
+          "note": "bello 配合陽性單數 dipinto。形容詞在 è 後，今天使用完整的 bello。",
+          "hint": ""
+        }
+      ],
+      "date": "2026-11-19",
+      "kk": "/ðɪs ˈpentɪŋ ɪz ˈvɛrɪ ˈbjutəfəl/"
+    },
     {
       "id": 23,
       "topic": "藝術觀光",

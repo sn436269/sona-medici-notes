@@ -1242,7 +1242,17 @@
       "generatedAt": "2026-11-18T00:22:35.477Z",
       "seconds": 2.1875,
       "sha256": "df614f35622f4a97cb98aac78d9c765aeaf2ad5b7ae98532e010f4a60389238a"
+    },
+    "questo dipinto e molto bello.": {
+      "provider": "Lara Translate",
+      "it": "audio/it-8d268fa5381630ea8df2.m4a",
+      "text": "Questo dipinto è molto bello.",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-18T23:59:32.299Z",
+      "seconds": 2.0375,
+      "sha256": "984616a98d7ef533114e79592bfba415900a97dcd97b1409cb97c3388fa5e483"
     }
   },
-  "updatedAt": "2026-11-18T00:22:35.477Z"
+  "updatedAt": "2026-11-18T23:59:32.300Z"
 }
