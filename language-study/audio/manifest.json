@@ -1252,7 +1252,37 @@
       "generatedAt": "2026-11-18T23:59:32.299Z",
       "seconds": 2.0375,
       "sha256": "984616a98d7ef533114e79592bfba415900a97dcd97b1409cb97c3388fa5e483"
+    },
+    "oggi voglio vedere questa chiesa.": {
+      "provider": "Lara Translate",
+      "it": "audio/it-c06f6dad3a17b97490b1.m4a",
+      "text": "Oggi voglio vedere questa chiesa.",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-22T07:21:47.720Z",
+      "seconds": 1.9625,
+      "sha256": "2e8f0913393f58a3db0208f42dc234b025eea885237fa549bf290261ce3d7a81"
+    },
+    "puoi aiutarmi con questa mappa?": {
+      "provider": "Lara Translate",
+      "it": "audio/it-4928d7ecc6e52fd43ab3.m4a",
+      "text": "Puoi aiutarmi con questa mappa?",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-22T07:21:47.721Z",
+      "seconds": 1.975,
+      "sha256": "45d2be15038efce87c72e397667f68d36120f70f0776e57af01db24f274416e3"
+    },
+    "mi interessa la storia italiana.": {
+      "provider": "Lara Translate",
+      "it": "audio/it-2fd2c3cd7c49bad9ecc3.m4a",
+      "text": "Mi interessa la storia italiana.",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-22T07:21:47.721Z",
+      "seconds": 2.2,
+      "sha256": "00938400eb9d07cf58204e29975af2f75ad20f7c106444a868f22e1a88d0f80a"
     }
   },
-  "updatedAt": "2026-11-18T23:59:32.300Z"
+  "updatedAt": "2026-11-22T07:21:47.722Z"
 }

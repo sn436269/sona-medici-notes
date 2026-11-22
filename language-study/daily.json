@@ -1,8 +1,197 @@
 {
   "version": 2,
   "curriculumStart": "2026-10-27",
-  "updatedAt": "2026-11-18T23:59:27.888Z",
+  "updatedAt": "2026-11-22T07:21:44.578Z",
   "days": [
+    {
+      "id": 27,
+      "topic": "藝術觀光",
+      "title": "請對方幫忙看地圖",
+      "it": "Puoi aiutarmi con questa mappa?",
+      "en": "Can you help me with this map?",
+      "zh": "你可以幫我看看這張地圖嗎？",
+      "pronunciation": "pwòi a-yu-TÀR-mi kon KWÈ-sta MÀP-pa",
+      "words": [
+        {
+          "it": "Puoi",
+          "en": "can you",
+          "zh": "你可以嗎",
+          "ipa": "/pwɔi/",
+          "kk": "/kæn ju/",
+          "pos": "動詞・現在式",
+          "note": "這是對熟悉對象的非正式 tu 問法。正式稱呼可使用 Può。",
+          "hint": ""
+        },
+        {
+          "it": "aiutarmi",
+          "en": "help me",
+          "zh": "幫助我",
+          "ipa": "/a.juˈtar.mi/",
+          "kk": "/hɛlp mi/",
+          "pos": "不定式＋代名詞",
+          "note": "aiutare 去掉末尾 e，再加 mi，成為 aiutarmi。mi 在這裡是「我」這個受詞。",
+          "hint": ""
+        },
+        {
+          "it": "con",
+          "en": "with",
+          "zh": "在……方面、用",
+          "ipa": "/kon/",
+          "kk": "/wɪð/",
+          "pos": "介系詞",
+          "note": "con 引出需要協助的事情或物品；這裡是地圖。",
+          "hint": ""
+        },
+        {
+          "it": "questa",
+          "en": "this",
+          "zh": "這個、這張",
+          "ipa": "/ˈkwes.ta/",
+          "kk": "/ðɪs/",
+          "pos": "指示形容詞",
+          "note": "mappa 是陰性單數，所以使用 questa。",
+          "hint": ""
+        },
+        {
+          "it": "mappa",
+          "en": "map",
+          "zh": "地圖",
+          "ipa": "/ˈmap.pa/",
+          "kk": "/mæp/",
+          "pos": "陰性名詞",
+          "note": "雙寫 pp 稍微停留。把 Puoi aiutarmi 當成一個請求，再接 con questa mappa。",
+          "hint": ""
+        }
+      ],
+      "date": "2026-11-22",
+      "kk": "/kæn ju hɛlp mi wɪð ðɪs mæp/"
+    },
+    {
+      "id": 26,
+      "topic": "藝術觀光",
+      "title": "走進一座教堂",
+      "it": "Oggi voglio vedere questa chiesa.",
+      "en": "Today I want to see this church.",
+      "zh": "今天我想看看這座教堂。",
+      "pronunciation": "ÒD-dji VÒ-lyo ve-DÉ-re KWÈ-sta KYÈ-za",
+      "words": [
+        {
+          "it": "Oggi",
+          "en": "today",
+          "zh": "今天",
+          "ipa": "/ˈɔd.dʒi/",
+          "kk": "/təˈde/",
+          "pos": "時間副詞",
+          "note": "把今天放在句首，先交代時間。",
+          "hint": ""
+        },
+        {
+          "it": "voglio",
+          "en": "I want",
+          "zh": "我想要",
+          "ipa": "/ˈvɔʎ.ʎo/",
+          "kk": "/aɪ wɑnt/",
+          "pos": "動詞・現在式",
+          "note": "volere 的第一人稱單數現在式。比 Vorrei 直接；這裡是在陳述自己的計畫。",
+          "hint": ""
+        },
+        {
+          "it": "vedere",
+          "en": "see",
+          "zh": "看、看見",
+          "ipa": "/veˈde.re/",
+          "kk": "/si/",
+          "pos": "動詞・不定式",
+          "note": "voglio 後面的動詞保留不定式，所以使用 vedere。",
+          "hint": ""
+        },
+        {
+          "it": "questa",
+          "en": "this",
+          "zh": "這個、這座",
+          "ipa": "/ˈkwes.ta/",
+          "kk": "/ðɪs/",
+          "pos": "指示形容詞",
+          "note": "chiesa 是陰性單數，所以使用 questa。",
+          "hint": ""
+        },
+        {
+          "it": "chiesa",
+          "en": "church",
+          "zh": "教堂",
+          "ipa": "/ˈkjɛ.za/",
+          "kk": "/tʃɝtʃ/",
+          "pos": "陰性名詞",
+          "note": "ch 在 i 前保持 k 音，chie 連成 kjɛ，與英文 church 的起始音不同。",
+          "hint": ""
+        }
+      ],
+      "date": "2026-11-21",
+      "kk": "/təˈde aɪ wɑnt tə si ðɪs tʃɝtʃ/"
+    },
+    {
+      "id": 25,
+      "topic": "藝術觀光",
+      "title": "聊聊你對歷史的興趣",
+      "it": "Mi interessa la storia italiana.",
+      "en": "I am interested in Italian history.",
+      "zh": "我對義大利歷史感興趣。",
+      "pronunciation": "mi in-te-RÈS-sa la STÒ-rya i-ta-LIÀ-na",
+      "words": [
+        {
+          "it": "Mi",
+          "en": "to me",
+          "zh": "對我",
+          "ipa": "/mi/",
+          "kk": "/tə mi/",
+          "pos": "間接受詞代名詞",
+          "note": "這裡 mi 是「對我」。整個 mi interessa 自然翻成「我感興趣」。",
+          "hint": ""
+        },
+        {
+          "it": "interessa",
+          "en": "interests",
+          "zh": "使感興趣",
+          "ipa": "/in.teˈrɛs.sa/",
+          "kk": "/ˈɪntrɪsts/",
+          "pos": "動詞・現在式",
+          "note": "interessare 的第三人稱單數，真正的文法主詞是 la storia italiana。",
+          "hint": ""
+        },
+        {
+          "it": "la",
+          "en": "the",
+          "zh": "陰性定冠詞",
+          "ipa": "/la/",
+          "kk": "/ðə/",
+          "pos": "陰性定冠詞",
+          "note": "storia 是陰性單數，所以使用 la。",
+          "hint": ""
+        },
+        {
+          "it": "storia",
+          "en": "history",
+          "zh": "歷史、故事",
+          "ipa": "/ˈstɔ.rja/",
+          "kk": "/ˈhɪstərɪ/",
+          "pos": "陰性名詞",
+          "note": "storia 有歷史與故事兩種常見意思；在這句裡是歷史。",
+          "hint": ""
+        },
+        {
+          "it": "italiana",
+          "en": "Italian",
+          "zh": "義大利的",
+          "ipa": "/i.taˈlja.na/",
+          "kk": "/ɪˈtæljən/",
+          "pos": "形容詞・陰性單數",
+          "note": "italiana 配合陰性 storia。Mi interessa 的結構和之前的 Mi piace 類似，先整組理解。",
+          "hint": ""
+        }
+      ],
+      "date": "2026-11-20",
+      "kk": "/aɪ æm ˈɪntrəstɪd ɪn ɪˈtæljən ˈhɪstərɪ/"
+    },
     {
       "id": 24,
       "topic": "藝術觀光",
