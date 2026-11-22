@@ -217,3 +217,251 @@ addDay('藝術觀光','總有一天，再回到這裡','Vorrei tornare qui un gi
   'un|one|一個|/un/|/wʌn/|不定冠詞／數詞|在 un giorno 這個時間詞組裡，un 對應「某一個」。',
   'giorno|day|天、日子|/ˈdʒor.no/|/de/|陽性名詞|un giorno 可以表示未來的「有一天」。將整句慢慢說出來，為第一個月留下一個想再出發的願望。'
 ]);
+
+// Prepared travel lessons beyond the first month.
+window.LESSONS.push(...[
+  {
+    "id": 31,
+    "topic": "旅遊交通",
+    "title": "搭公車前先買票",
+    "it": "Prima compro un biglietto.",
+    "en": "First I buy a ticket.",
+    "zh": "我先買一張票。",
+    "pronunciation": "Prima compro un biglietto.",
+    "words": [
+      {
+        "it": "Prima",
+        "en": "first",
+        "zh": "首先",
+        "ipa": "/ˈpri.ma/",
+        "kk": "/fɝst/",
+        "pos": "副詞",
+        "note": "prima 放在句首，先說明動作順序。",
+        "hint": ""
+      },
+      {
+        "it": "compro",
+        "en": "I buy",
+        "zh": "我買",
+        "ipa": "/ˈkom.pro/",
+        "kk": "/aɪ baɪ/",
+        "pos": "動詞",
+        "note": "comprare 的第一人稱單數現在式。",
+        "hint": ""
+      },
+      {
+        "it": "un",
+        "en": "a",
+        "zh": "一張",
+        "ipa": "/un/",
+        "kk": "/ə/",
+        "pos": "不定冠詞",
+        "note": "biglietto 是陽性單數，搭配 un。",
+        "hint": ""
+      },
+      {
+        "it": "biglietto",
+        "en": "ticket",
+        "zh": "票",
+        "ipa": "/biʎˈʎet.to/",
+        "kk": "/ˈtɪkɪt/",
+        "pos": "名詞",
+        "note": "雙寫 tt 的音稍微停留。",
+        "hint": ""
+      },
+      {
+        "it": "comprare",
+        "en": "to buy",
+        "zh": "購買",
+        "ipa": "/komˈpra.re/",
+        "kk": "/tə baɪ/",
+        "pos": "不定式",
+        "note": "用 compro 描述自己的動作。",
+        "hint": ""
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "topic": "旅遊交通",
+    "title": "詢問公車停靠站",
+    "it": "Questo autobus ferma qui?",
+    "en": "Does this bus stop here?",
+    "zh": "這班公車在這裡停嗎？",
+    "pronunciation": "Questo autobus ferma qui?",
+    "words": [
+      {
+        "it": "Questo",
+        "en": "this",
+        "zh": "這個",
+        "ipa": "/ˈkwes.to/",
+        "kk": "/ðɪs/",
+        "pos": "指示形容詞",
+        "note": "autobus 是陽性單數，用 questo。",
+        "hint": ""
+      },
+      {
+        "it": "autobus",
+        "en": "bus",
+        "zh": "公車",
+        "ipa": "/ˈau.to.bus/",
+        "kk": "/bʌs/",
+        "pos": "名詞",
+        "note": "autobus 的單複數形式相同。",
+        "hint": ""
+      },
+      {
+        "it": "ferma",
+        "en": "stops",
+        "zh": "停靠",
+        "ipa": "/ˈfer.ma/",
+        "kk": "/stɑps/",
+        "pos": "動詞",
+        "note": "fermare 的第三人稱單數，這裡表示停靠。",
+        "hint": ""
+      },
+      {
+        "it": "qui",
+        "en": "here",
+        "zh": "這裡",
+        "ipa": "/kwi/",
+        "kk": "/hɪr/",
+        "pos": "副詞",
+        "note": "詢問目前這個位置。",
+        "hint": ""
+      },
+      {
+        "it": "fermata",
+        "en": "bus stop",
+        "zh": "公車站",
+        "ipa": "/ferˈma.ta/",
+        "kk": "/bʌs stɑp/",
+        "pos": "名詞",
+        "note": "la fermata 表示停靠站。",
+        "hint": ""
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "topic": "旅遊交通",
+    "title": "走路去市中心",
+    "it": "Vado in centro a piedi.",
+    "en": "I am walking to the city centre.",
+    "zh": "我要走路去市中心。",
+    "pronunciation": "Vado in centro a piedi.",
+    "words": [
+      {
+        "it": "Vado",
+        "en": "I go",
+        "zh": "我去",
+        "ipa": "/ˈva.do/",
+        "kk": "/aɪ ɡo/",
+        "pos": "動詞",
+        "note": "andare 的第一人稱單數。",
+        "hint": ""
+      },
+      {
+        "it": "in centro",
+        "en": "to the city centre",
+        "zh": "往市中心",
+        "ipa": "/in ˈtʃɛn.tro/",
+        "kk": "/tə ðə ˈsɪtɪ ˈsɛntɚ/",
+        "pos": "地點詞組",
+        "note": "in centro 是常見搭配，表示去市中心或在市中心。",
+        "hint": ""
+      },
+      {
+        "it": "a piedi",
+        "en": "on foot",
+        "zh": "步行",
+        "ipa": "/a ˈpjɛ.di/",
+        "kk": "/ɑn fʊt/",
+        "pos": "方式詞組",
+        "note": "固定用法，表示走路。",
+        "hint": ""
+      },
+      {
+        "it": "strada",
+        "en": "street",
+        "zh": "街道",
+        "ipa": "/ˈstra.da/",
+        "kk": "/strit/",
+        "pos": "名詞",
+        "note": "la strada 也可表示道路。",
+        "hint": ""
+      },
+      {
+        "it": "vicino",
+        "en": "near",
+        "zh": "附近的",
+        "ipa": "/viˈtʃi.no/",
+        "kk": "/nɪr/",
+        "pos": "形容詞或副詞",
+        "note": "vicino a 加地點，表示靠近某處。",
+        "hint": ""
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "topic": "旅遊交通",
+    "title": "詢問回程班次",
+    "it": "Quando parte il prossimo treno?",
+    "en": "When does the next train leave?",
+    "zh": "下一班火車什麼時候出發？",
+    "pronunciation": "Quando parte il prossimo treno?",
+    "words": [
+      {
+        "it": "Quando",
+        "en": "when",
+        "zh": "何時",
+        "ipa": "/ˈkwan.do/",
+        "kk": "/wɛn/",
+        "pos": "疑問副詞",
+        "note": "quando 用來詢問時間。",
+        "hint": ""
+      },
+      {
+        "it": "parte",
+        "en": "leaves",
+        "zh": "出發",
+        "ipa": "/ˈpar.te/",
+        "kk": "/livz/",
+        "pos": "動詞",
+        "note": "partire 的第三人稱單數。",
+        "hint": ""
+      },
+      {
+        "it": "il",
+        "en": "the",
+        "zh": "陽性定冠詞",
+        "ipa": "/il/",
+        "kk": "/ðə/",
+        "pos": "定冠詞",
+        "note": "對應陽性單數 treno。",
+        "hint": ""
+      },
+      {
+        "it": "prossimo",
+        "en": "next",
+        "zh": "下一個",
+        "ipa": "/ˈprɔs.si.mo/",
+        "kk": "/nɛkst/",
+        "pos": "形容詞",
+        "note": "prossimo 配合陽性單數 treno。",
+        "hint": ""
+      },
+      {
+        "it": "treno",
+        "en": "train",
+        "zh": "火車",
+        "ipa": "/ˈtrɛ.no/",
+        "kk": "/tren/",
+        "pos": "名詞",
+        "note": "il prossimo treno 指下一班火車。",
+        "hint": ""
+      }
+    ]
+  }
+]);
