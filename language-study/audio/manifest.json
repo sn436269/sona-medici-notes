@@ -1282,7 +1282,177 @@
       "generatedAt": "2026-11-22T07:21:47.721Z",
       "seconds": 2.2,
       "sha256": "00938400eb9d07cf58204e29975af2f75ad20f7c106444a868f22e1a88d0f80a"
+    },
+    "prima": {
+      "provider": "Lara Translate",
+      "it": "audio/it-0c9e96b508e11c154509.m4a",
+      "text": "Prima",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-22T10:20:54.417Z",
+      "seconds": 0.75,
+      "sha256": "cb575aaf5a62be64aca3ef79fbb56c6a17e166715545a8203719beb3a269fe1a"
+    },
+    "ferma": {
+      "provider": "Lara Translate",
+      "it": "audio/it-c7fdf61dd722eb0176ea.m4a",
+      "text": "ferma",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-22T10:20:54.419Z",
+      "seconds": 1.82,
+      "sha256": "bb00a879ce4f1a04cbf651fd4aea68ac2fb662b81d621e53389289d30f803b65"
+    },
+    "comprare": {
+      "provider": "Lara Translate",
+      "it": "audio/it-dbb954fab17c88decec0.m4a",
+      "text": "comprare",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-22T10:20:54.419Z",
+      "seconds": 1.82,
+      "sha256": "f1162c7a090e0e4e56b6acd68dd0db99457b26186f344e09469ed9490591ccfe"
+    },
+    "in centro": {
+      "provider": "Lara Translate",
+      "it": "audio/it-2812ef483eb827cf9ea2.m4a",
+      "text": "in centro",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-22T10:20:56.401Z",
+      "seconds": 1.82,
+      "sha256": "1d5d99d050178fec98ac6748eab0ba6fba854bd261eba76242297df8cded78a6"
+    },
+    "a piedi": {
+      "provider": "Lara Translate",
+      "it": "audio/it-def17eab4f98b0c49dec.m4a",
+      "text": "a piedi",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-22T10:20:56.459Z",
+      "seconds": 1.82,
+      "sha256": "ab973f047531d49f00cea7facec0bb8a191aa657c93042b52c125ae9a3a8a777"
+    },
+    "fermata": {
+      "provider": "Lara Translate",
+      "it": "audio/it-25a3f61013f46552efd3.m4a",
+      "text": "fermata",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-22T10:20:56.474Z",
+      "seconds": 1.82,
+      "sha256": "732c0389b9cdea781bdacf94c7db18d2019e7496847b97e3c44959500cb2d86b"
+    },
+    "vicino": {
+      "provider": "Lara Translate",
+      "it": "audio/it-18e6eea5909a87ed4110.m4a",
+      "text": "vicino",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-22T10:20:58.516Z",
+      "seconds": 1.82,
+      "sha256": "55c780a50261af203f7f051bb21102c4c342598daa19dbf725e8abc5e7675fdb"
+    },
+    "strada": {
+      "provider": "Lara Translate",
+      "it": "audio/it-7ee5917f656e97ac104d.m4a",
+      "text": "strada",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-22T10:20:58.516Z",
+      "seconds": 1.82,
+      "sha256": "cbaec5281c3ef5b33b7a3ab638cf0d5ed80613d6805f2f5c686e36960031d27a"
+    },
+    "quando": {
+      "provider": "Lara Translate",
+      "it": "audio/it-f49d1003d0a87bbbd0e9.m4a",
+      "text": "Quando",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-22T10:20:58.518Z",
+      "seconds": 1.82,
+      "sha256": "a9c8f50dc31a197b65081a70d504ec94bbc0c0b991050b615cbd0e5d0d3718cf"
+    },
+    "prossimo": {
+      "provider": "Lara Translate",
+      "it": "audio/it-487898a16c5c3fdc2f0d.m4a",
+      "text": "prossimo",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-22T10:21:00.565Z",
+      "seconds": 1.82,
+      "sha256": "031dff5f0ac70bae84271e6425a280fb23e883c3a8275e741d615504c54cbff5"
+    },
+    "domani vado a firenze in treno.": {
+      "provider": "Lara Translate",
+      "it": "audio/it-76ce0e45e55ee46e3301.m4a",
+      "text": "Domani vado a Firenze in treno.",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-22T10:21:00.579Z",
+      "seconds": 2.1,
+      "sha256": "dd031774658982516d4f120b5d067abfbb465405cd5d8fa410be2d4cdf95e043"
+    },
+    "la piazza e sempre aperta.": {
+      "provider": "Lara Translate",
+      "it": "audio/it-533a5b682a8c7fe944f4.m4a",
+      "text": "La piazza è sempre aperta.",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-22T10:21:01.109Z",
+      "seconds": 2.1,
+      "sha256": "2e6e69c9a95315ba4165684fb409c21cc2098fefa4d33ca4cecf157138464065"
+    },
+    "prima compro un biglietto.": {
+      "provider": "Lara Translate",
+      "it": "audio/it-c090c009ae88a186e045.m4a",
+      "text": "Prima compro un biglietto.",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-22T10:21:03.040Z",
+      "seconds": 1.82,
+      "sha256": "ba13e1cac12028463cbe7ecd09b04aa08ee93543e403bce0d746aa299d3394d6"
+    },
+    "vorrei tornare qui un giorno.": {
+      "provider": "Lara Translate",
+      "it": "audio/it-f05ebbd7807c71c2221e.m4a",
+      "text": "Vorrei tornare qui un giorno.",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-22T10:21:03.113Z",
+      "seconds": 1.875,
+      "sha256": "ccb711b7eccfb06b5df80316a3ab3fc82267b11a15b8e023b275132b0b8818a8"
+    },
+    "questo autobus ferma qui?": {
+      "provider": "Lara Translate",
+      "it": "audio/it-2fe27bbd4c34a703837e.m4a",
+      "text": "Questo autobus ferma qui?",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-22T10:21:03.216Z",
+      "seconds": 1.8625,
+      "sha256": "5ea565dfa63d5457821c8a2a37b91331b59ec5d56a619b517c13abaef5b7e33d"
+    },
+    "vado in centro a piedi.": {
+      "provider": "Lara Translate",
+      "it": "audio/it-a0474b799af4ea86b98d.m4a",
+      "text": "Vado in centro a piedi.",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-22T10:21:05.543Z",
+      "seconds": 1.82,
+      "sha256": "cd2b4bca215e3330a67ab84972b8d48370837da7269ae97cb300bacf226a91fa"
+    },
+    "quando parte il prossimo treno?": {
+      "provider": "Lara Translate",
+      "it": "audio/it-1bcddc331689ec77a120.m4a",
+      "text": "Quando parte il prossimo treno?",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-22T10:21:05.572Z",
+      "seconds": 1.975,
+      "sha256": "ab9d8c8c770c88b1c8df28f1373fe247dfe2995a81c693bd383ca9c79bed132a"
     }
   },
-  "updatedAt": "2026-11-22T07:21:47.722Z"
+  "updatedAt": "2026-11-22T10:21:05.573Z"
 }
