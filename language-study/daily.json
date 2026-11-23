@@ -1,8 +1,71 @@
 {
   "version": 2,
   "curriculumStart": "2026-10-27",
-  "updatedAt": "2026-11-22T07:21:44.578Z",
+  "updatedAt": "2026-11-23T04:18:29.770Z",
   "days": [
+    {
+      "id": 28,
+      "topic": "藝術觀光",
+      "title": "廣場一直開放著",
+      "it": "La piazza è sempre aperta.",
+      "en": "The square is always open.",
+      "zh": "廣場一直開放著。",
+      "pronunciation": "la PIÀT-tsa È SÈM-pre a-PÈR-ta",
+      "words": [
+        {
+          "it": "La",
+          "en": "the",
+          "zh": "陰性定冠詞",
+          "ipa": "/la/",
+          "kk": "/ðə/",
+          "pos": "陰性定冠詞",
+          "note": "piazza 是陰性單數，所以使用 la。",
+          "hint": ""
+        },
+        {
+          "it": "piazza",
+          "en": "square",
+          "zh": "廣場",
+          "ipa": "/ˈpjat.tsa/",
+          "kk": "/skwɛr/",
+          "pos": "陰性名詞",
+          "note": "雙寫 zz 發較長的 ts 音。不是英文 square 的發音。",
+          "hint": ""
+        },
+        {
+          "it": "è",
+          "en": "is",
+          "zh": "是",
+          "ipa": "/ɛ/",
+          "kk": "/ɪz/",
+          "pos": "動詞・現在式",
+          "note": "è 連接主詞和開放的狀態。",
+          "hint": ""
+        },
+        {
+          "it": "sempre",
+          "en": "always",
+          "zh": "總是、一直",
+          "ipa": "/ˈsɛm.pre/",
+          "kk": "/ˈɔlwez/",
+          "pos": "頻率副詞",
+          "note": "sempre 用來描述這個狀態一直持續，在這句裡放在 è 後面。",
+          "hint": ""
+        },
+        {
+          "it": "aperta",
+          "en": "open",
+          "zh": "開放的、開著的",
+          "ipa": "/aˈpɛr.ta/",
+          "kk": "/ˈopən/",
+          "pos": "形容詞・陰性單數",
+          "note": "aperta 配合陰性 piazza。本句作為語言練習；實際景點是否開放仍以現場資訊為準。",
+          "hint": ""
+        }
+      ],
+      "kk": "/ðə skwɛr ɪz ˈɔlwez ˈopən/",
+      "date": "2026-11-23"
+    },
     {
       "id": 27,
       "topic": "藝術觀光",
