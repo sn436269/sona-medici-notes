@@ -1452,7 +1452,57 @@
       "generatedAt": "2026-11-22T10:21:05.572Z",
       "seconds": 1.975,
       "sha256": "ab9d8c8c770c88b1c8df28f1373fe247dfe2995a81c693bd383ca9c79bed132a"
+    },
+    "negozio": {
+      "provider": "Lara Translate",
+      "it": "audio/it-4e2b0e49aaff40b09e30.m4a",
+      "text": "negozio",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-23T14:20:33.805Z",
+      "seconds": 1.82,
+      "sha256": "7f17dd3fdbc52df5c3a9174ce399d46f55f9a71669b59a7853695587fd9513a1"
+    },
+    "apre": {
+      "provider": "Lara Translate",
+      "it": "audio/it-5ebfe0cd45a6c316de28.m4a",
+      "text": "apre",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-23T14:20:33.822Z",
+      "seconds": 1.82,
+      "sha256": "6297da815622b8cd1772390682248b65f735e4105980897117f8d3459fc034d4"
+    },
+    "a che ora": {
+      "provider": "Lara Translate",
+      "it": "audio/it-f05939e3351f497a38f2.m4a",
+      "text": "A che ora",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-23T14:20:33.822Z",
+      "seconds": 1.82,
+      "sha256": "ff1120baab6d940db0c8f35ebdd5df291a88b191bcc3afb23f6c547f4bd1cef7"
+    },
+    "a che ora apre il negozio?": {
+      "provider": "Lara Translate",
+      "it": "audio/it-c59342d34798a20635b5.m4a",
+      "text": "A che ora apre il negozio?",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-23T14:20:37.350Z",
+      "seconds": 1.8625,
+      "sha256": "62272c5420dc379d384e00ad26bc06f0d4bebb47b15b2edf9e82bbdfd3ef4d85"
+    },
+    "orario": {
+      "provider": "Lara Translate",
+      "it": "audio/it-ff3cfd2d0f99ea54db95.m4a",
+      "text": "orario",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-23T14:20:37.350Z",
+      "seconds": 1.82,
+      "sha256": "d82465f54df9bf8a79a94719e90ba3fd3848951277dc7e8130fc3fe24296cc7d"
     }
   },
-  "updatedAt": "2026-11-22T10:21:05.573Z"
+  "updatedAt": "2026-11-23T14:20:37.351Z"
 }

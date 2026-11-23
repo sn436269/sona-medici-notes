@@ -465,3 +465,65 @@ window.LESSONS.push(...[
     ]
   }
 ]);
+
+window.LESSONS.push({
+  "id": 35,
+  "topic": "旅遊日常",
+  "title": "確認商店的營業時間",
+  "it": "A che ora apre il negozio?",
+  "en": "What time does the shop open?",
+  "zh": "商店幾點開門？",
+  "pronunciation": "/a ke ˈɔ.ra ˈa.pre il neˈɡɔt.tsjo/",
+  "words": [
+    {
+      "it": "A che ora",
+      "en": "what time",
+      "zh": "幾點",
+      "ipa": "/a ke ˈɔ.ra/",
+      "kk": "/wɑt taɪm/",
+      "pos": "疑問詞組",
+      "note": "a che ora 用來詢問具體時刻。",
+      "hint": ""
+    },
+    {
+      "it": "apre",
+      "en": "opens",
+      "zh": "開門、開始營業",
+      "ipa": "/ˈa.pre/",
+      "kk": "/ˈopənz/",
+      "pos": "動詞・現在式",
+      "note": "aprire 的第三人稱單數現在式。",
+      "hint": ""
+    },
+    {
+      "it": "il",
+      "en": "the",
+      "zh": "陽性定冠詞",
+      "ipa": "/il/",
+      "kk": "/ðə/",
+      "pos": "定冠詞",
+      "note": "negozio 是陽性單數名詞，前面用 il。",
+      "hint": ""
+    },
+    {
+      "it": "negozio",
+      "en": "shop",
+      "zh": "商店",
+      "ipa": "/neˈɡɔt.tsjo/",
+      "kk": "/ʃɑp/",
+      "pos": "陽性名詞",
+      "note": "il negozio 是單數，i negozi 是複數。",
+      "hint": ""
+    },
+    {
+      "it": "orario",
+      "en": "opening hours",
+      "zh": "營業時間、時間表",
+      "ipa": "/oˈra.rjo/",
+      "kk": "/ˈopənɪŋ aʊɚz/",
+      "pos": "陽性名詞",
+      "note": "orario di apertura 指開放或營業時間。",
+      "hint": ""
+    }
+  ]
+});
