@@ -527,3 +527,65 @@ window.LESSONS.push({
     }
   ]
 });
+
+window.LESSONS.push({
+  "id": 36,
+  "topic": "旅遊日常",
+  "title": "商店關門前回來",
+  "it": "Torno prima che il negozio chiuda.",
+  "en": "I will come back before the shop closes.",
+  "zh": "我會在商店關門前回來。",
+  "pronunciation": "/ˈtor.no ˈpri.ma ke il neˈɡɔt.tsjo ˈkju.da/",
+  "words": [
+    {
+      "it": "Torno",
+      "en": "I come back",
+      "zh": "我回來",
+      "ipa": "/ˈtor.no/",
+      "kk": "/aɪ kʌm bæk/",
+      "pos": "動詞・現在式",
+      "note": "tornare 的第一人稱單數，這裡用現在式表達接下來的打算。",
+      "hint": ""
+    },
+    {
+      "it": "prima che",
+      "en": "before",
+      "zh": "在……之前",
+      "ipa": "/ˈpri.ma ke/",
+      "kk": "/bɪˈfɔr/",
+      "pos": "連接詞組",
+      "note": "prima che 引導尚未發生的事情，後面常用虛擬式。",
+      "hint": ""
+    },
+    {
+      "it": "il negozio",
+      "en": "the shop",
+      "zh": "商店",
+      "ipa": "/il neˈɡɔt.tsjo/",
+      "kk": "/ðə ʃɑp/",
+      "pos": "名詞詞組",
+      "note": "il 搭配陽性單數 negozio。",
+      "hint": ""
+    },
+    {
+      "it": "chiuda",
+      "en": "closes",
+      "zh": "關門",
+      "ipa": "/ˈkju.da/",
+      "kk": "/ˈklozɪz/",
+      "pos": "動詞・現在虛擬式",
+      "note": "chiudere 的現在虛擬式，用在 prima che 之後。",
+      "hint": ""
+    },
+    {
+      "it": "chiudere",
+      "en": "to close",
+      "zh": "關閉",
+      "ipa": "/ˈkju.de.re/",
+      "kk": "/tə kloz/",
+      "pos": "動詞・不定式",
+      "note": "chiudere 是原形，關門的現在式是 chiude，虛擬式是 chiuda。",
+      "hint": ""
+    }
+  ]
+});

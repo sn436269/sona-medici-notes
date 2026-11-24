@@ -1502,7 +1502,67 @@
       "generatedAt": "2026-11-23T14:20:37.350Z",
       "seconds": 1.82,
       "sha256": "d82465f54df9bf8a79a94719e90ba3fd3848951277dc7e8130fc3fe24296cc7d"
+    },
+    "torno": {
+      "provider": "Lara Translate",
+      "it": "audio/it-543c7e61a795497b2ecd.m4a",
+      "text": "Torno",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-24T01:11:29.779Z",
+      "seconds": 0.7875,
+      "sha256": "9347a04742173a2c368b58cb18e1029c1a450ff42f2bad3099f1e3bb49714a0f"
+    },
+    "il negozio": {
+      "provider": "Lara Translate",
+      "it": "audio/it-e3f21fd7d59383ae6164.m4a",
+      "text": "il negozio",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-24T01:11:29.886Z",
+      "seconds": 1.82,
+      "sha256": "ab135aaa5b7de0d8cbe9d0d896fdf28ee624af7274f1307537558917e8210d62"
+    },
+    "prima che": {
+      "provider": "Lara Translate",
+      "it": "audio/it-83e184b42a2fb598b0be.m4a",
+      "text": "prima che",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-24T01:11:29.886Z",
+      "seconds": 1.82,
+      "sha256": "9ef67cebe6c80bee31089ec9098032c9c6bd8c8fd990c767dfd2b83acfe25dc8"
+    },
+    "chiuda": {
+      "provider": "Lara Translate",
+      "it": "audio/it-5e206b98ecf10709168e.m4a",
+      "text": "chiuda",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-24T01:11:31.668Z",
+      "seconds": 0.7875,
+      "sha256": "91d5f4832648fb3b37a7d9fdf817502993c5e2bd1cb0c5d56c7386d34f617454"
+    },
+    "torno prima che il negozio chiuda.": {
+      "provider": "Lara Translate",
+      "it": "audio/it-33b453c83dc358e47d98.m4a",
+      "text": "Torno prima che il negozio chiuda.",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-24T01:11:31.979Z",
+      "seconds": 2.05,
+      "sha256": "27794f31fa98d852a91570861dcbc32c04b9d790d266b77230d3242039513636"
+    },
+    "chiudere": {
+      "provider": "Lara Translate",
+      "it": "audio/it-3edb924e238d0f63b7f4.m4a",
+      "text": "chiudere",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-24T01:11:32.092Z",
+      "seconds": 1.82,
+      "sha256": "5df4e3211b522824b5bc59a9ac91d9888637b14f93e0010e3487a355b9701ce5"
     }
   },
-  "updatedAt": "2026-11-23T14:20:37.351Z"
+  "updatedAt": "2026-11-24T01:11:32.092Z"
 }

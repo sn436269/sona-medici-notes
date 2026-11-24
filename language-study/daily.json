@@ -1,8 +1,71 @@
 {
   "version": 2,
   "curriculumStart": "2026-10-27",
-  "updatedAt": "2026-11-23T04:18:29.770Z",
+  "updatedAt": "2026-11-24T01:11:26.533Z",
   "days": [
+    {
+      "id": 29,
+      "topic": "藝術觀光",
+      "title": "明天搭火車去佛羅倫斯",
+      "it": "Domani vado a Firenze in treno.",
+      "en": "Tomorrow I am going to Florence by train.",
+      "zh": "明天我要搭火車去佛羅倫斯。",
+      "pronunciation": "do-MÀ-ni VÀ-do a fi-RÈN-tse in TRÈ-no",
+      "words": [
+        {
+          "it": "Domani",
+          "en": "tomorrow",
+          "zh": "明天",
+          "ipa": "/doˈma.ni/",
+          "kk": "/təˈmɑro/",
+          "pos": "時間副詞",
+          "note": "domani 說明未來時間；日常計畫也常搭配現在式來表達。",
+          "hint": ""
+        },
+        {
+          "it": "vado",
+          "en": "I go",
+          "zh": "我去",
+          "ipa": "/ˈva.do/",
+          "kk": "/aɪ ɡo/",
+          "pos": "動詞・現在式",
+          "note": "andare 的第一人稱單數是不規則的 vado。英文這裡自然譯成 I am going。",
+          "hint": ""
+        },
+        {
+          "it": "a",
+          "en": "to",
+          "zh": "到、往",
+          "ipa": "/a/",
+          "kk": "/tu/",
+          "pos": "介系詞",
+          "note": "表示前往城市時常用 a，這裡接城市 Firenze。",
+          "hint": ""
+        },
+        {
+          "it": "Firenze",
+          "en": "Florence",
+          "zh": "佛羅倫斯",
+          "ipa": "/fiˈrɛn.tse/",
+          "kk": "/ˈflɔrəns/",
+          "pos": "城市專有名詞",
+          "note": "再次複習城市的義大利文名稱與英文名稱。",
+          "hint": ""
+        },
+        {
+          "it": "in treno",
+          "en": "by train",
+          "zh": "搭火車",
+          "ipa": "/in ˈtrɛ.no/",
+          "kk": "/baɪ tren/",
+          "pos": "交通方式詞組",
+          "note": "in treno 是表達交通方式的搭配，中間不加冠詞。整句依序說時間、行動、目的地與交通方式。",
+          "hint": ""
+        }
+      ],
+      "kk": "/təˈmɑro aɪ æm ˈɡoɪŋ tə ˈflɔrəns baɪ tren/",
+      "date": "2026-11-24"
+    },
     {
       "id": 28,
       "topic": "藝術觀光",
