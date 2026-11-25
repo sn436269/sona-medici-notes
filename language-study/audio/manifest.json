@@ -1562,7 +1562,47 @@
       "generatedAt": "2026-11-24T01:11:32.092Z",
       "seconds": 1.82,
       "sha256": "5df4e3211b522824b5bc59a9ac91d9888637b14f93e0010e3487a355b9701ce5"
+    },
+    "puo": {
+      "provider": "Lara Translate",
+      "it": "audio/it-5a3cfdc7a856781bdd97.m4a",
+      "text": "Può",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-25T00:41:28.615Z",
+      "seconds": 0.7,
+      "sha256": "746110933b3c4fa740cd96b050b405dbd77ac1a786495450c91343545646e277"
+    },
+    "ripetere": {
+      "provider": "Lara Translate",
+      "it": "audio/it-bfaa5f1e92ad0e175c80.m4a",
+      "text": "ripetere",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-25T00:41:28.616Z",
+      "seconds": 1.82,
+      "sha256": "269045a29e0a40a7c66d0d66f1bafa528251da144ead39a36bc89aa5f0b3b267"
+    },
+    "prezzo": {
+      "provider": "Lara Translate",
+      "it": "audio/it-316b7c63d13988e9ade3.m4a",
+      "text": "prezzo",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-25T00:41:28.616Z",
+      "seconds": 1.82,
+      "sha256": "a4330d9d7c61917257836831d738d4a6083d9e316fcf3706dbcc263cd2e4017f"
+    },
+    "puo ripetere il prezzo, per favore?": {
+      "provider": "Lara Translate",
+      "it": "audio/it-5f94599da2ddf31382c2.m4a",
+      "text": "Può ripetere il prezzo, per favore?",
+      "language": "it-IT",
+      "source": "https://app.laratranslate.com/translate",
+      "generatedAt": "2026-11-25T00:41:31.427Z",
+      "seconds": 2.4625,
+      "sha256": "ba0b566a1344913e489e8946d06fd7f788f3373a6e96904624d1fe2bf1912416"
     }
   },
-  "updatedAt": "2026-11-24T01:11:32.092Z"
+  "updatedAt": "2026-11-25T00:41:31.428Z"
 }

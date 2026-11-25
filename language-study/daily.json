@@ -1,8 +1,71 @@
 {
   "version": 2,
   "curriculumStart": "2026-10-27",
-  "updatedAt": "2026-11-24T01:11:26.533Z",
+  "updatedAt": "2026-11-25T00:41:18.506Z",
   "days": [
+    {
+      "id": 30,
+      "topic": "藝術觀光",
+      "title": "總有一天，再回到這裡",
+      "it": "Vorrei tornare qui un giorno.",
+      "en": "I would like to come back here one day.",
+      "zh": "我想有一天再回到這裡。",
+      "pronunciation": "vor-RÈI tor-NÀ-re kwi un DJÓR-no",
+      "words": [
+        {
+          "it": "Vorrei",
+          "en": "I would like",
+          "zh": "我想要",
+          "ipa": "/vorˈrɛi/",
+          "kk": "/aɪ wʊd laɪk/",
+          "pos": "動詞・條件式",
+          "note": "第 30 天回到一開始的 Vorrei，這次用它說出一個願望。",
+          "hint": ""
+        },
+        {
+          "it": "tornare",
+          "en": "come back",
+          "zh": "回來、返回",
+          "ipa": "/torˈna.re/",
+          "kk": "/kʌm bæk/",
+          "pos": "動詞・不定式",
+          "note": "tornare 保留不定式，接在 Vorrei 後面。",
+          "hint": ""
+        },
+        {
+          "it": "qui",
+          "en": "here",
+          "zh": "這裡",
+          "ipa": "/kwi/",
+          "kk": "/hɪr/",
+          "pos": "地點副詞",
+          "note": "qui 是一個音節，直接放在 tornare 後面，表示返回的地方。",
+          "hint": ""
+        },
+        {
+          "it": "un",
+          "en": "one",
+          "zh": "一個",
+          "ipa": "/un/",
+          "kk": "/wʌn/",
+          "pos": "不定冠詞／數詞",
+          "note": "在 un giorno 這個時間詞組裡，un 對應「某一個」。",
+          "hint": ""
+        },
+        {
+          "it": "giorno",
+          "en": "day",
+          "zh": "天、日子",
+          "ipa": "/ˈdʒor.no/",
+          "kk": "/de/",
+          "pos": "陽性名詞",
+          "note": "un giorno 可以表示未來的「有一天」。將整句慢慢說出來，為第一個月留下一個想再出發的願望。",
+          "hint": ""
+        }
+      ],
+      "kk": "/aɪ wʊd laɪk tə kʌm bæk hɪr wʌn de/",
+      "date": "2026-11-25"
+    },
     {
       "id": 29,
       "topic": "藝術觀光",

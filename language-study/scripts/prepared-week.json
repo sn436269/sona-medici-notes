@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "preparedThrough": "2026-12-01",
+  "preparedThrough": "2026-12-02",
   "days": [
     {
       "id": 28,
@@ -565,6 +565,69 @@
           "kk": "/tə kloz/",
           "pos": "動詞・不定式",
           "note": "chiudere 是原形，關門的現在式是 chiude，虛擬式是 chiuda。",
+          "hint": ""
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "date": "2026-12-02",
+      "topic": "旅遊日常",
+      "title": "請店員再說一次",
+      "it": "Può ripetere il prezzo, per favore?",
+      "en": "Could you repeat the price, please?",
+      "zh": "可以請您再說一次價格嗎？",
+      "pronunciation": "/pwɔ riˈpɛ.te.re il ˈprɛt.tso per faˈvo.re/",
+      "kk": "/kʊd ju rɪˈpit ðə praɪs pliz/",
+      "words": [
+        {
+          "it": "Può",
+          "en": "could you",
+          "zh": "您可以嗎",
+          "ipa": "/pwɔ/",
+          "kk": "/kʊd ju/",
+          "pos": "動詞・現在式",
+          "note": "使用正式稱呼 Lei，對店員禮貌地提出請求。",
+          "hint": ""
+        },
+        {
+          "it": "ripetere",
+          "en": "to repeat",
+          "zh": "重複、再說一次",
+          "ipa": "/riˈpɛ.te.re/",
+          "kk": "/tə rɪˈpit/",
+          "pos": "動詞・不定式",
+          "note": "跟在 Può 後面使用原形。",
+          "hint": ""
+        },
+        {
+          "it": "il",
+          "en": "the",
+          "zh": "陽性定冠詞",
+          "ipa": "/il/",
+          "kk": "/ðə/",
+          "pos": "定冠詞",
+          "note": "對應陽性單數 prezzo。",
+          "hint": ""
+        },
+        {
+          "it": "prezzo",
+          "en": "price",
+          "zh": "價格",
+          "ipa": "/ˈprɛt.tso/",
+          "kk": "/praɪs/",
+          "pos": "陽性名詞",
+          "note": "il prezzo 表示一個價格，複數是 i prezzi。",
+          "hint": ""
+        },
+        {
+          "it": "per favore",
+          "en": "please",
+          "zh": "請、麻煩您",
+          "ipa": "/per faˈvo.re/",
+          "kk": "/pliz/",
+          "pos": "禮貌詞組",
+          "note": "可放在請求句末，讓語氣更有禮貌。",
           "hint": ""
         }
       ]
