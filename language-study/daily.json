@@ -1,8 +1,71 @@
 {
   "version": 2,
   "curriculumStart": "2026-10-27",
-  "updatedAt": "2026-11-25T00:41:18.506Z",
+  "updatedAt": "2026-11-26T05:39:45.195Z",
   "days": [
+    {
+      "id": 31,
+      "topic": "旅遊交通",
+      "title": "搭公車前先買票",
+      "it": "Prima compro un biglietto.",
+      "en": "First I buy a ticket.",
+      "zh": "我先買一張票。",
+      "kk": "/fɝst aɪ baɪ ə ˈtɪkɪt/",
+      "pronunciation": "Prima compro un biglietto.",
+      "words": [
+        {
+          "it": "Prima",
+          "en": "first",
+          "zh": "首先",
+          "ipa": "/ˈpri.ma/",
+          "kk": "/fɝst/",
+          "pos": "副詞",
+          "note": "prima 放在句首，先說明動作順序。",
+          "hint": ""
+        },
+        {
+          "it": "compro",
+          "en": "I buy",
+          "zh": "我買",
+          "ipa": "/ˈkom.pro/",
+          "kk": "/aɪ baɪ/",
+          "pos": "動詞",
+          "note": "comprare 的第一人稱單數現在式。",
+          "hint": ""
+        },
+        {
+          "it": "un",
+          "en": "a",
+          "zh": "一張",
+          "ipa": "/un/",
+          "kk": "/ə/",
+          "pos": "不定冠詞",
+          "note": "biglietto 是陽性單數，搭配 un。",
+          "hint": ""
+        },
+        {
+          "it": "biglietto",
+          "en": "ticket",
+          "zh": "票",
+          "ipa": "/biʎˈʎet.to/",
+          "kk": "/ˈtɪkɪt/",
+          "pos": "名詞",
+          "note": "雙寫 tt 的音稍微停留。",
+          "hint": ""
+        },
+        {
+          "it": "comprare",
+          "en": "to buy",
+          "zh": "購買",
+          "ipa": "/komˈpra.re/",
+          "kk": "/tə baɪ/",
+          "pos": "不定式",
+          "note": "用 compro 描述自己的動作。",
+          "hint": ""
+        }
+      ],
+      "date": "2026-11-26"
+    },
     {
       "id": 30,
       "topic": "藝術觀光",
