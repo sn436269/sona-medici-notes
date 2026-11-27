@@ -1,8 +1,71 @@
 {
   "version": 2,
   "curriculumStart": "2026-10-27",
-  "updatedAt": "2026-11-26T05:39:45.195Z",
+  "updatedAt": "2026-11-27T05:33:56.275Z",
   "days": [
+    {
+      "id": 32,
+      "topic": "旅遊交通",
+      "title": "詢問公車停靠站",
+      "it": "Questo autobus ferma qui?",
+      "en": "Does this bus stop here?",
+      "zh": "這班公車在這裡停嗎？",
+      "kk": "/dʌz ðɪs bʌs stɑp hɪr/",
+      "pronunciation": "Questo autobus ferma qui?",
+      "words": [
+        {
+          "it": "Questo",
+          "en": "this",
+          "zh": "這個",
+          "ipa": "/ˈkwes.to/",
+          "kk": "/ðɪs/",
+          "pos": "指示形容詞",
+          "note": "autobus 是陽性單數，用 questo。",
+          "hint": ""
+        },
+        {
+          "it": "autobus",
+          "en": "bus",
+          "zh": "公車",
+          "ipa": "/ˈau.to.bus/",
+          "kk": "/bʌs/",
+          "pos": "名詞",
+          "note": "autobus 的單複數形式相同。",
+          "hint": ""
+        },
+        {
+          "it": "ferma",
+          "en": "stops",
+          "zh": "停靠",
+          "ipa": "/ˈfer.ma/",
+          "kk": "/stɑps/",
+          "pos": "動詞",
+          "note": "fermare 的第三人稱單數，這裡表示停靠。",
+          "hint": ""
+        },
+        {
+          "it": "qui",
+          "en": "here",
+          "zh": "這裡",
+          "ipa": "/kwi/",
+          "kk": "/hɪr/",
+          "pos": "副詞",
+          "note": "詢問目前這個位置。",
+          "hint": ""
+        },
+        {
+          "it": "fermata",
+          "en": "bus stop",
+          "zh": "公車站",
+          "ipa": "/ferˈma.ta/",
+          "kk": "/bʌs stɑp/",
+          "pos": "名詞",
+          "note": "la fermata 表示停靠站。",
+          "hint": ""
+        }
+      ],
+      "date": "2026-11-27"
+    },
     {
       "id": 31,
       "topic": "旅遊交通",
