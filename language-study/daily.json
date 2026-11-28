@@ -1,8 +1,71 @@
 {
   "version": 2,
   "curriculumStart": "2026-10-27",
-  "updatedAt": "2026-11-27T05:33:56.275Z",
+  "updatedAt": "2026-11-28T05:10:28.066Z",
   "days": [
+    {
+      "id": 33,
+      "topic": "旅遊交通",
+      "title": "走路去市中心",
+      "it": "Vado in centro a piedi.",
+      "en": "I am walking to the city centre.",
+      "zh": "我要走路去市中心。",
+      "kk": "/aɪ æm ˈwɔkɪŋ tə ðə ˈsɪtɪ ˈsɛntɚ/",
+      "pronunciation": "Vado in centro a piedi.",
+      "words": [
+        {
+          "it": "Vado",
+          "en": "I go",
+          "zh": "我去",
+          "ipa": "/ˈva.do/",
+          "kk": "/aɪ ɡo/",
+          "pos": "動詞",
+          "note": "andare 的第一人稱單數。",
+          "hint": ""
+        },
+        {
+          "it": "in centro",
+          "en": "to the city centre",
+          "zh": "往市中心",
+          "ipa": "/in ˈtʃɛn.tro/",
+          "kk": "/tə ðə ˈsɪtɪ ˈsɛntɚ/",
+          "pos": "地點詞組",
+          "note": "in centro 是常見搭配，表示去市中心或在市中心。",
+          "hint": ""
+        },
+        {
+          "it": "a piedi",
+          "en": "on foot",
+          "zh": "步行",
+          "ipa": "/a ˈpjɛ.di/",
+          "kk": "/ɑn fʊt/",
+          "pos": "方式詞組",
+          "note": "固定用法，表示走路。",
+          "hint": ""
+        },
+        {
+          "it": "strada",
+          "en": "street",
+          "zh": "街道",
+          "ipa": "/ˈstra.da/",
+          "kk": "/strit/",
+          "pos": "名詞",
+          "note": "la strada 也可表示道路。",
+          "hint": ""
+        },
+        {
+          "it": "vicino",
+          "en": "near",
+          "zh": "附近的",
+          "ipa": "/viˈtʃi.no/",
+          "kk": "/nɪr/",
+          "pos": "形容詞或副詞",
+          "note": "vicino a 加地點，表示靠近某處。",
+          "hint": ""
+        }
+      ],
+      "date": "2026-11-28"
+    },
     {
       "id": 32,
       "topic": "旅遊交通",
